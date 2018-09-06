@@ -2,20 +2,22 @@
 #define ALGORITHM_H
 
 #include <string>
-#include <vector>
 using namespace std;
 
-typedef int TYPENAME;
-
-// In Strategy Pattern, this is the Strategy
+// In Strategy Pattern Terminology, this is the Strategy
 class Algorithm
 {
 public:
+    Algorithm() {}
+    virtual ~Algorithm() {}
 
-    Algorithm();
-    virtual ~Algorithm();
-    virtual void Execute(vector<TYPENAME>& data) = 0;
-    virtual string GetName() const = 0;
+    virtual void Load(string filename) = 0;
+    virtual void Execute() = 0;
+    virtual void Display() = 0;
+    virtual void Stats() = 0;
+    virtual void Select(int algoId) = 0;
+    virtual void Save(string filename) = 0;
+    virtual void Configure() = 0;
 };
 
 
