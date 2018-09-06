@@ -19,13 +19,13 @@ const string DATA_SET_TYPE[TYPE_COUNT] =
     "Partial"
 };
 
-const int SIZE_COUNT = 3;
+const int SIZE_COUNT = 4;
 const string DATA_SET_SIZE[SIZE_COUNT] =
 {
     "10",
     "1000",
     "10000",
-    //"100000"
+    "100000"
 };
 
 int main()
