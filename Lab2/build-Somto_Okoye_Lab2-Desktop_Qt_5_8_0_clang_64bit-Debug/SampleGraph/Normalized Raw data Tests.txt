@@ -1,0 +1,3401 @@
+Normalized Raw data Output
+
+Test #1
+
+Adjacency Matrix, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.454545	0.818182	0.272727	0.272727	0.636364	0.636364
+Nodes Explored		0.3125	0.5625	0.5	0.5	1	0.4375
+Total Cost		0.428571	0.857143	0.142857	0.142857	0.714286	0.714286
+Total Distance		0.428571	0.857143	0.142857	0.142857	0.571429	0.571429
+Execution Time		0.25	0.0833333	0.25	0.25	0.5	0.5
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.636364	1	0.272727	0.272727	0.272727	0.272727
+Nodes Explored		0.4375	0.6875	0.5	0.5	1	0.125
+Total Cost		0.571429	1	0.142857	0.142857	0.142857	0.142857
+Total Distance		0.571429	1	0.142857	0.142857	0.142857	0.142857
+Execution Time		0.333333	0.25	0.333333	0.333333	0.833333	0.333333
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		3.39519e-313	2.97079e-313	0.285714	0.285714	0.285714	0.285714
+Nodes Explored		0.235294	0.823529	0.941176	0.941176	0.941176	0.470588
+Total Cost		0.181818	0.636364	0.181818	0.181818	0.181818	0.181818
+Total Distance		0.157895	0.684211	0.157895	0.157895	0.157895	0.157895
+Execution Time		0.12	0.12	0.24	0.96	0.36	0.24
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.636364	1	0.272727	0.272727	0.272727	0.272727
+Nodes Explored		0.4375	0.6875	0.5	0.5	1	0.125
+Total Cost		0.571429	1	0.142857	0.142857	0.142857	0.142857
+Total Distance		0.571429	1	0.142857	0.142857	0.142857	0.142857
+Execution Time		0.25	0.166667	0.333333	0.25	1	0.416667
+
+Test #2
+
+Adjacency Matrix, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.142857	0.285714	0.142857	0.142857	0.142857	0.142857
+Nodes Explored		0.125	0.25	0.25	0.25	1	0.25
+Total Cost		0.1	0.2	0.1	0.1	0.1	0.1
+Total Distance		0.0526316	0.157895	0.0526316	0.0526316	0.0526316	0.0526316
+Execution Time		0.2	0.2	0.3	0.3	1	0.5
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.285714	0.142857	0.142857	0.142857	0.142857
+Nodes Explored		0.875	0.25	0.1875	0.1875	1	0.0625
+Total Cost		1	0.2	0.1	0.1	0.1	0.1
+Total Distance		1	0.157895	0.0526316	0.0526316	0.0526316	0.0526316
+Execution Time		0.5	0.2	0.2	0.2	0.9	0.3
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.142857	0.285714	0.142857	0.142857	0.142857	0.142857
+Nodes Explored		0.125	0.25	0.25	0.25	1	0.25
+Total Cost		0.1	0.2	0.1	0.1	0.1	0.1
+Total Distance		0.0526316	0.157895	0.0526316	0.0526316	0.0526316	0.0526316
+Execution Time		0.2	0.1	0.2	0.2	0.9	0.4
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.285714	0.142857	0.142857	0.142857	0.142857
+Nodes Explored		0.875	0.25	0.1875	0.1875	1	0.0625
+Total Cost		1	0.2	0.1	0.1	0.1	0.1
+Total Distance		1	0.157895	0.0526316	0.0526316	0.0526316	0.0526316
+Execution Time		0.4	0.1	0.2	0.2	0.7	0.3
+
+Test #3
+
+Adjacency Matrix, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.25	0.25	0.25	0.25	0.25
+Nodes Explored		1	0.25	0.5	0.5	1	0.625
+Total Cost		0.9	0.3	0.3	0.3	0.3	0.3
+Total Distance		1	0.142857	0.142857	0.142857	0.142857	0.142857
+Execution Time		0.411765	0.0588235	0.235294	0.235294	0.588235	0.470588
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.75	0.875	0.25	0.25	0.25	0.25
+Nodes Explored		0.8125	0.875	0.75	0.75	1	0.1875
+Total Cost		0.8	1	0.3	0.3	0.3	0.3
+Total Distance		0.714286	0.904762	0.142857	0.142857	0.142857	0.142857
+Execution Time		0.294118	0.117647	0.235294	0.235294	0.470588	0.235294
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.25	0.25	0.25	0.25	0.25
+Nodes Explored		1	0.25	0.5	0.5	1	0.625
+Total Cost		0.9	0.3	0.3	0.3	0.3	0.3
+Total Distance		1	0.142857	0.142857	0.142857	0.142857	0.142857
+Execution Time		0.352941	0.0588235	0.176471	1	0.529412	0.411765
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.75	0.875	0.25	0.25	0.25	0.25
+Nodes Explored		0.8125	0.875	0.75	0.75	1	0.1875
+Total Cost		0.8	1	0.3	0.3	0.3	0.3
+Total Distance		0.714286	0.904762	0.142857	0.142857	0.142857	0.142857
+Execution Time		0.235294	0.117647	0.176471	0.176471	0.411765	0.176471
+
+Test #4
+
+Adjacency Matrix, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.384615	1	0.384615	0.384615	0.384615	0.384615
+Nodes Explored		0.227273	0.590909	1	1	0.727273	0.409091
+Total Cost		0.294118	1	0.294118	0.294118	0.294118	0.294118
+Total Distance		0.333333	1	0.333333	0.333333	0.333333	0.333333
+Execution Time		0.333333	0.333333	0.777778	0.777778	1	0.777778
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.538462	0.384615	0.384615	0.384615	0.692308	0.692308
+Nodes Explored		0.318182	0.227273	0.727273	0.727273	0.727273	0.409091
+Total Cost		0.529412	0.294118	0.294118	0.294118	0.764706	0.764706
+Total Distance		0.444444	0.333333	0.333333	0.333333	0.666667	0.666667
+Execution Time		0.444444	0.222222	0.444444	0.444444	0.777778	0.777778
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.384615	1	0.384615	0.384615	0.384615	0.384615
+Nodes Explored		0.227273	0.590909	1	1	0.727273	0.409091
+Total Cost		0.294118	1	0.294118	0.294118	0.294118	0.294118
+Total Distance		0.333333	1	0.333333	0.333333	0.333333	0.333333
+Execution Time		0.333333	0.333333	0.777778	0.777778	0.888889	0.666667
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.538462	0.384615	0.384615	0.384615	0.692308	0.692308
+Nodes Explored		0.318182	0.227273	0.727273	0.727273	0.727273	0.409091
+Total Cost		0.529412	0.294118	0.294118	0.294118	0.764706	0.764706
+Total Distance		0.444444	0.333333	0.333333	0.333333	0.666667	0.666667
+Execution Time		0.333333	0.111111	0.444444	0.444444	0.666667	0.666667
+
+Test #5
+
+Adjacency Matrix, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.285714	1	0.285714	0.285714	0.285714	0.285714
+Nodes Explored		0.235294	0.823529	1	1	0.941176	0.764706
+Total Cost		0.294118	1	0.294118	0.294118	0.294118	0.294118
+Total Distance		0.157895	1	0.157895	0.157895	0.157895	0.157895
+Execution Time		0.772727	0.181818	0.318182	0.318182	0.5	0.454545
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.285714	0.857143	0.285714	0.285714	0.571429	0.571429
+Nodes Explored		0.235294	0.705882	1	1	0.941176	0.764706
+Total Cost		0.294118	0.882353	0.294118	0.294118	0.647059	0.647059
+Total Distance		0.157895	0.789474	0.157895	0.157895	0.473684	0.473684
+Execution Time		0.181818	0.0909091	1	0.636364	0.409091	0.409091
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.285714	1	0.285714	0.285714	0.285714	0.285714
+Nodes Explored		0.235294	0.823529	1	1	0.941176	0.764706
+Total Cost		0.294118	1	0.294118	0.294118	0.294118	0.294118
+Total Distance		0.157895	1	0.157895	0.157895	0.157895	0.157895
+Execution Time		0.136364	0.136364	0.272727	0.227273	0.409091	0.409091
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.285714	0.857143	0.285714	0.285714	0.571429	0.571429
+Nodes Explored		0.235294	0.705882	1	1	0.941176	0.764706
+Total Cost		0.294118	0.882353	0.294118	0.294118	0.647059	0.647059
+Total Distance		0.157895	0.789474	0.157895	0.157895	0.473684	0.473684
+Execution Time		0.0909091	0.0909091	0.181818	0.181818	0.318182	0.363636
+
+Test #6
+
+Adjacency Matrix, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.571429	1	0.285714	0.285714	0.285714	0.285714
+Nodes Explored		0.4	0.7	1	1	0.8	0.55
+Total Cost		0.454545	1	0.181818	0.181818	0.181818	0.181818
+Total Distance		0.473684	1	0.157895	0.157895	0.157895	0.157895
+Execution Time		0.172414	0.137931	0.275862	0.241379	1	0.310345
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.857143	1	0.285714	0.285714	0.285714	0.285714
+Nodes Explored		0.6	0.7	1	1	0.8	0.3
+Total Cost		0.636364	1	0.181818	0.181818	0.181818	0.181818
+Total Distance		0.789474	1	0.157895	0.157895	0.157895	0.157895
+Execution Time		0.172414	0.0689655	0.172414	0.172414	0.275862	0.689655
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.571429	1	0.285714	0.285714	0.285714	0.285714
+Nodes Explored		0.4	0.7	1	1	0.8	0.55
+Total Cost		0.454545	1	0.181818	0.181818	0.181818	0.181818
+Total Distance		0.473684	1	0.157895	0.157895	0.157895	0.157895
+Execution Time		0.137931	0.103448	0.241379	0.206897	0.310345	0.275862
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.857143	1	0.285714	0.285714	0.285714	0.285714
+Nodes Explored		0.6	0.7	1	1	0.8	0.3
+Total Cost		0.636364	1	0.181818	0.181818	0.181818	0.181818
+Total Distance		0.789474	1	0.157895	0.157895	0.157895	0.157895
+Execution Time		0.137931	0.0689655	0.793103	0.137931	0.724138	0.172414
+
+Test #7
+
+Adjacency Matrix, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.333333	1	0.2	0.2	0.2	0.2
+Nodes Explored		0.3125	0.9375	0.5	0.5	1	0.4375
+Total Cost		0.333333	1	0.142857	0.142857	0.142857	0.142857
+Total Distance		0.3	1	0.1	0.1	0.1	0.1
+Execution Time		0.125	0.166667	0.166667	0.166667	0.416667	0.291667
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.733333	1	0.2	0.2	0.2	0.2
+Nodes Explored		0.75	0.9375	0.5	0.5	1	0.375
+Total Cost		0.619048	1	0.142857	0.142857	0.142857	0.142857
+Total Distance		0.7	1	0.1	0.1	0.1	0.1
+Execution Time		0.208333	0.0833333	0.166667	0.125	0.333333	1
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.333333	1	0.2	0.2	0.2	0.2
+Nodes Explored		0.3125	0.9375	0.5	0.5	1	0.4375
+Total Cost		0.333333	1	0.142857	0.142857	0.142857	0.142857
+Total Distance		0.3	1	0.1	0.1	0.1	0.1
+Execution Time		0.125	0.125	0.166667	0.125	0.375	0.291667
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.733333	1	0.2	0.2	0.2	0.2
+Nodes Explored		0.75	0.9375	0.5	0.5	1	0.375
+Total Cost		0.619048	1	0.142857	0.142857	0.142857	0.142857
+Total Distance		0.7	1	0.1	0.1	0.1	0.1
+Execution Time		0.166667	0.0416667	0.125	0.125	0.25	0.791667
+
+Test #8
+
+Adjacency Matrix, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.25	0.25	0.25	0.25	0.25
+Nodes Explored		1	0.25	0.5	0.5	1	0.625
+Total Cost		1	0.333333	0.333333	0.333333	0.333333	0.333333
+Total Distance		1	0.142857	0.142857	0.142857	0.142857	0.142857
+Execution Time		0.7	0.2	0.4	0.4	1	0.8
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.25	0.25	0.25	0.375	0.375
+Nodes Explored		1	0.25	0.5	0.5	1	0.9375
+Total Cost		1	0.333333	0.333333	0.333333	0.444444	0.444444
+Total Distance		1	0.142857	0.142857	0.142857	0.333333	0.333333
+Execution Time		0.6	0.2	0.3	0.3	0.8	0.9
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.25	0.25	0.25	0.25	0.25
+Nodes Explored		1	0.25	0.5	0.5	1	0.625
+Total Cost		1	0.333333	0.333333	0.333333	0.333333	0.333333
+Total Distance		1	0.142857	0.142857	0.142857	0.142857	0.142857
+Execution Time		0.6	0.1	0.3	0.3	0.9	0.7
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.25	0.25	0.25	0.375	0.375
+Nodes Explored		1	0.25	0.5	0.5	1	0.9375
+Total Cost		1	0.333333	0.333333	0.333333	0.444444	0.444444
+Total Distance		1	0.142857	0.142857	0.142857	0.333333	0.333333
+Execution Time		0.4	0.1	0.3	0.3	0.7	0.8
+
+Test #9
+
+Adjacency Matrix, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.818182	0.272727	0.272727	0.272727	0.272727
+Nodes Explored		0.6875	0.5625	0.625	0.625	1	0.1875
+Total Cost		1	0.75	0.125	0.125	0.125	0.125
+Total Distance		1	0.857143	0.142857	0.142857	0.142857	0.142857
+Execution Time		0.192308	0.0769231	0.192308	0.192308	0.384615	0.192308
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.636364	0.818182	0.272727	0.272727	0.272727	0.272727
+Nodes Explored		0.4375	0.5625	0.625	0.625	1	0.5
+Total Cost		0.5	0.75	0.125	0.125	0.125	0.125
+Total Distance		0.571429	0.857143	0.142857	0.142857	0.142857	0.142857
+Execution Time		0.153846	0.0769231	0.153846	0.692308	0.269231	1
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.818182	0.272727	0.272727	0.272727	0.272727
+Nodes Explored		0.6875	0.5625	0.625	0.625	1	0.1875
+Total Cost		1	0.75	0.125	0.125	0.125	0.125
+Total Distance		1	0.857143	0.142857	0.142857	0.142857	0.142857
+Execution Time		0.192308	0.0769231	0.153846	0.153846	0.307692	0.153846
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.636364	0.818182	0.272727	0.272727	0.272727	0.272727
+Nodes Explored		0.4375	0.5625	0.625	0.625	1	0.5
+Total Cost		0.5	0.75	0.125	0.125	0.125	0.125
+Total Distance		0.571429	0.857143	0.142857	0.142857	0.142857	0.142857
+Execution Time		0.115385	0.0769231	0.115385	0.115385	0.230769	0.230769
+
+Test #10
+
+Adjacency Matrix, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.6	0.6	0.2	0.2	0.2	0.2
+Nodes Explored		0.5625	0.5625	0.375	0.375	1	0.375
+Total Cost		0.52381	0.52381	0.142857	0.142857	0.142857	0.142857
+Total Distance		0.6	0.6	0.1	0.1	0.1	0.1
+Execution Time		0.181818	0.136364	0.136364	0.136364	0.454545	0.272727
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.733333	1	0.2	0.2	0.2	0.2
+Nodes Explored		0.6875	0.9375	0.375	0.375	1	0.375
+Total Cost		0.714286	1	0.142857	0.142857	0.142857	0.142857
+Total Distance		0.7	1	0.1	0.1	0.1	0.1
+Execution Time		0.181818	0.0909091	0.136364	0.136364	0.363636	0.227273
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.6	0.6	0.2	0.2	0.2	0.2
+Nodes Explored		0.5625	0.5625	0.375	0.375	1	0.375
+Total Cost		0.52381	0.52381	0.142857	0.142857	0.142857	0.142857
+Total Distance		0.6	0.6	0.1	0.1	0.1	0.1
+Execution Time		0.181818	0.0909091	0.136364	0.136364	1	0.227273
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.733333	1	0.2	0.2	0.2	0.2
+Nodes Explored		0.6875	0.9375	0.375	0.375	1	0.375
+Total Cost		0.714286	1	0.142857	0.142857	0.142857	0.142857
+Total Distance		0.7	1	0.1	0.1	0.1	0.1
+Execution Time		0.136364	0.0454545	0.727273	0.0909091	0.318182	0.818182
+
+Test #11
+
+Adjacency Matrix, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.333333	1	0.333333	0.333333	0.333333	0.333333
+Nodes Explored		0.1875	0.5625	0.4375	0.4375	1	0.4375
+Total Cost		0.4	1	0.4	0.4	0.4	0.4
+Total Distance		0.166667	1	0.166667	0.166667	0.166667	0.166667
+Execution Time		0.15	0.1	0.2	0.15	0.5	0.3
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.333333	0.555556	0.333333	0.333333	0.555556	0.555556
+Nodes Explored		0.1875	0.3125	0.4375	0.4375	1	0.5
+Total Cost		0.4	0.6	0.4	0.4	0.6	0.6
+Total Distance		0.166667	0.5	0.166667	0.166667	0.5	0.5
+Execution Time		0.15	0.1	0.15	0.15	0.4	1
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.333333	1	0.333333	0.333333	0.333333	0.333333
+Nodes Explored		0.1875	0.5625	0.4375	0.4375	1	0.4375
+Total Cost		0.4	1	0.4	0.4	0.4	0.4
+Total Distance		0.166667	1	0.166667	0.166667	0.166667	0.166667
+Execution Time		0.1	0.1	0.15	0.15	0.4	0.3
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.333333	0.555556	0.333333	0.333333	0.555556	0.555556
+Nodes Explored		0.1875	0.3125	0.4375	0.4375	1	0.5
+Total Cost		0.4	0.6	0.4	0.4	0.6	0.6
+Total Distance		0.166667	0.5	0.166667	0.166667	0.5	0.5
+Execution Time		0.1	0.05	0.15	0.8	0.3	0.3
+
+Test #12
+
+Adjacency Matrix, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.272727	0.272727	0.272727	0.272727	0.272727
+Nodes Explored		0.6875	0.1875	0.3125	0.3125	1	0.4375
+Total Cost		0.875	0.25	0.25	0.25	0.25	0.25
+Total Distance		1	0.142857	0.142857	0.142857	0.142857	0.142857
+Execution Time		0.5	0.1	0.4	0.3	1	0.9
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	1	0.272727	0.272727	0.272727	0.272727
+Nodes Explored		0.6875	0.6875	0.4375	0.4375	1	0.125
+Total Cost		0.875	1	0.25	0.25	0.25	0.25
+Total Distance		1	1	0.142857	0.142857	0.142857	0.142857
+Execution Time		0.5	0.2	0.4	0.3	0.8	0.5
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.272727	0.272727	0.272727	0.272727	0.272727
+Nodes Explored		0.6875	0.1875	0.3125	0.3125	1	0.4375
+Total Cost		0.875	0.25	0.25	0.25	0.25	0.25
+Total Distance		1	0.142857	0.142857	0.142857	0.142857	0.142857
+Execution Time		0.5	0.1	0.4	0.2	0.9	0.6
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	1	0.272727	0.272727	0.272727	0.272727
+Nodes Explored		0.6875	0.6875	0.4375	0.4375	1	0.125
+Total Cost		0.875	1	0.25	0.25	0.25	0.25
+Total Distance		1	1	0.142857	0.142857	0.142857	0.142857
+Execution Time		0.3	0.2	0.3	0.3	0.7	0.3
+
+Test #13
+
+Adjacency Matrix, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.125	0.75	0.125	0.125	0.125	0.125
+Nodes Explored		0.125	1	0.25	0.25	1	0.125
+Total Cost		0.04	0.68	0.04	0.04	0.04	0.04
+Total Distance		0.047619	0.714286	0.047619	0.047619	0.047619	0.047619
+Execution Time		0.166667	0.333333	0.25	0.25	1	0.25
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.125	1	0.125	0.125	0.125	0.125
+Nodes Explored		0.125	1	0.25	0.25	1	0.8125
+Total Cost		0.04	1	0.04	0.04	0.04	0.04
+Total Distance		0.047619	1	0.047619	0.047619	0.047619	0.047619
+Execution Time		0.25	0.166667	0.25	0.25	0.833333	0.75
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.125	0.75	0.125	0.125	0.125	0.125
+Nodes Explored		0.125	1	0.25	0.25	1	0.125
+Total Cost		0.04	0.68	0.04	0.04	0.04	0.04
+Total Distance		0.047619	0.714286	0.047619	0.047619	0.047619	0.047619
+Execution Time		0.166667	0.25	0.25	0.25	0.75	0.25
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.125	1	0.125	0.125	0.125	0.125
+Nodes Explored		0.125	1	0.25	0.25	1	0.8125
+Total Cost		0.04	1	0.04	0.04	0.04	0.04
+Total Distance		0.047619	1	0.047619	0.047619	0.047619	0.047619
+Execution Time		0.166667	0.166667	0.25	0.25	0.583333	0.666667
+
+Test #14
+
+Adjacency Matrix, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.2	1	0.2	0.2	0.2	0.2
+Nodes Explored		0.1875	0.9375	0.4375	0.4375	1	0.125
+Total Cost		0.1	1	0.1	0.1	0.1	0.1
+Total Distance		0.1	1	0.1	0.1	0.1	0.1
+Execution Time		0.125	0.25	0.25	0.1875	0.5625	0.1875
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.333333	0.2	0.2	0.2	0.6	0.6
+Nodes Explored		0.3125	0.1875	0.25	0.25	1	0.8125
+Total Cost		0.3	0.1	0.1	0.1	0.7	0.7
+Total Distance		0.3	0.1	0.1	0.1	0.6	0.6
+Execution Time		0.25	0.0625	0.1875	0.1875	0.5	0.5625
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.2	1	0.2	0.2	0.2	0.2
+Nodes Explored		0.1875	0.9375	0.4375	0.4375	1	0.125
+Total Cost		0.1	1	0.1	0.1	0.1	0.1
+Total Distance		0.1	1	0.1	0.1	0.1	0.1
+Execution Time		0.125	0.1875	0.1875	0.1875	0.5625	0.1875
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.333333	0.2	0.2	0.2	0.6	0.6
+Nodes Explored		0.3125	0.1875	0.25	0.25	1	0.8125
+Total Cost		0.3	0.1	0.1	0.1	0.7	0.7
+Total Distance		0.3	0.1	0.1	0.1	0.6	0.6
+Execution Time		0.125	0.0625	1	0.125	0.4375	0.4375
+
+Test #15
+
+Adjacency Matrix, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.666667	1	0.5	0.5	0.5	0.5
+Nodes Explored		0.266667	0.4	1	1	0.533333	0.4
+Total Cost		0.733333	0.866667	0.466667	0.466667	0.466667	0.466667
+Total Distance		0.6	1	0.466667	0.466667	0.466667	0.466667
+Execution Time		0.137931	0.103448	1	0.310345	0.344828	0.310345
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.833333	0.666667	0.5	0.5	0.5	0.5
+Nodes Explored		0.333333	0.266667	1	1	0.533333	0.233333
+Total Cost		1	0.6	0.466667	0.466667	0.466667	0.466667
+Total Distance		0.866667	0.6	0.466667	0.466667	0.466667	0.466667
+Execution Time		0.137931	0.0689655	0.206897	0.206897	0.275862	0.206897
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.666667	1	0.5	0.5	0.5	0.5
+Nodes Explored		0.266667	0.4	1	1	0.533333	0.4
+Total Cost		0.733333	0.866667	0.466667	0.466667	0.466667	0.466667
+Total Distance		0.6	1	0.466667	0.466667	0.466667	0.466667
+Execution Time		0.137931	0.0689655	0.310345	0.275862	0.310345	0.275862
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.833333	0.666667	0.5	0.5	0.5	0.5
+Nodes Explored		0.333333	0.266667	1	1	0.533333	0.233333
+Total Cost		1	0.6	0.466667	0.466667	0.466667	0.466667
+Total Distance		0.866667	0.6	0.466667	0.466667	0.466667	0.466667
+Execution Time		0.103448	0.0344828	0.206897	0.172414	0.241379	0.172414
+
+Test #16
+
+Adjacency Matrix, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.538462	0.538462	0.230769	0.230769	0.230769	0.230769
+Nodes Explored		0.4375	0.4375	0.4375	0.4375	1	0.375
+Total Cost		0.647059	0.411765	0.176471	0.176471	0.176471	0.176471
+Total Distance		0.444444	0.444444	0.111111	0.111111	0.111111	0.111111
+Execution Time		0.235294	0.117647	0.235294	0.235294	0.529412	0.352941
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.230769	1	0.230769	0.230769	0.230769	0.230769
+Nodes Explored		0.1875	0.8125	0.5625	0.5625	1	0.3125
+Total Cost		0.176471	1	0.176471	0.176471	0.176471	0.176471
+Total Distance		0.111111	1	0.111111	0.111111	0.111111	0.111111
+Execution Time		0.176471	0.117647	0.235294	0.176471	0.411765	0.294118
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.538462	0.538462	0.230769	0.230769	0.230769	0.230769
+Nodes Explored		0.4375	0.4375	0.4375	0.4375	1	0.375
+Total Cost		0.647059	0.411765	0.176471	0.176471	0.176471	0.176471
+Total Distance		0.444444	0.444444	0.111111	0.111111	0.111111	0.111111
+Execution Time		0.235294	0.117647	1	0.176471	0.470588	0.294118
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.230769	1	0.230769	0.230769	0.230769	0.230769
+Nodes Explored		0.1875	0.8125	0.5625	0.5625	1	0.3125
+Total Cost		0.176471	1	0.176471	0.176471	0.176471	0.176471
+Total Distance		0.111111	1	0.111111	0.111111	0.111111	0.111111
+Execution Time		0.117647	0.0588235	0.176471	0.176471	0.352941	0.235294
+
+Test #17
+
+Adjacency Matrix, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.25	0.75	0.25	0.25	0.25	0.25
+Nodes Explored		0.125	0.375	0.3125	0.3125	1	0.3125
+Total Cost		0.2	0.8	0.2	0.2	0.2	0.2
+Total Distance		0.111111	0.777778	0.111111	0.111111	0.111111	0.111111
+Execution Time		0.153846	0.153846	0.230769	0.230769	1	0.461538
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.75	0.25	0.25	0.25	0.25
+Nodes Explored		0.5	0.375	0.25	0.25	1	0.375
+Total Cost		1	0.8	0.2	0.2	0.2	0.2
+Total Distance		1	0.777778	0.111111	0.111111	0.111111	0.111111
+Execution Time		0.307692	0.153846	0.230769	0.230769	0.769231	0.538462
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.25	0.75	0.25	0.25	0.25	0.25
+Nodes Explored		0.125	0.375	0.3125	0.3125	1	0.3125
+Total Cost		0.2	0.8	0.2	0.2	0.2	0.2
+Total Distance		0.111111	0.777778	0.111111	0.111111	0.111111	0.111111
+Execution Time		0.153846	0.153846	0.307692	0.230769	0.692308	0.384615
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.75	0.25	0.25	0.25	0.25
+Nodes Explored		0.5	0.375	0.25	0.25	1	0.375
+Total Cost		1	0.8	0.2	0.2	0.2	0.2
+Total Distance		1	0.777778	0.111111	0.111111	0.111111	0.111111
+Execution Time		0.230769	0.0769231	0.230769	0.153846	0.615385	0.384615
+
+Test #18
+
+Adjacency Matrix, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.866667	0.466667	0.466667	0.466667	0.466667	0.466667
+Nodes Explored		0.26	0.14	1	1	0.32	0.3
+Total Cost		0.789474	0.473684	0.473684	0.473684	0.473684	0.473684
+Total Distance		0.9	0.4	0.4	0.4	0.4	0.4
+Execution Time		0.21875	0.0625	0.4375	0.40625	0.3125	0.34375
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.466667	0.466667	0.466667	0.466667	0.466667
+Nodes Explored		0.32	0.14	1	1	0.32	0.3
+Total Cost		1	0.473684	0.473684	0.473684	0.473684	0.473684
+Total Distance		1	0.4	0.4	0.4	0.4	0.4
+Execution Time		0.21875	0.0625	0.6875	0.25	0.25	0.28125
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.866667	0.466667	0.466667	0.466667	0.466667	0.466667
+Nodes Explored		0.26	0.14	1	1	0.32	0.3
+Total Cost		0.789474	0.473684	0.473684	0.473684	0.473684	0.473684
+Total Distance		0.9	0.4	0.4	0.4	0.4	0.4
+Execution Time		0.15625	0.0625	1	0.34375	0.28125	0.3125
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.466667	0.466667	0.466667	0.466667	0.466667
+Nodes Explored		0.32	0.14	1	1	0.32	0.3
+Total Cost		1	0.473684	0.473684	0.473684	0.473684	0.473684
+Total Distance		1	0.4	0.4	0.4	0.4	0.4
+Execution Time		0.125	0.03125	0.21875	0.21875	0.21875	0.25
+
+Test #19
+
+Adjacency Matrix, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.8	1	0.4	0.4	0.4	0.4
+Nodes Explored		0.75	0.6875	0.8125	0.8125	1	0.5625
+Total Cost		1	1	0.454545	0.454545	0.454545	0.454545
+Total Distance		0.692308	1	0.230769	0.230769	0.230769	0.230769
+Execution Time		0.6	0.3	0.6	0.5	1	0.8
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.8	0.6	0.4	0.4	0.4	0.4
+Nodes Explored		0.5	0.375	0.8125	0.8125	1	0.375
+Total Cost		1	0.636364	0.454545	0.454545	0.454545	0.454545
+Total Distance		0.692308	0.538462	0.230769	0.230769	0.230769	0.230769
+Execution Time		0.4	0.2	0.4	0.4	0.8	0.6
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.8	1	0.4	0.4	0.4	0.4
+Nodes Explored		0.75	0.6875	0.8125	0.8125	1	0.5625
+Total Cost		1	1	0.454545	0.454545	0.454545	0.454545
+Total Distance		0.692308	1	0.230769	0.230769	0.230769	0.230769
+Execution Time		0.5	0.2	0.5	0.4	0.9	0.6
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.8	0.6	0.4	0.4	0.4	0.4
+Nodes Explored		0.5	0.375	0.8125	0.8125	1	0.375
+Total Cost		1	0.636364	0.454545	0.454545	0.454545	0.454545
+Total Distance		0.692308	0.538462	0.230769	0.230769	0.230769	0.230769
+Execution Time		0.3	0.1	0.4	0.3	0.7	0.5
+
+Test #20
+
+Adjacency Matrix, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.125	1	0.125	0.125	0.125	0.125
+Nodes Explored		0.125	1	0.25	0.25	1	0.3125
+Total Cost		0.1	1	0.1	0.1	0.1	0.1
+Total Distance		0.047619	1	0.047619	0.047619	0.047619	0.047619
+Execution Time		0.181818	0.363636	0.272727	0.272727	1	0.545455
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.125	0.5	0.125	0.125	0.125	0.125
+Nodes Explored		0.125	0.5	0.25	0.25	1	0.6875
+Total Cost		0.1	0.6	0.1	0.1	0.1	0.1
+Total Distance		0.047619	0.428571	0.047619	0.047619	0.047619	0.047619
+Execution Time		0.272727	0.181818	0.272727	0.272727	0.727273	0.727273
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.125	1	0.125	0.125	0.125	0.125
+Nodes Explored		0.125	1	0.25	0.25	1	0.3125
+Total Cost		0.1	1	0.1	0.1	0.1	0.1
+Total Distance		0.047619	1	0.047619	0.047619	0.047619	0.047619
+Execution Time		0.181818	0.272727	0.272727	0.181818	0.818182	0.454545
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.125	0.5	0.125	0.125	0.125	0.125
+Nodes Explored		0.125	0.5	0.25	0.25	1	0.6875
+Total Cost		0.1	0.6	0.1	0.1	0.1	0.1
+Total Distance		0.047619	0.428571	0.047619	0.047619	0.047619	0.047619
+Execution Time		0.181818	0.0909091	0.181818	0.181818	0.636364	0.636364
+
+Test #21
+
+Adjacency Matrix, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.428571	1	0.142857	0.142857	0.142857	0.142857
+Nodes Explored		0.375	0.875	0.25	0.25	1	0.125
+Total Cost		0.473684	1	0.0526316	0.0526316	0.0526316	0.0526316
+Total Distance		0.368421	1	0.0526316	0.0526316	0.0526316	0.0526316
+Execution Time		0.307692	0.307692	0.230769	0.230769	0.769231	1
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.142857	1	0.142857	0.142857	0.142857	0.142857
+Nodes Explored		0.125	0.875	0.3125	0.3125	1	0.3125
+Total Cost		0.0526316	1	0.0526316	0.0526316	0.0526316	0.0526316
+Total Distance		0.0526316	1	0.0526316	0.0526316	0.0526316	0.0526316
+Execution Time		0.230769	0.153846	0.230769	0.230769	0.615385	0.615385
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.428571	1	0.142857	0.142857	0.142857	0.142857
+Nodes Explored		0.375	0.875	0.25	0.25	1	0.125
+Total Cost		0.473684	1	0.0526316	0.0526316	0.0526316	0.0526316
+Total Distance		0.368421	1	0.0526316	0.0526316	0.0526316	0.0526316
+Execution Time		0.230769	0.230769	0.230769	0.153846	0.615385	0.307692
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.142857	1	0.142857	0.142857	0.142857	0.142857
+Nodes Explored		0.125	0.875	0.3125	0.3125	1	0.3125
+Total Cost		0.0526316	1	0.0526316	0.0526316	0.0526316	0.0526316
+Total Distance		0.0526316	1	0.0526316	0.0526316	0.0526316	0.0526316
+Execution Time		0.153846	0.153846	0.153846	0.153846	0.538462	0.384615
+
+Test #22
+
+Adjacency Matrix, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.384615	0.384615	0.384615	0.384615	0.384615
+Nodes Explored		0.608696	0.391304	0.956522	0.956522	0.695652	0.608696
+Total Cost		0.882353	0.411765	0.411765	0.411765	0.411765	0.411765
+Total Distance		1	0.333333	0.333333	0.333333	0.333333	0.333333
+Execution Time		0.166667	0.0555556	0.222222	0.277778	0.361111	0.666667
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.846154	0.384615	0.384615	0.384615	0.384615
+Nodes Explored		0.608696	0.478261	1	1	0.695652	0.217391
+Total Cost		0.882353	1	0.411765	0.411765	0.411765	0.411765
+Total Distance		1	0.777778	0.333333	0.333333	0.333333	0.333333
+Execution Time		0.138889	0.0555556	0.166667	0.194444	0.277778	0.194444
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.384615	0.384615	0.384615	0.384615	0.384615
+Nodes Explored		0.608696	0.391304	0.956522	0.956522	0.695652	0.608696
+Total Cost		0.882353	0.411765	0.411765	0.411765	0.411765	0.411765
+Total Distance		1	0.333333	0.333333	0.333333	0.333333	0.333333
+Execution Time		0.138889	0.0555556	1	0.222222	0.333333	0.25
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.846154	0.384615	0.384615	0.384615	0.384615
+Nodes Explored		0.608696	0.478261	1	1	0.695652	0.217391
+Total Cost		0.882353	1	0.411765	0.411765	0.411765	0.411765
+Total Distance		1	0.777778	0.333333	0.333333	0.333333	0.333333
+Execution Time		0.111111	0.0277778	0.111111	0.166667	0.277778	0.138889
+
+Test #23
+
+Adjacency Matrix, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	1	0.25	0.25	0.25	0.25
+Nodes Explored		0.5	0.5	0.1875	0.1875	1	0.0625
+Total Cost		1	1	0.0909091	0.0909091	0.0909091	0.0909091
+Total Distance		1	1	0.111111	0.111111	0.111111	0.111111
+Execution Time		0.454545	0.181818	0.272727	0.272727	1	0.363636
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.75	1	0.25	0.25	0.25	0.25
+Nodes Explored		0.375	0.5	0.1875	0.1875	1	0.4375
+Total Cost		0.636364	1	0.0909091	0.0909091	0.0909091	0.0909091
+Total Distance		0.777778	1	0.111111	0.111111	0.111111	0.111111
+Execution Time		0.363636	0.181818	0.272727	0.181818	0.727273	0.727273
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	1	0.25	0.25	0.25	0.25
+Nodes Explored		0.5	0.5	0.1875	0.1875	1	0.0625
+Total Cost		1	1	0.0909091	0.0909091	0.0909091	0.0909091
+Total Distance		1	1	0.111111	0.111111	0.111111	0.111111
+Execution Time		0.363636	0.181818	0.181818	0.181818	0.818182	0.272727
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.75	1	0.25	0.25	0.25	0.25
+Nodes Explored		0.375	0.5	0.1875	0.1875	1	0.4375
+Total Cost		0.636364	1	0.0909091	0.0909091	0.0909091	0.0909091
+Total Distance		0.777778	1	0.111111	0.111111	0.111111	0.111111
+Execution Time		0.272727	0.0909091	0.181818	0.181818	0.636364	0.636364
+
+Test #24
+
+Adjacency Matrix, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.75	0.25	0.25	0.25	0.25	0.25
+Nodes Explored		0.375	0.125	0.125	0.125	1	0.25
+Total Cost		0.5	0.166667	0.166667	0.166667	0.166667	0.166667
+Total Distance		0.777778	0.111111	0.111111	0.111111	0.111111	0.111111
+Execution Time		0.363636	0.0909091	0.181818	0.181818	1	0.454545
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.75	1	0.25	0.25	0.25	0.25
+Nodes Explored		0.375	0.5	0.1875	0.1875	1	0.0625
+Total Cost		0.5	1	0.166667	0.166667	0.166667	0.166667
+Total Distance		0.777778	1	0.111111	0.111111	0.111111	0.111111
+Execution Time		0.363636	0.181818	0.181818	0.181818	0.909091	0.272727
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.75	0.25	0.25	0.25	0.25	0.25
+Nodes Explored		0.375	0.125	0.125	0.125	1	0.25
+Total Cost		0.5	0.166667	0.166667	0.166667	0.166667	0.166667
+Total Distance		0.777778	0.111111	0.111111	0.111111	0.111111	0.111111
+Execution Time		0.272727	0.0909091	0.181818	0.181818	0.818182	0.363636
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.75	1	0.25	0.25	0.25	0.25
+Nodes Explored		0.375	0.5	0.1875	0.1875	1	0.0625
+Total Cost		0.5	1	0.166667	0.166667	0.166667	0.166667
+Total Distance		0.777778	1	0.111111	0.111111	0.111111	0.111111
+Execution Time		0.272727	0.0909091	0.181818	0.181818	0.636364	0.272727
+
+Test #25
+
+Adjacency Matrix, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.846154	0.538462	0.230769	0.230769	0.230769	0.230769
+Nodes Explored		0.6875	0.4375	0.375	0.375	1	0.1875
+Total Cost		0.888889	0.444444	0.111111	0.111111	0.111111	0.111111
+Total Distance		0.777778	0.444444	0.111111	0.111111	0.111111	0.111111
+Execution Time		0.7	0.2	0.3	0.3	1	0.4
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.230769	1	0.230769	0.230769	0.384615	0.384615
+Nodes Explored		0.1875	0.8125	0.625	0.625	1	0.25
+Total Cost		0.111111	1	0.111111	0.111111	0.333333	0.333333
+Total Distance		0.111111	1	0.111111	0.111111	0.333333	0.333333
+Execution Time		0.3	0.2	0.4	0.3	0.8	0.5
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.846154	0.538462	0.230769	0.230769	0.230769	0.230769
+Nodes Explored		0.6875	0.4375	0.375	0.375	1	0.1875
+Total Cost		0.888889	0.444444	0.111111	0.111111	0.111111	0.111111
+Total Distance		0.777778	0.444444	0.111111	0.111111	0.111111	0.111111
+Execution Time		0.6	0.2	0.3	0.3	0.8	0.4
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.230769	1	0.230769	0.230769	0.384615	0.384615
+Nodes Explored		0.1875	0.8125	0.625	0.625	1	0.25
+Total Cost		0.111111	1	0.111111	0.111111	0.333333	0.333333
+Total Distance		0.111111	1	0.111111	0.111111	0.333333	0.333333
+Execution Time		0.3	0.1	0.3	0.3	0.7	0.4
+
+Test #26
+
+Adjacency Matrix, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.2	0.2	0.2	0.2	0.2
+Nodes Explored		0.9375	0.1875	0.3125	0.3125	1	0.5
+Total Cost		1	0.222222	0.222222	0.222222	0.222222	0.222222
+Total Distance		1	0.1	0.1	0.1	0.1	0.1
+Execution Time		0.6	0.1	0.3	0.3	1	0.8
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.2	0.2	0.2	0.333333	0.333333
+Nodes Explored		0.9375	0.1875	0.3125	0.3125	1	0.9375
+Total Cost		1	0.222222	0.222222	0.222222	0.333333	0.333333
+Total Distance		1	0.1	0.1	0.1	0.3	0.3
+Execution Time		0.5	0.2	0.3	0.3	0.8	0.9
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.2	0.2	0.2	0.2	0.2
+Nodes Explored		0.9375	0.1875	0.3125	0.3125	1	0.5
+Total Cost		1	0.222222	0.222222	0.222222	0.222222	0.222222
+Total Distance		1	0.1	0.1	0.1	0.1	0.1
+Execution Time		0.6	0.1	0.3	0.2	0.8	0.6
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.2	0.2	0.2	0.333333	0.333333
+Nodes Explored		0.9375	0.1875	0.3125	0.3125	1	0.9375
+Total Cost		1	0.222222	0.222222	0.222222	0.333333	0.333333
+Total Distance		1	0.1	0.1	0.1	0.3	0.3
+Execution Time		0.4	0.1	0.2	0.2	0.6	0.8
+
+Test #27
+
+Adjacency Matrix, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.272727	0.272727	0.272727	0.272727	0.272727
+Nodes Explored		0.6875	0.1875	0.3125	0.3125	1	0.4375
+Total Cost		0.875	0.25	0.25	0.25	0.25	0.25
+Total Distance		1	0.142857	0.142857	0.142857	0.142857	0.142857
+Execution Time		0.5	0.1	0.3	0.3	1	0.7
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	1	0.272727	0.272727	0.272727	0.272727
+Nodes Explored		0.6875	0.6875	0.4375	0.4375	1	0.125
+Total Cost		0.875	1	0.25	0.25	0.25	0.25
+Total Distance		1	1	0.142857	0.142857	0.142857	0.142857
+Execution Time		0.5	0.2	0.3	0.3	0.8	0.4
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.272727	0.272727	0.272727	0.272727	0.272727
+Nodes Explored		0.6875	0.1875	0.3125	0.3125	1	0.4375
+Total Cost		0.875	0.25	0.25	0.25	0.25	0.25
+Total Distance		1	0.142857	0.142857	0.142857	0.142857	0.142857
+Execution Time		0.4	0.1	0.3	0.2	0.9	0.6
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	1	0.272727	0.272727	0.272727	0.272727
+Nodes Explored		0.6875	0.6875	0.4375	0.4375	1	0.125
+Total Cost		0.875	1	0.25	0.25	0.25	0.25
+Total Distance		1	1	0.142857	0.142857	0.142857	0.142857
+Execution Time		0.3	0.1	0.3	0.3	0.7	0.3
+
+Test #28
+
+Adjacency Matrix, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.2	1	0.2	0.2	0.2	0.2
+Nodes Explored		0.1875	0.9375	0.4375	0.4375	1	0.125
+Total Cost		0.1	1	0.1	0.1	0.1	0.1
+Total Distance		0.1	1	0.1	0.1	0.1	0.1
+Execution Time		0.3	0.4	0.4	0.3	1	0.3
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.2	0.6	0.2	0.2	0.333333	0.333333
+Nodes Explored		0.1875	0.5625	0.4375	0.4375	1	0.8125
+Total Cost		0.1	0.7	0.1	0.1	0.3	0.3
+Total Distance		0.1	0.6	0.1	0.1	0.3	0.3
+Execution Time		0.3	0.2	0.3	0.3	0.8	0.9
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.2	1	0.2	0.2	0.2	0.2
+Nodes Explored		0.1875	0.9375	0.4375	0.4375	1	0.125
+Total Cost		0.1	1	0.1	0.1	0.1	0.1
+Total Distance		0.1	1	0.1	0.1	0.1	0.1
+Execution Time		0.2	0.3	0.3	0.3	0.9	0.3
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.2	0.6	0.2	0.2	0.333333	0.333333
+Nodes Explored		0.1875	0.5625	0.4375	0.4375	1	0.8125
+Total Cost		0.1	0.7	0.1	0.1	0.3	0.3
+Total Distance		0.1	0.6	0.1	0.1	0.3	0.3
+Execution Time		0.2	0.1	0.2	0.2	0.7	0.7
+
+Test #29
+
+Adjacency Matrix, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.846154	0.230769	0.230769	0.230769	0.230769	0.230769
+Nodes Explored		0.6875	0.1875	0.3125	0.3125	1	0.5
+Total Cost		0.777778	0.222222	0.222222	0.222222	0.222222	0.222222
+Total Distance		0.777778	0.111111	0.111111	0.111111	0.111111	0.111111
+Execution Time		0.5	0.1	0.3	0.3	1	0.8
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.230769	0.230769	0.230769	0.230769	0.230769
+Nodes Explored		0.8125	0.1875	0.3125	0.3125	1	0.125
+Total Cost		1	0.222222	0.222222	0.222222	0.222222	0.222222
+Total Distance		1	0.111111	0.111111	0.111111	0.111111	0.111111
+Execution Time		0.5	0.2	0.3	0.3	0.8	0.4
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.846154	0.230769	0.230769	0.230769	0.230769	0.230769
+Nodes Explored		0.6875	0.1875	0.3125	0.3125	1	0.5
+Total Cost		0.777778	0.222222	0.222222	0.222222	0.222222	0.222222
+Total Distance		0.777778	0.111111	0.111111	0.111111	0.111111	0.111111
+Execution Time		0.5	0.1	0.3	0.3	0.9	0.6
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.230769	0.230769	0.230769	0.230769	0.230769
+Nodes Explored		0.8125	0.1875	0.3125	0.3125	1	0.125
+Total Cost		1	0.222222	0.222222	0.222222	0.222222	0.222222
+Total Distance		1	0.111111	0.111111	0.111111	0.111111	0.111111
+Execution Time		0.4	0.1	0.2	0.2	0.7	0.3
+
+Test #30
+
+Adjacency Matrix, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.714286	0.571429	0.285714	0.285714	0.285714	0.285714
+Nodes Explored		0.588235	0.470588	0.705882	0.705882	0.941176	0.411765
+Total Cost		0.7	0.5	0.2	0.2	0.2	0.2
+Total Distance		0.684211	0.473684	0.157895	0.157895	0.157895	0.157895
+Execution Time		0.259259	0.111111	0.222222	0.185185	0.888889	0.222222
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.285714	1	0.285714	0.285714	0.285714	0.285714
+Nodes Explored		0.235294	0.823529	1	1	0.941176	0.294118
+Total Cost		0.2	1	0.2	0.2	0.2	0.2
+Total Distance		0.157895	1	0.157895	0.157895	0.157895	0.157895
+Execution Time		0.185185	0.111111	0.185185	0.185185	1	0.222222
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.714286	0.571429	0.285714	0.285714	0.285714	0.285714
+Nodes Explored		0.588235	0.470588	0.705882	0.705882	0.941176	0.411765
+Total Cost		0.7	0.5	0.2	0.2	0.2	0.2
+Total Distance		0.684211	0.473684	0.157895	0.157895	0.157895	0.157895
+Execution Time		0.592593	0.111111	0.185185	0.148148	0.333333	0.222222
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.285714	1	0.285714	0.285714	0.285714	0.285714
+Nodes Explored		0.235294	0.823529	1	1	0.941176	0.294118
+Total Cost		0.2	1	0.2	0.2	0.2	0.2
+Total Distance		0.157895	1	0.157895	0.157895	0.157895	0.157895
+Execution Time		0.111111	0.0740741	0.148148	0.148148	0.259259	0.185185
+
+Test #31
+
+Adjacency Matrix, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.166667	1	0.166667	0.166667	0.166667	0.166667
+Nodes Explored		0.125	0.75	0.3125	0.3125	1	0.3125
+Total Cost		0.125	1	0.125	0.125	0.125	0.125
+Total Distance		0.0666667	1	0.0666667	0.0666667	0.0666667	0.0666667
+Execution Time		0.107143	0.107143	0.107143	0.785714	0.321429	0.214286
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.5	1	0.166667	0.166667	0.333333	0.333333
+Nodes Explored		0.375	0.75	0.25	0.25	1	0.5625
+Total Cost		0.5	1	0.125	0.125	0.25	0.25
+Total Distance		0.466667	1	0.0666667	0.0666667	0.2	0.2
+Execution Time		0.142857	0.0714286	0.107143	0.107143	0.892857	0.25
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.166667	1	0.166667	0.166667	0.166667	0.166667
+Nodes Explored		0.125	0.75	0.3125	0.3125	1	0.3125
+Total Cost		0.125	1	0.125	0.125	0.125	0.125
+Total Distance		0.0666667	1	0.0666667	0.0666667	0.0666667	0.0666667
+Execution Time		0.0714286	0.107143	0.107143	0.107143	0.285714	1
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.5	1	0.166667	0.166667	0.333333	0.333333
+Nodes Explored		0.375	0.75	0.25	0.25	1	0.5625
+Total Cost		0.5	1	0.125	0.125	0.25	0.25
+Total Distance		0.466667	1	0.0666667	0.0666667	0.2	0.2
+Execution Time		0.107143	0.0714286	0.0714286	0.0714286	0.25	0.928571
+
+Test #32
+
+Adjacency Matrix, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.230769	0.230769	0.230769	0.230769	0.230769
+Nodes Explored		0.8125	0.1875	0.375	0.375	1	0.375
+Total Cost		0.894737	0.157895	0.157895	0.157895	0.157895	0.157895
+Total Distance		1	0.111111	0.111111	0.111111	0.111111	0.111111
+Execution Time		0.285714	0.047619	0.190476	0.142857	0.47619	0.333333
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.230769	0.230769	0.230769	0.230769	0.230769
+Nodes Explored		0.8125	0.1875	0.375	0.375	1	0.9375
+Total Cost		1	0.157895	0.157895	0.157895	0.157895	0.157895
+Total Distance		1	0.111111	0.111111	0.111111	0.111111	0.111111
+Execution Time		0.238095	0.0952381	0.142857	0.142857	0.333333	0.47619
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.230769	0.230769	0.230769	0.230769	0.230769
+Nodes Explored		0.8125	0.1875	0.375	0.375	1	0.375
+Total Cost		0.894737	0.157895	0.157895	0.157895	0.157895	0.157895
+Total Distance		1	0.111111	0.111111	0.111111	0.111111	0.111111
+Execution Time		0.238095	0.047619	0.142857	0.142857	0.380952	0.333333
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.230769	0.230769	0.230769	0.230769	0.230769
+Nodes Explored		0.8125	0.1875	0.375	0.375	1	0.9375
+Total Cost		1	0.157895	0.157895	0.157895	0.157895	0.157895
+Total Distance		1	0.111111	0.111111	0.111111	0.111111	0.111111
+Execution Time		0.190476	0.047619	0.142857	0.142857	0.285714	1
+
+Test #33
+
+Adjacency Matrix, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.8	0.4	0.4	0.4	0.4
+Nodes Explored		0.625	0.5	0.75	0.75	1	0.5625
+Total Cost		1	0.846154	0.384615	0.384615	0.384615	0.384615
+Total Distance		1	0.692308	0.230769	0.230769	0.230769	0.230769
+Execution Time		0.208333	0.125	0.25	0.208333	0.416667	0.916667
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.8	0.4	0.4	0.4	0.4
+Nodes Explored		0.625	0.5	0.75	0.75	1	0.375
+Total Cost		1	0.846154	0.384615	0.384615	0.384615	0.384615
+Total Distance		1	0.692308	0.230769	0.230769	0.230769	0.230769
+Execution Time		0.208333	0.0833333	0.166667	0.166667	0.333333	1
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.8	0.4	0.4	0.4	0.4
+Nodes Explored		0.625	0.5	0.75	0.75	1	0.5625
+Total Cost		1	0.846154	0.384615	0.384615	0.384615	0.384615
+Total Distance		1	0.692308	0.230769	0.230769	0.230769	0.230769
+Execution Time		0.166667	0.0833333	0.208333	0.166667	0.916667	0.291667
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.8	0.4	0.4	0.4	0.4
+Nodes Explored		0.625	0.5	0.75	0.75	1	0.375
+Total Cost		1	0.846154	0.384615	0.384615	0.384615	0.384615
+Total Distance		1	0.692308	0.230769	0.230769	0.230769	0.230769
+Execution Time		0.125	0.0416667	0.125	0.75	0.291667	0.208333
+
+Test #34
+
+Adjacency Matrix, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.692308	0.692308	0.230769	0.230769	0.230769	0.230769
+Nodes Explored		0.5625	0.5625	0.5	0.5	1	0.4375
+Total Cost		0.647059	0.647059	0.176471	0.176471	0.176471	0.176471
+Total Distance		0.666667	0.666667	0.111111	0.111111	0.111111	0.111111
+Execution Time		0.16	0.08	0.16	0.92	0.4	0.8
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.384615	1	0.230769	0.230769	0.538462	0.538462
+Nodes Explored		0.3125	0.8125	0.5	0.5	1	0.5625
+Total Cost		0.411765	1	0.176471	0.176471	0.529412	0.529412
+Total Distance		0.333333	1	0.111111	0.111111	0.444444	0.444444
+Execution Time		0.16	0.08	0.16	0.12	0.32	0.28
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.692308	0.692308	0.230769	0.230769	0.230769	0.230769
+Nodes Explored		0.5625	0.5625	0.5	0.5	1	0.4375
+Total Cost		0.647059	0.647059	0.176471	0.176471	0.176471	0.176471
+Total Distance		0.666667	0.666667	0.111111	0.111111	0.111111	0.111111
+Execution Time		0.16	0.08	0.16	0.72	0.36	0.24
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.384615	1	0.230769	0.230769	0.538462	0.538462
+Nodes Explored		0.3125	0.8125	0.5	0.5	1	0.5625
+Total Cost		0.411765	1	0.176471	0.176471	0.529412	0.529412
+Total Distance		0.333333	1	0.111111	0.111111	0.444444	0.444444
+Execution Time		0.08	0.04	0.12	0.12	0.28	1
+
+Test #35
+
+Adjacency Matrix, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.75	0.25	0.25	0.25	0.25	0.25
+Nodes Explored		0.375	0.125	0.125	0.125	1	0.25
+Total Cost		0.5	0.166667	0.166667	0.166667	0.166667	0.166667
+Total Distance		0.777778	0.111111	0.111111	0.111111	0.111111	0.111111
+Execution Time		0.3	0.1	0.2	0.2	1	0.5
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.75	1	0.25	0.25	0.25	0.25
+Nodes Explored		0.375	0.5	0.1875	0.1875	1	0.0625
+Total Cost		0.5	1	0.166667	0.166667	0.166667	0.166667
+Total Distance		0.777778	1	0.111111	0.111111	0.111111	0.111111
+Execution Time		0.4	0.2	0.2	0.2	0.8	0.3
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.75	0.25	0.25	0.25	0.25	0.25
+Nodes Explored		0.375	0.125	0.125	0.125	1	0.25
+Total Cost		0.5	0.166667	0.166667	0.166667	0.166667	0.166667
+Total Distance		0.777778	0.111111	0.111111	0.111111	0.111111	0.111111
+Execution Time		0.3	0.1	0.2	0.2	0.9	0.4
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.75	1	0.25	0.25	0.25	0.25
+Nodes Explored		0.375	0.5	0.1875	0.1875	1	0.0625
+Total Cost		0.5	1	0.166667	0.166667	0.166667	0.166667
+Total Distance		0.777778	1	0.111111	0.111111	0.111111	0.111111
+Execution Time		0.2	0.1	0.2	0.2	0.7	0.2
+
+Test #36
+
+Adjacency Matrix, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.285714	0.285714	0.285714	0.285714	0.285714
+Nodes Explored		0.875	0.25	0.6875	0.6875	1	0.5
+Total Cost		0.9	0.2	0.2	0.2	0.2	0.2
+Total Distance		1	0.157895	0.157895	0.157895	0.157895	0.157895
+Execution Time		0.26087	0.0869565	0.217391	0.217391	0.434783	0.304348
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.285714	0.285714	0.285714	0.285714	0.285714
+Nodes Explored		0.9375	0.25	0.6875	0.6875	1	0.1875
+Total Cost		1	0.2	0.2	0.2	0.2	0.2
+Total Distance		1	0.157895	0.157895	0.157895	0.157895	0.157895
+Execution Time		0.217391	0.0869565	0.173913	1	0.347826	0.73913
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.285714	0.285714	0.285714	0.285714	0.285714
+Nodes Explored		0.875	0.25	0.6875	0.6875	1	0.5
+Total Cost		0.9	0.2	0.2	0.2	0.2	0.2
+Total Distance		1	0.157895	0.157895	0.157895	0.157895	0.157895
+Execution Time		0.217391	0.0434783	0.217391	0.173913	0.347826	0.26087
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.285714	0.285714	0.285714	0.285714	0.285714
+Nodes Explored		0.9375	0.25	0.6875	0.6875	1	0.1875
+Total Cost		1	0.2	0.2	0.2	0.2	0.2
+Total Distance		1	0.157895	0.157895	0.157895	0.157895	0.157895
+Execution Time		0.173913	0.0434783	0.130435	0.130435	0.304348	0.130435
+
+Test #37
+
+Adjacency Matrix, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.75	0.25	0.25	0.25	0.25	0.25
+Nodes Explored		0.375	0.125	0.125	0.125	1	0.25
+Total Cost		0.5	0.166667	0.166667	0.166667	0.166667	0.166667
+Total Distance		0.777778	0.111111	0.111111	0.111111	0.111111	0.111111
+Execution Time		0.166667	0.0555556	0.111111	0.111111	0.555556	1
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.75	1	0.25	0.25	0.25	0.25
+Nodes Explored		0.375	0.5	0.1875	0.1875	1	0.0625
+Total Cost		0.5	1	0.166667	0.166667	0.166667	0.166667
+Total Distance		0.777778	1	0.111111	0.111111	0.111111	0.111111
+Execution Time		0.222222	0.111111	0.111111	0.111111	0.444444	0.166667
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.75	0.25	0.25	0.25	0.25	0.25
+Nodes Explored		0.375	0.125	0.125	0.125	1	0.25
+Total Cost		0.5	0.166667	0.166667	0.166667	0.166667	0.166667
+Total Distance		0.777778	0.111111	0.111111	0.111111	0.111111	0.111111
+Execution Time		0.166667	0.0555556	0.111111	0.111111	0.444444	0.222222
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.75	1	0.25	0.25	0.25	0.25
+Nodes Explored		0.375	0.5	0.1875	0.1875	1	0.0625
+Total Cost		0.5	1	0.166667	0.166667	0.166667	0.166667
+Total Distance		0.777778	1	0.111111	0.111111	0.111111	0.111111
+Execution Time		0.166667	0.0555556	0.111111	0.111111	0.388889	0.166667
+
+Test #38
+
+Adjacency Matrix, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.2	0.2	0.2	0.2	0.2
+Nodes Explored		0.9375	0.1875	0.25	0.25	1	0.125
+Total Cost		0.909091	0.0909091	0.0909091	0.0909091	0.0909091	0.0909091
+Total Distance		1	0.1	0.1	0.1	0.1	0.1
+Execution Time		0.272727	0.0454545	0.136364	0.136364	0.454545	0.136364
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.2	0.2	0.2	0.2	0.2
+Nodes Explored		0.9375	0.1875	0.25	0.25	1	0.125
+Total Cost		1	0.0909091	0.0909091	0.0909091	0.0909091	0.0909091
+Total Distance		1	0.1	0.1	0.1	0.1	0.1
+Execution Time		0.227273	0.0909091	0.136364	0.0909091	0.363636	0.136364
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.2	0.2	0.2	0.2	0.2
+Nodes Explored		0.9375	0.1875	0.25	0.25	1	0.125
+Total Cost		0.909091	0.0909091	0.0909091	0.0909091	0.0909091	0.0909091
+Total Distance		1	0.1	0.1	0.1	0.1	0.1
+Execution Time		0.227273	0.0454545	0.0909091	0.0909091	1	0.136364
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.2	0.2	0.2	0.2	0.2
+Nodes Explored		0.9375	0.1875	0.25	0.25	1	0.125
+Total Cost		1	0.0909091	0.0909091	0.0909091	0.0909091	0.0909091
+Total Distance		1	0.1	0.1	0.1	0.1	0.1
+Execution Time		0.181818	0.0454545	0.0909091	0.0909091	0.318182	0.136364
+
+Test #39
+
+Adjacency Matrix, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.636364	1	0.454545	0.454545	0.454545	0.454545
+Nodes Explored		0.52381	0.571429	1	1	0.761905	0.52381
+Total Cost		0.625	0.75	0.375	0.375	0.375	0.375
+Total Distance		0.571429	1	0.428571	0.428571	0.428571	0.428571
+Execution Time		0.2	0.12	0.32	0.28	0.36	1
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.636364	0.454545	0.454545	0.454545	0.454545
+Nodes Explored		0.52381	0.333333	1	1	0.761905	0.333333
+Total Cost		1	0.5	0.375	0.375	0.375	0.375
+Total Distance		1	0.571429	0.428571	0.428571	0.428571	0.428571
+Execution Time		0.2	0.08	0.2	0.2	0.28	0.24
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.636364	1	0.454545	0.454545	0.454545	0.454545
+Nodes Explored		0.52381	0.571429	1	1	0.761905	0.52381
+Total Cost		0.625	0.75	0.375	0.375	0.375	0.375
+Total Distance		0.571429	1	0.428571	0.428571	0.428571	0.428571
+Execution Time		0.16	0.12	0.28	0.24	0.32	0.28
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.636364	0.454545	0.454545	0.454545	0.454545
+Nodes Explored		0.52381	0.333333	1	1	0.761905	0.333333
+Total Cost		1	0.5	0.375	0.375	0.375	0.375
+Total Distance		1	0.571429	0.428571	0.428571	0.428571	0.428571
+Execution Time		0.12	0.04	0.16	0.16	0.24	0.2
+
+Test #40
+
+Adjacency Matrix, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.555556	1	0.333333	0.333333	0.333333	0.333333
+Nodes Explored		0.3125	0.8125	0.4375	0.4375	1	0.375
+Total Cost		0.384615	1	0.230769	0.230769	0.230769	0.230769
+Total Distance		0.5	1	0.166667	0.166667	0.166667	0.166667
+Execution Time		0.12	0.12	0.16	0.16	0.96	0.24
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.555556	1	0.333333	0.333333	0.333333	0.333333
+Nodes Explored		0.3125	0.5625	0.5	0.5	1	0.625
+Total Cost		0.384615	1	0.230769	0.230769	0.230769	0.230769
+Total Distance		0.5	1	0.166667	0.166667	0.166667	0.166667
+Execution Time		0.16	0.08	0.16	0.12	0.88	0.28
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.555556	1	0.333333	0.333333	0.333333	0.333333
+Nodes Explored		0.3125	0.8125	0.4375	0.4375	1	0.375
+Total Cost		0.384615	1	0.230769	0.230769	0.230769	0.230769
+Total Distance		0.5	1	0.166667	0.166667	0.166667	0.166667
+Execution Time		0.12	0.12	0.12	0.12	0.32	0.2
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.555556	1	0.333333	0.333333	0.333333	0.333333
+Nodes Explored		0.3125	0.5625	0.5	0.5	1	0.625
+Total Cost		0.384615	1	0.230769	0.230769	0.230769	0.230769
+Total Distance		0.5	1	0.166667	0.166667	0.166667	0.166667
+Execution Time		0.08	0.04	0.12	0.88	0.28	1
+
+Test #41
+
+Adjacency Matrix, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.818182	0.272727	0.272727	0.272727	0.272727
+Nodes Explored		0.6875	0.5625	0.625	0.625	1	0.1875
+Total Cost		1	0.75	0.125	0.125	0.125	0.125
+Total Distance		1	0.857143	0.142857	0.142857	0.142857	0.142857
+Execution Time		0.2	0.08	0.2	0.16	0.4	0.16
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.636364	0.818182	0.272727	0.272727	0.272727	0.272727
+Nodes Explored		0.4375	0.5625	0.625	0.625	1	0.5
+Total Cost		0.5	0.75	0.125	0.125	0.125	0.125
+Total Distance		0.571429	0.857143	0.142857	0.142857	0.142857	0.142857
+Execution Time		0.16	0.08	0.16	0.16	0.32	1
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.818182	0.272727	0.272727	0.272727	0.272727
+Nodes Explored		0.6875	0.5625	0.625	0.625	1	0.1875
+Total Cost		1	0.75	0.125	0.125	0.125	0.125
+Total Distance		1	0.857143	0.142857	0.142857	0.142857	0.142857
+Execution Time		0.16	0.08	0.16	0.16	0.32	0.16
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.636364	0.818182	0.272727	0.272727	0.272727	0.272727
+Nodes Explored		0.4375	0.5625	0.625	0.625	1	0.5
+Total Cost		0.5	0.75	0.125	0.125	0.125	0.125
+Total Distance		0.571429	0.857143	0.142857	0.142857	0.142857	0.142857
+Execution Time		0.12	0.04	0.12	0.12	0.24	0.76
+
+Test #42
+
+Adjacency Matrix, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.2	0.2	0.2	0.2	0.2
+Nodes Explored		0.9375	0.1875	0.3125	0.3125	1	0.375
+Total Cost		1	0.157895	0.157895	0.157895	0.157895	0.157895
+Total Distance		1	0.1	0.1	0.1	0.1	0.1
+Execution Time		1	0.0384615	0.115385	0.115385	0.384615	0.269231
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.866667	0.2	0.2	0.2	0.2	0.2
+Nodes Explored		0.8125	0.1875	0.3125	0.3125	1	0.125
+Total Cost		1	0.157895	0.157895	0.157895	0.157895	0.157895
+Total Distance		0.9	0.1	0.1	0.1	0.1	0.1
+Execution Time		0.730769	0.0769231	0.115385	0.115385	0.307692	0.884615
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.2	0.2	0.2	0.2	0.2
+Nodes Explored		0.9375	0.1875	0.3125	0.3125	1	0.375
+Total Cost		1	0.157895	0.157895	0.157895	0.157895	0.157895
+Total Distance		1	0.1	0.1	0.1	0.1	0.1
+Execution Time		0.730769	0.0384615	0.115385	0.0769231	0.346154	0.230769
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.866667	0.2	0.2	0.2	0.2	0.2
+Nodes Explored		0.8125	0.1875	0.3125	0.3125	1	0.125
+Total Cost		1	0.157895	0.157895	0.157895	0.157895	0.157895
+Total Distance		0.9	0.1	0.1	0.1	0.1	0.1
+Execution Time		0.692308	0.0384615	0.0769231	0.0769231	0.269231	0.115385
+
+Test #43
+
+Adjacency Matrix, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.272727	1	0.272727	0.272727	0.272727	0.272727
+Nodes Explored		0.1875	0.6875	0.625	0.625	1	0.625
+Total Cost		0.285714	1	0.285714	0.285714	0.285714	0.285714
+Total Distance		0.142857	1	0.142857	0.142857	0.142857	0.142857
+Execution Time		0.107143	0.107143	0.178571	0.142857	0.357143	1
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.272727	0.636364	0.272727	0.272727	0.272727	0.272727
+Nodes Explored		0.1875	0.4375	0.625	0.625	1	0.6875
+Total Cost		0.285714	0.714286	0.285714	0.285714	0.285714	0.285714
+Total Distance		0.142857	0.571429	0.142857	0.142857	0.142857	0.142857
+Execution Time		0.107143	0.0714286	0.142857	0.785714	0.285714	0.75
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.272727	1	0.272727	0.272727	0.272727	0.272727
+Nodes Explored		0.1875	0.6875	0.625	0.625	1	0.625
+Total Cost		0.285714	1	0.285714	0.285714	0.285714	0.285714
+Total Distance		0.142857	1	0.142857	0.142857	0.142857	0.142857
+Execution Time		0.0714286	0.0714286	0.142857	0.142857	0.321429	0.25
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.272727	0.636364	0.272727	0.272727	0.272727	0.272727
+Nodes Explored		0.1875	0.4375	0.625	0.625	1	0.6875
+Total Cost		0.285714	0.714286	0.285714	0.285714	0.285714	0.285714
+Total Distance		0.142857	0.571429	0.142857	0.142857	0.142857	0.142857
+Execution Time		0.0714286	0.0357143	0.107143	0.607143	0.25	0.785714
+
+Test #44
+
+Adjacency Matrix, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.428571	0.142857	0.142857	0.142857	0.142857
+Nodes Explored		0.875	0.375	0.1875	0.1875	1	0.0625
+Total Cost		1	0.473684	0.0526316	0.0526316	0.0526316	0.0526316
+Total Distance		1	0.368421	0.0526316	0.0526316	0.0526316	0.0526316
+Execution Time		0.428571	0.142857	0.142857	0.142857	1	0.285714
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.571429	0.428571	0.142857	0.142857	0.142857	0.142857
+Nodes Explored		0.5	0.375	0.1875	0.1875	1	0.4375
+Total Cost		0.473684	0.473684	0.0526316	0.0526316	0.0526316	0.0526316
+Total Distance		0.473684	0.368421	0.0526316	0.0526316	0.0526316	0.0526316
+Execution Time		0.285714	0.142857	0.214286	0.142857	0.785714	0.642857
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.428571	0.142857	0.142857	0.142857	0.142857
+Nodes Explored		0.875	0.375	0.1875	0.1875	1	0.0625
+Total Cost		1	0.473684	0.0526316	0.0526316	0.0526316	0.0526316
+Total Distance		1	0.368421	0.0526316	0.0526316	0.0526316	0.0526316
+Execution Time		0.428571	0.142857	0.142857	0.142857	0.857143	0.214286
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.571429	0.428571	0.142857	0.142857	0.142857	0.142857
+Nodes Explored		0.5	0.375	0.1875	0.1875	1	0.4375
+Total Cost		0.473684	0.473684	0.0526316	0.0526316	0.0526316	0.0526316
+Total Distance		0.473684	0.368421	0.0526316	0.0526316	0.0526316	0.0526316
+Execution Time		0.214286	0.0714286	0.142857	0.142857	0.714286	0.5
+
+Test #45
+
+Adjacency Matrix, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.538462	1	0.538462	0.538462	0.538462	0.538462
+Nodes Explored		0.14	0.26	1	1	0.32	0.3
+Total Cost		0.6	1	0.6	0.6	0.6	0.6
+Total Distance		0.444444	1	0.444444	0.444444	0.444444	0.444444
+Execution Time		0.121212	0.0909091	0.424242	0.393939	0.30303	0.333333
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.692308	0.692308	0.538462	0.538462	0.538462	0.538462
+Nodes Explored		0.18	0.18	1	1	0.32	0.22
+Total Cost		0.866667	0.733333	0.6	0.6	0.6	0.6
+Total Distance		0.666667	0.666667	0.444444	0.444444	0.444444	0.444444
+Execution Time		0.151515	0.0606061	0.242424	0.242424	0.242424	0.242424
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.538462	1	0.538462	0.538462	0.538462	0.538462
+Nodes Explored		0.14	0.26	1	1	0.32	0.3
+Total Cost		0.6	1	0.6	0.6	0.6	0.6
+Total Distance		0.444444	1	0.444444	0.444444	0.444444	0.444444
+Execution Time		0.0909091	0.0909091	1	0.333333	0.242424	0.272727
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.692308	0.692308	0.538462	0.538462	0.538462	0.538462
+Nodes Explored		0.18	0.18	1	1	0.32	0.22
+Total Cost		0.866667	0.733333	0.6	0.6	0.6	0.6
+Total Distance		0.666667	0.666667	0.444444	0.444444	0.444444	0.444444
+Execution Time		0.0909091	0.030303	0.212121	0.212121	0.606061	0.212121
+
+Test #46
+
+Adjacency Matrix, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.714286	0.571429	0.285714	0.285714	0.285714	0.285714
+Nodes Explored		0.588235	0.470588	0.705882	0.705882	0.941176	0.411765
+Total Cost		0.7	0.5	0.2	0.2	0.2	0.2
+Total Distance		0.684211	0.473684	0.157895	0.157895	0.157895	0.157895
+Execution Time		0.263158	0.105263	0.263158	1	0.473684	0.315789
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.285714	1	0.285714	0.285714	0.285714	0.285714
+Nodes Explored		0.235294	0.823529	1	1	0.941176	0.294118
+Total Cost		0.2	1	0.2	0.2	0.2	0.2
+Total Distance		0.157895	1	0.157895	0.157895	0.157895	0.157895
+Execution Time		0.210526	0.105263	0.263158	0.263158	0.368421	0.263158
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.714286	0.571429	0.285714	0.285714	0.285714	0.285714
+Nodes Explored		0.588235	0.470588	0.705882	0.705882	0.941176	0.411765
+Total Cost		0.7	0.5	0.2	0.2	0.2	0.2
+Total Distance		0.684211	0.473684	0.157895	0.157895	0.157895	0.157895
+Execution Time		0.210526	0.105263	0.210526	0.315789	0.421053	0.263158
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.285714	1	0.285714	0.285714	0.285714	0.285714
+Nodes Explored		0.235294	0.823529	1	1	0.941176	0.294118
+Total Cost		0.2	1	0.2	0.2	0.2	0.2
+Total Distance		0.157895	1	0.157895	0.157895	0.157895	0.157895
+Execution Time		0.105263	0.105263	0.210526	0.210526	0.315789	0.947368
+
+Test #47
+
+Adjacency Matrix, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.866667	0.333333	0.333333	0.333333	0.333333	0.333333
+Nodes Explored		0.619048	0.238095	1	1	0.761905	0.666667
+Total Cost		0.8	0.3	0.3	0.3	0.3	0.3
+Total Distance		0.9	0.3	0.3	0.3	0.3	0.3
+Execution Time		0.222222	0.0740741	0.296296	0.259259	0.888889	0.407407
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.333333	0.333333	0.333333	0.333333	0.333333
+Nodes Explored		0.714286	0.238095	1	1	0.761905	0.190476
+Total Cost		1	0.3	0.3	0.3	0.3	0.3
+Total Distance		1	0.3	0.3	0.3	0.3	0.3
+Execution Time		0.185185	0.0740741	0.185185	0.185185	1	0.185185
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.866667	0.333333	0.333333	0.333333	0.333333	0.333333
+Nodes Explored		0.619048	0.238095	1	1	0.761905	0.666667
+Total Cost		0.8	0.3	0.3	0.3	0.3	0.3
+Total Distance		0.9	0.3	0.3	0.3	0.3	0.3
+Execution Time		0.185185	0.037037	0.259259	0.222222	0.296296	0.333333
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.333333	0.333333	0.333333	0.333333	0.333333
+Nodes Explored		0.714286	0.238095	1	1	0.761905	0.190476
+Total Cost		1	0.3	0.3	0.3	0.3	0.3
+Total Distance		1	0.3	0.3	0.3	0.3	0.3
+Execution Time		0.62963	0.037037	0.185185	0.148148	0.259259	0.148148
+
+Test #48
+
+Adjacency Matrix, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	1	0.4	0.4	0.4	0.4
+Nodes Explored		0.416667	0.416667	1	1	0.666667	0.5
+Total Cost		1	1	0.285714	0.285714	0.285714	0.285714
+Total Distance		1	1	0.230769	0.230769	0.230769	0.230769
+Execution Time		0.217391	0.130435	0.956522	0.304348	0.434783	1
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.8	1	0.4	0.4	0.4	0.4
+Nodes Explored		0.333333	0.416667	1	1	0.666667	0.458333
+Total Cost		0.714286	1	0.285714	0.285714	0.285714	0.285714
+Total Distance		0.692308	1	0.230769	0.230769	0.230769	0.230769
+Execution Time		0.173913	0.0869565	0.217391	0.217391	0.347826	0.956522
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	1	0.4	0.4	0.4	0.4
+Nodes Explored		0.416667	0.416667	1	1	0.666667	0.5
+Total Cost		1	1	0.285714	0.285714	0.285714	0.285714
+Total Distance		1	1	0.230769	0.230769	0.230769	0.230769
+Execution Time		0.217391	0.0869565	0.347826	0.26087	0.956522	0.347826
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.8	1	0.4	0.4	0.4	0.4
+Nodes Explored		0.333333	0.416667	1	1	0.666667	0.458333
+Total Cost		0.714286	1	0.285714	0.285714	0.285714	0.285714
+Total Distance		0.692308	1	0.230769	0.230769	0.230769	0.230769
+Execution Time		0.130435	0.0434783	0.173913	0.173913	0.26087	0.304348
+
+Test #49
+
+Adjacency Matrix, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.5	1	0.5	0.5	0.5	0.5
+Nodes Explored		0.285714	0.371429	1	1	0.457143	0.428571
+Total Cost		0.571429	1	0.571429	0.571429	0.571429	0.571429
+Total Distance		0.466667	1	0.466667	0.466667	0.466667	0.466667
+Execution Time		0.333333	0.2	1	0.6	0.666667	0.733333
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.833333	0.666667	0.5	0.5	0.5	0.5
+Nodes Explored		0.285714	0.228571	1	1	0.457143	0.314286
+Total Cost		1	0.714286	0.571429	0.571429	0.571429	0.571429
+Total Distance		0.866667	0.6	0.466667	0.466667	0.466667	0.466667
+Execution Time		0.266667	0.133333	0.6	0.4	0.533333	0.533333
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.5	1	0.5	0.5	0.5	0.5
+Nodes Explored		0.285714	0.371429	1	1	0.457143	0.428571
+Total Cost		0.571429	1	0.571429	0.571429	0.571429	0.571429
+Total Distance		0.466667	1	0.466667	0.466667	0.466667	0.466667
+Execution Time		0.266667	0.2	0.666667	0.533333	0.533333	0.6
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.833333	0.666667	0.5	0.5	0.5	0.5
+Nodes Explored		0.285714	0.228571	1	1	0.457143	0.314286
+Total Cost		1	0.714286	0.571429	0.571429	0.571429	0.571429
+Total Distance		0.866667	0.6	0.466667	0.466667	0.466667	0.466667
+Execution Time		0.2	0.0666667	0.4	0.333333	0.466667	0.466667
+
+Test #50
+
+Adjacency Matrix, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.636364	0.272727	0.272727	0.272727	0.272727
+Nodes Explored		0.6875	0.4375	0.4375	0.4375	1	0.125
+Total Cost		0.875	0.5	0.125	0.125	0.125	0.125
+Total Distance		1	0.571429	0.142857	0.142857	0.142857	0.142857
+Execution Time		0.6	0.2	0.4	0.3	1	0.4
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.636364	0.272727	0.272727	0.454545	0.454545
+Nodes Explored		0.6875	0.4375	0.4375	0.4375	1	0.25
+Total Cost		1	0.5	0.125	0.125	0.375	0.375
+Total Distance		1	0.571429	0.142857	0.142857	0.428571	0.428571
+Execution Time		0.5	0.2	0.3	0.3	0.7	0.5
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.636364	0.272727	0.272727	0.272727	0.272727
+Nodes Explored		0.6875	0.4375	0.4375	0.4375	1	0.125
+Total Cost		0.875	0.5	0.125	0.125	0.125	0.125
+Total Distance		1	0.571429	0.142857	0.142857	0.142857	0.142857
+Execution Time		0.5	0.2	0.3	0.3	0.8	0.3
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.636364	0.272727	0.272727	0.454545	0.454545
+Nodes Explored		0.6875	0.4375	0.4375	0.4375	1	0.25
+Total Cost		1	0.5	0.125	0.125	0.375	0.375
+Total Distance		1	0.571429	0.142857	0.142857	0.428571	0.428571
+Execution Time		0.3	0.1	0.2	0.2	0.6	0.4
+
+Test #51
+
+Adjacency Matrix, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.5	0.166667	0.166667	0.166667	0.166667
+Nodes Explored		0.75	0.375	0.1875	0.1875	1	0.125
+Total Cost		1	0.411765	0.0588235	0.0588235	0.0588235	0.0588235
+Total Distance		1	0.466667	0.0666667	0.0666667	0.0666667	0.0666667
+Execution Time		0.285714	0.0952381	0.0952381	0.0952381	0.428571	0.190476
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.166667	1	0.166667	0.166667	0.333333	0.333333
+Nodes Explored		0.125	0.75	0.25	0.25	1	0.1875
+Total Cost		0.0588235	1	0.0588235	0.0588235	0.294118	0.294118
+Total Distance		0.0666667	1	0.0666667	0.0666667	0.2	0.2
+Execution Time		0.142857	0.0952381	0.142857	0.142857	1	0.190476
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.5	0.166667	0.166667	0.166667	0.166667
+Nodes Explored		0.75	0.375	0.1875	0.1875	1	0.125
+Total Cost		1	0.411765	0.0588235	0.0588235	0.0588235	0.0588235
+Total Distance		1	0.466667	0.0666667	0.0666667	0.0666667	0.0666667
+Execution Time		0.238095	0.0952381	0.0952381	0.0952381	0.380952	0.142857
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.166667	1	0.166667	0.166667	0.333333	0.333333
+Nodes Explored		0.125	0.75	0.25	0.25	1	0.1875
+Total Cost		0.0588235	1	0.0588235	0.0588235	0.294118	0.294118
+Total Distance		0.0666667	1	0.0666667	0.0666667	0.2	0.2
+Execution Time		0.0952381	0.0952381	0.0952381	0.0952381	0.333333	0.190476
+
+Test #52
+
+Adjacency Matrix, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.714286	0.571429	0.285714	0.285714	0.285714	0.285714
+Nodes Explored		0.588235	0.470588	0.705882	0.705882	0.941176	0.411765
+Total Cost		0.7	0.5	0.2	0.2	0.2	0.2
+Total Distance		0.684211	0.473684	0.157895	0.157895	0.157895	0.157895
+Execution Time		0.25	0.1	0.25	0.25	0.45	0.3
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.285714	1	0.285714	0.285714	0.285714	0.285714
+Nodes Explored		0.235294	0.823529	1	1	0.941176	0.294118
+Total Cost		0.2	1	0.2	0.2	0.2	0.2
+Total Distance		0.157895	1	0.157895	0.157895	0.157895	0.157895
+Execution Time		0.15	0.1	0.25	0.9	0.35	0.25
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.714286	0.571429	0.285714	0.285714	0.285714	0.285714
+Nodes Explored		0.588235	0.470588	0.705882	0.705882	0.941176	0.411765
+Total Cost		0.7	0.5	0.2	0.2	0.2	0.2
+Total Distance		0.684211	0.473684	0.157895	0.157895	0.157895	0.157895
+Execution Time		0.2	0.1	0.25	0.2	0.35	0.25
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.285714	1	0.285714	0.285714	0.285714	0.285714
+Nodes Explored		0.235294	0.823529	1	1	0.941176	0.294118
+Total Cost		0.2	1	0.2	0.2	0.2	0.2
+Total Distance		0.157895	1	0.157895	0.157895	0.157895	0.157895
+Execution Time		0.1	0.05	0.2	0.2	1	0.2
+
+Test #53
+
+Adjacency Matrix, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.75	0.25	0.25	0.25	0.25	0.25
+Nodes Explored		0.375	0.125	0.125	0.125	1	0.25
+Total Cost		0.5	0.166667	0.166667	0.166667	0.166667	0.166667
+Total Distance		0.777778	0.111111	0.111111	0.111111	0.111111	0.111111
+Execution Time		0.3	0.1	0.2	0.2	1	0.5
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.75	1	0.25	0.25	0.25	0.25
+Nodes Explored		0.375	0.5	0.1875	0.1875	1	0.0625
+Total Cost		0.5	1	0.166667	0.166667	0.166667	0.166667
+Total Distance		0.777778	1	0.111111	0.111111	0.111111	0.111111
+Execution Time		0.4	0.2	0.2	0.2	0.8	0.3
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.75	0.25	0.25	0.25	0.25	0.25
+Nodes Explored		0.375	0.125	0.125	0.125	1	0.25
+Total Cost		0.5	0.166667	0.166667	0.166667	0.166667	0.166667
+Total Distance		0.777778	0.111111	0.111111	0.111111	0.111111	0.111111
+Execution Time		0.3	0.1	0.2	0.2	0.9	0.4
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.75	1	0.25	0.25	0.25	0.25
+Nodes Explored		0.375	0.5	0.1875	0.1875	1	0.0625
+Total Cost		0.5	1	0.166667	0.166667	0.166667	0.166667
+Total Distance		0.777778	1	0.111111	0.111111	0.111111	0.111111
+Execution Time		0.3	0.1	0.2	0.2	0.7	0.3
+
+Test #54
+
+Adjacency Matrix, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.692308	0.384615	0.230769	0.230769	0.230769	0.230769
+Nodes Explored		0.8125	0.3125	0.375	0.375	1	0.3125
+Total Cost		0.684211	0.263158	0.157895	0.157895	0.157895	0.157895
+Total Distance		0.666667	0.333333	0.111111	0.111111	0.111111	0.111111
+Execution Time		0.666667	0.222222	0.333333	0.333333	1	0.555556
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.384615	0.230769	0.230769	0.230769	0.230769
+Nodes Explored		0.8125	0.3125	0.375	0.375	1	0.1875
+Total Cost		1	0.263158	0.157895	0.157895	0.157895	0.157895
+Total Distance		1	0.333333	0.111111	0.111111	0.111111	0.111111
+Execution Time		0.555556	0.222222	0.333333	0.333333	0.777778	0.444444
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.692308	0.384615	0.230769	0.230769	0.230769	0.230769
+Nodes Explored		0.8125	0.3125	0.375	0.375	1	0.3125
+Total Cost		0.684211	0.263158	0.157895	0.157895	0.157895	0.157895
+Total Distance		0.666667	0.333333	0.111111	0.111111	0.111111	0.111111
+Execution Time		0.555556	0.111111	0.333333	0.333333	0.888889	0.555556
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.384615	0.230769	0.230769	0.230769	0.230769
+Nodes Explored		0.8125	0.3125	0.375	0.375	1	0.1875
+Total Cost		1	0.263158	0.157895	0.157895	0.157895	0.157895
+Total Distance		1	0.333333	0.111111	0.111111	0.111111	0.111111
+Execution Time		0.444444	0.111111	0.222222	0.222222	0.666667	0.333333
+
+Test #55
+
+Adjacency Matrix, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.571429	0.571429	0.142857	0.142857	0.142857	0.142857
+Nodes Explored		0.5	0.5	0.1875	0.1875	1	0.125
+Total Cost		0.684211	0.473684	0.0526316	0.0526316	0.0526316	0.0526316
+Total Distance		0.473684	0.473684	0.0526316	0.0526316	0.0526316	0.0526316
+Execution Time		0.444444	0.222222	0.222222	0.222222	1	0.333333
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.142857	1	0.142857	0.142857	0.142857	0.142857
+Nodes Explored		0.125	0.875	0.25	0.25	1	0.125
+Total Cost		0.0526316	1	0.0526316	0.0526316	0.0526316	0.0526316
+Total Distance		0.0526316	1	0.0526316	0.0526316	0.0526316	0.0526316
+Execution Time		0.333333	0.222222	0.333333	0.333333	0.777778	0.444444
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.571429	0.571429	0.142857	0.142857	0.142857	0.142857
+Nodes Explored		0.5	0.5	0.1875	0.1875	1	0.125
+Total Cost		0.684211	0.473684	0.0526316	0.0526316	0.0526316	0.0526316
+Total Distance		0.473684	0.473684	0.0526316	0.0526316	0.0526316	0.0526316
+Execution Time		0.444444	0.222222	0.222222	0.222222	0.888889	0.333333
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.142857	1	0.142857	0.142857	0.142857	0.142857
+Nodes Explored		0.125	0.875	0.25	0.25	1	0.125
+Total Cost		0.0526316	1	0.0526316	0.0526316	0.0526316	0.0526316
+Total Distance		0.0526316	1	0.0526316	0.0526316	0.0526316	0.0526316
+Execution Time		0.222222	0.222222	0.222222	0.222222	0.666667	0.333333
+
+Test #56
+
+Adjacency Matrix, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.285714	1	0.285714	0.285714	0.285714	0.285714
+Nodes Explored		0.222222	0.777778	1	1	0.888889	0.555556
+Total Cost		0.222222	1	0.222222	0.222222	0.222222	0.222222
+Total Distance		0.157895	1	0.157895	0.157895	0.157895	0.157895
+Execution Time		0.3	0.4	0.7	0.6	1	0.8
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.428571	0.857143	0.285714	0.285714	0.571429	0.571429
+Nodes Explored		0.333333	0.666667	1	1	0.888889	0.666667
+Total Cost		0.444444	0.888889	0.222222	0.222222	0.666667	0.666667
+Total Distance		0.368421	0.789474	0.157895	0.157895	0.473684	0.473684
+Execution Time		0.4	0.2	0.5	0.5	0.8	0.8
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.285714	1	0.285714	0.285714	0.285714	0.285714
+Nodes Explored		0.222222	0.777778	1	1	0.888889	0.555556
+Total Cost		0.222222	1	0.222222	0.222222	0.222222	0.222222
+Total Distance		0.157895	1	0.157895	0.157895	0.157895	0.157895
+Execution Time		0.3	0.3	0.6	0.6	0.9	0.7
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.428571	0.857143	0.285714	0.285714	0.571429	0.571429
+Nodes Explored		0.333333	0.666667	1	1	0.888889	0.666667
+Total Cost		0.444444	0.888889	0.222222	0.222222	0.666667	0.666667
+Total Distance		0.368421	0.789474	0.157895	0.157895	0.473684	0.473684
+Execution Time		0.3	0.1	0.4	0.4	0.7	0.7
+
+Test #57
+
+Adjacency Matrix, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.571429	0.142857	0.142857	0.142857	0.142857	0.142857
+Nodes Explored		1	0.105263	0.105263	0.105263	0.842105	0.0526316
+Total Cost		0.619048	0.047619	0.047619	0.047619	0.047619	0.047619
+Total Distance		0.473684	0.0526316	0.0526316	0.0526316	0.0526316	0.0526316
+Execution Time		0.888889	0.111111	0.222222	0.222222	1	0.333333
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.142857	0.142857	0.142857	0.142857	0.142857
+Nodes Explored		0.842105	0.105263	0.105263	0.105263	0.842105	0.789474
+Total Cost		1	0.047619	0.047619	0.047619	0.047619	0.047619
+Total Distance		1	0.0526316	0.0526316	0.0526316	0.0526316	0.0526316
+Execution Time		0.555556	0.111111	0.222222	0.222222	0.777778	1
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.571429	0.142857	0.142857	0.142857	0.142857	0.142857
+Nodes Explored		1	0.105263	0.105263	0.105263	0.842105	0.0526316
+Total Cost		0.619048	0.047619	0.047619	0.047619	0.047619	0.047619
+Total Distance		0.473684	0.0526316	0.0526316	0.0526316	0.0526316	0.0526316
+Execution Time		0.666667	0.111111	0.222222	0.222222	0.888889	0.333333
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.142857	0.142857	0.142857	0.142857	0.142857
+Nodes Explored		0.842105	0.105263	0.105263	0.105263	0.842105	0.789474
+Total Cost		1	0.047619	0.047619	0.047619	0.047619	0.047619
+Total Distance		1	0.0526316	0.0526316	0.0526316	0.0526316	0.0526316
+Execution Time		0.444444	0.111111	0.222222	0.222222	0.777778	0.777778
+
+Test #58
+
+Adjacency Matrix, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.428571	1	0.142857	0.142857	0.142857	0.142857
+Nodes Explored		0.375	0.875	0.25	0.25	1	0.125
+Total Cost		0.473684	1	0.0526316	0.0526316	0.0526316	0.0526316
+Total Distance		0.368421	1	0.0526316	0.0526316	0.0526316	0.0526316
+Execution Time		0.4	0.3	0.3	0.3	1	0.4
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.142857	1	0.142857	0.142857	0.142857	0.142857
+Nodes Explored		0.125	0.875	0.3125	0.3125	1	0.3125
+Total Cost		0.0526316	1	0.0526316	0.0526316	0.0526316	0.0526316
+Total Distance		0.0526316	1	0.0526316	0.0526316	0.0526316	0.0526316
+Execution Time		0.3	0.2	0.3	0.3	0.7	0.5
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.428571	1	0.142857	0.142857	0.142857	0.142857
+Nodes Explored		0.375	0.875	0.25	0.25	1	0.125
+Total Cost		0.473684	1	0.0526316	0.0526316	0.0526316	0.0526316
+Total Distance		0.368421	1	0.0526316	0.0526316	0.0526316	0.0526316
+Execution Time		0.3	0.3	0.3	0.2	0.8	0.3
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.142857	1	0.142857	0.142857	0.142857	0.142857
+Nodes Explored		0.125	0.875	0.3125	0.3125	1	0.3125
+Total Cost		0.0526316	1	0.0526316	0.0526316	0.0526316	0.0526316
+Total Distance		0.0526316	1	0.0526316	0.0526316	0.0526316	0.0526316
+Execution Time		0.2	0.2	0.2	0.2	0.6	0.4
+
+Test #59
+
+Adjacency Matrix, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.384615	0.384615	0.384615	0.384615	0.384615
+Nodes Explored		0.8125	0.3125	1	1	1	0.5
+Total Cost		1	0.294118	0.294118	0.294118	0.294118	0.294118
+Total Distance		1	0.333333	0.333333	0.333333	0.333333	0.333333
+Execution Time		0.421053	0.105263	0.315789	0.315789	0.473684	0.368421
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.846154	0.384615	0.384615	0.384615	0.538462	0.538462
+Nodes Explored		0.6875	0.3125	1	1	1	0.5
+Total Cost		1	0.294118	0.294118	0.294118	0.529412	0.529412
+Total Distance		0.777778	0.333333	0.333333	0.333333	0.444444	0.444444
+Execution Time		0.315789	0.105263	0.263158	0.210526	0.368421	0.315789
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.384615	0.384615	0.384615	0.384615	0.384615
+Nodes Explored		0.8125	0.3125	1	1	1	0.5
+Total Cost		1	0.294118	0.294118	0.294118	0.294118	0.294118
+Total Distance		1	0.333333	0.333333	0.333333	0.333333	0.333333
+Execution Time		0.368421	0.0526316	0.315789	0.263158	0.421053	1
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.846154	0.384615	0.384615	0.384615	0.538462	0.538462
+Nodes Explored		0.6875	0.3125	1	1	1	0.5
+Total Cost		1	0.294118	0.294118	0.294118	0.529412	0.529412
+Total Distance		0.777778	0.333333	0.333333	0.333333	0.444444	0.444444
+Execution Time		0.210526	0.0526316	0.210526	0.210526	0.315789	0.315789
+
+Test #60
+
+Adjacency Matrix, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.666667	0.5	0.5	0.5	0.5
+Nodes Explored		0.363636	0.242424	1	1	0.484848	0.393939
+Total Cost		0.866667	0.733333	0.466667	0.466667	0.466667	0.466667
+Total Distance		1	0.6	0.466667	0.466667	0.466667	0.466667
+Execution Time		0.217391	0.0869565	0.478261	1	0.434783	0.434783
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.666667	0.5	0.5	0.5	0.833333	0.833333
+Nodes Explored		0.272727	0.181818	0.909091	0.909091	0.484848	0.30303
+Total Cost		0.733333	0.466667	0.466667	0.466667	1	1
+Total Distance		0.6	0.466667	0.466667	0.466667	0.866667	0.866667
+Execution Time		0.173913	0.0869565	0.304348	0.26087	0.347826	0.304348
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.666667	0.5	0.5	0.5	0.5
+Nodes Explored		0.363636	0.242424	1	1	0.484848	0.393939
+Total Cost		0.866667	0.733333	0.466667	0.466667	0.466667	0.466667
+Total Distance		1	0.6	0.466667	0.466667	0.466667	0.466667
+Execution Time		0.217391	0.0869565	0.434783	0.347826	0.391304	0.391304
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.666667	0.5	0.5	0.5	0.833333	0.833333
+Nodes Explored		0.272727	0.181818	0.909091	0.909091	0.484848	0.30303
+Total Cost		0.733333	0.466667	0.466667	0.466667	1	1
+Total Distance		0.6	0.466667	0.466667	0.466667	0.866667	0.866667
+Execution Time		0.130435	0.0434783	0.26087	0.217391	0.304348	0.26087
+
+Test #61
+
+Adjacency Matrix, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.636364	1	0.272727	0.272727	0.272727	0.272727
+Nodes Explored		0.4375	0.6875	0.3125	0.3125	1	0.3125
+Total Cost		0.466667	1	0.2	0.2	0.2	0.2
+Total Distance		0.571429	1	0.142857	0.142857	0.142857	0.142857
+Execution Time		0.235294	0.176471	0.176471	0.176471	0.529412	0.294118
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.272727	1	0.272727	0.272727	0.272727	0.272727
+Nodes Explored		0.1875	0.6875	0.3125	0.3125	1	0.6875
+Total Cost		0.2	1	0.2	0.2	0.2	0.2
+Total Distance		0.142857	1	0.142857	0.142857	0.142857	0.142857
+Execution Time		0.176471	0.117647	1	0.176471	0.411765	0.411765
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.636364	1	0.272727	0.272727	0.272727	0.272727
+Nodes Explored		0.4375	0.6875	0.3125	0.3125	1	0.3125
+Total Cost		0.466667	1	0.2	0.2	0.2	0.2
+Total Distance		0.571429	1	0.142857	0.142857	0.142857	0.142857
+Execution Time		0.176471	0.176471	0.176471	0.117647	0.470588	0.235294
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.272727	1	0.272727	0.272727	0.272727	0.272727
+Nodes Explored		0.1875	0.6875	0.3125	0.3125	1	0.6875
+Total Cost		0.2	1	0.2	0.2	0.2	0.2
+Total Distance		0.142857	1	0.142857	0.142857	0.142857	0.142857
+Execution Time		0.117647	0.0588235	0.117647	0.117647	0.352941	0.352941
+
+Test #62
+
+Adjacency Matrix, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.777778	0.777778	0.333333	0.333333	0.333333	0.333333
+Nodes Explored		0.4375	0.4375	0.4375	0.4375	1	0.375
+Total Cost		0.818182	0.818182	0.272727	0.272727	0.272727	0.272727
+Total Distance		0.666667	0.666667	0.166667	0.166667	0.166667	0.166667
+Execution Time		0.2	0.1	0.2	0.2	0.5	1
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.777778	0.333333	0.333333	0.333333	0.333333
+Nodes Explored		0.625	0.4375	0.4375	0.4375	1	0.3125
+Total Cost		1	0.818182	0.272727	0.272727	0.272727	0.272727
+Total Distance		1	0.666667	0.166667	0.166667	0.166667	0.166667
+Execution Time		0.9	0.1	0.2	0.15	0.4	0.25
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.777778	0.777778	0.333333	0.333333	0.333333	0.333333
+Nodes Explored		0.4375	0.4375	0.4375	0.4375	1	0.375
+Total Cost		0.818182	0.818182	0.272727	0.272727	0.272727	0.272727
+Total Distance		0.666667	0.666667	0.166667	0.166667	0.166667	0.166667
+Execution Time		0.2	0.1	0.2	0.15	0.4	0.3
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.777778	0.333333	0.333333	0.333333	0.333333
+Nodes Explored		0.625	0.4375	0.4375	0.4375	1	0.3125
+Total Cost		1	0.818182	0.272727	0.272727	0.272727	0.272727
+Total Distance		1	0.666667	0.166667	0.166667	0.166667	0.166667
+Execution Time		0.15	0.05	0.15	0.15	0.35	0.2
+
+Test #63
+
+Adjacency Matrix, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	1	0.333333	0.333333	0.333333	0.333333
+Nodes Explored		0.5625	0.5625	0.5	0.5	1	0.4375
+Total Cost		1	1	0.272727	0.272727	0.272727	0.272727
+Total Distance		1	1	0.166667	0.166667	0.166667	0.166667
+Execution Time		0.235294	0.176471	0.235294	0.235294	0.588235	0.411765
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.555556	0.333333	0.333333	0.333333	0.333333
+Nodes Explored		0.5625	0.3125	0.4375	0.4375	1	0.5
+Total Cost		1	0.636364	0.272727	0.272727	0.272727	0.272727
+Total Distance		1	0.5	0.166667	0.166667	0.166667	0.166667
+Execution Time		0.235294	0.117647	1	0.176471	0.470588	0.411765
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	1	0.333333	0.333333	0.333333	0.333333
+Nodes Explored		0.5625	0.5625	0.5	0.5	1	0.4375
+Total Cost		1	1	0.272727	0.272727	0.272727	0.272727
+Total Distance		1	1	0.166667	0.166667	0.166667	0.166667
+Execution Time		0.235294	0.117647	0.235294	0.176471	0.470588	0.352941
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.555556	0.333333	0.333333	0.333333	0.333333
+Nodes Explored		0.5625	0.3125	0.4375	0.4375	1	0.5
+Total Cost		1	0.636364	0.272727	0.272727	0.272727	0.272727
+Total Distance		1	0.5	0.166667	0.166667	0.166667	0.166667
+Execution Time		0.176471	0.0588235	0.176471	0.117647	0.411765	0.352941
+
+Test #64
+
+Adjacency Matrix, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.285714	0.285714	0.285714	0.285714	0.285714
+Nodes Explored		0.875	0.25	0.6875	0.6875	1	0.6875
+Total Cost		1	0.333333	0.333333	0.333333	0.333333	0.333333
+Total Distance		1	0.157895	0.157895	0.157895	0.157895	0.157895
+Execution Time		0.272727	0.0909091	0.863636	0.227273	0.454545	0.409091
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.857143	0.285714	0.285714	0.285714	0.285714
+Nodes Explored		0.875	0.75	0.875	0.875	1	0.1875
+Total Cost		1	1	0.333333	0.333333	0.333333	0.333333
+Total Distance		1	0.789474	0.157895	0.157895	0.157895	0.157895
+Execution Time		0.227273	0.0909091	0.181818	0.181818	0.363636	0.181818
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.285714	0.285714	0.285714	0.285714	0.285714
+Nodes Explored		0.875	0.25	0.6875	0.6875	1	0.6875
+Total Cost		1	0.333333	0.333333	0.333333	0.333333	0.333333
+Total Distance		1	0.157895	0.157895	0.157895	0.157895	0.157895
+Execution Time		0.227273	0.0454545	0.227273	0.181818	1	0.363636
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.857143	0.285714	0.285714	0.285714	0.285714
+Nodes Explored		0.875	0.75	0.875	0.875	1	0.1875
+Total Cost		1	1	0.333333	0.333333	0.333333	0.333333
+Total Distance		1	0.789474	0.157895	0.157895	0.157895	0.157895
+Execution Time		0.181818	0.0454545	0.181818	0.181818	0.318182	0.181818
+
+Test #65
+
+Adjacency Matrix, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.571429	0.285714	0.285714	0.285714	0.285714
+Nodes Explored		0.875	0.5	0.8125	0.8125	1	0.5625
+Total Cost		1	0.555556	0.222222	0.222222	0.222222	0.222222
+Total Distance		1	0.473684	0.157895	0.157895	0.157895	0.157895
+Execution Time		0.6	0.2	0.5	0.5	1	0.8
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.714286	0.571429	0.285714	0.285714	0.428571	0.428571
+Nodes Explored		0.625	0.5	0.8125	0.8125	1	0.3125
+Total Cost		0.777778	0.555556	0.222222	0.222222	0.444444	0.444444
+Total Distance		0.684211	0.473684	0.157895	0.157895	0.368421	0.368421
+Execution Time		0.4	0.2	0.4	0.4	0.8	0.5
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.571429	0.285714	0.285714	0.285714	0.285714
+Nodes Explored		0.875	0.5	0.8125	0.8125	1	0.5625
+Total Cost		1	0.555556	0.222222	0.222222	0.222222	0.222222
+Total Distance		1	0.473684	0.157895	0.157895	0.157895	0.157895
+Execution Time		0.5	0.2	0.5	0.4	0.8	0.7
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.714286	0.571429	0.285714	0.285714	0.428571	0.428571
+Nodes Explored		0.625	0.5	0.8125	0.8125	1	0.3125
+Total Cost		0.777778	0.555556	0.222222	0.222222	0.444444	0.444444
+Total Distance		0.684211	0.473684	0.157895	0.157895	0.368421	0.368421
+Execution Time		0.3	0.1	0.3	0.3	0.6	0.4
+
+Test #66
+
+Adjacency Matrix, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.866667	0.333333	0.333333	0.333333	0.333333	0.333333
+Nodes Explored		0.619048	0.238095	1	1	0.761905	0.52381
+Total Cost		0.809524	0.238095	0.238095	0.238095	0.238095	0.238095
+Total Distance		0.9	0.3	0.3	0.3	0.3	0.3
+Execution Time		0.6	0.2	0.8	0.7	1	0.9
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.333333	0.333333	0.333333	0.333333	0.333333
+Nodes Explored		0.761905	0.238095	1	1	0.761905	0.714286
+Total Cost		1	0.238095	0.238095	0.238095	0.238095	0.238095
+Total Distance		1	0.3	0.3	0.3	0.3	0.3
+Execution Time		0.5	0.2	0.5	0.5	0.8	0.9
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.866667	0.333333	0.333333	0.333333	0.333333	0.333333
+Nodes Explored		0.619048	0.238095	1	1	0.761905	0.52381
+Total Cost		0.809524	0.238095	0.238095	0.238095	0.238095	0.238095
+Total Distance		0.9	0.3	0.3	0.3	0.3	0.3
+Execution Time		0.5	0.1	0.7	0.6	0.9	0.7
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.333333	0.333333	0.333333	0.333333	0.333333
+Nodes Explored		0.761905	0.238095	1	1	0.761905	0.714286
+Total Cost		1	0.238095	0.238095	0.238095	0.238095	0.238095
+Total Distance		1	0.3	0.3	0.3	0.3	0.3
+Execution Time		0.4	0.1	0.4	0.4	0.7	0.8
+
+Test #67
+
+Adjacency Matrix, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.125	0.125	0.125	0.125	0.125
+Nodes Explored		1	0.125	0.125	0.125	1	0.1875
+Total Cost		1	0.1	0.1	0.1	0.1	0.1
+Total Distance		1	0.047619	0.047619	0.047619	0.047619	0.047619
+Execution Time		0.7	0.1	0.2	0.2	1	0.4
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.125	0.125	0.125	0.25	0.25
+Nodes Explored		1	0.125	0.125	0.125	1	0.9375
+Total Cost		1	0.1	0.1	0.1	0.2	0.2
+Total Distance		1	0.047619	0.047619	0.047619	0.142857	0.142857
+Execution Time		0.5	0.1	0.2	0.2	0.8	0.9
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.125	0.125	0.125	0.125	0.125
+Nodes Explored		1	0.125	0.125	0.125	1	0.1875
+Total Cost		1	0.1	0.1	0.1	0.1	0.1
+Total Distance		1	0.047619	0.047619	0.047619	0.047619	0.047619
+Execution Time		0.6	0.1	0.2	0.2	0.8	0.4
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.125	0.125	0.125	0.25	0.25
+Nodes Explored		1	0.125	0.125	0.125	1	0.9375
+Total Cost		1	0.1	0.1	0.1	0.2	0.2
+Total Distance		1	0.047619	0.047619	0.047619	0.142857	0.142857
+Execution Time		0.4	0.1	0.2	0.2	0.6	0.7
+
+Test #68
+
+Adjacency Matrix, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.5	0.333333	0.333333	0.333333	0.333333
+Nodes Explored		0.75	0.375	0.5625	0.5625	1	0.375
+Total Cost		1	0.375	0.25	0.25	0.25	0.25
+Total Distance		1	0.466667	0.2	0.2	0.2	0.2
+Execution Time		0.555556	0.222222	0.555556	0.444444	1	0.666667
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.833333	0.333333	0.333333	0.333333	0.333333
+Nodes Explored		0.75	0.6875	0.5625	0.5625	1	0.1875
+Total Cost		1	0.875	0.25	0.25	0.25	0.25
+Total Distance		1	0.866667	0.2	0.2	0.2	0.2
+Execution Time		0.555556	0.222222	0.333333	0.333333	0.888889	0.444444
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.5	0.333333	0.333333	0.333333	0.333333
+Nodes Explored		0.75	0.375	0.5625	0.5625	1	0.375
+Total Cost		1	0.375	0.25	0.25	0.25	0.25
+Total Distance		1	0.466667	0.2	0.2	0.2	0.2
+Execution Time		0.555556	0.222222	0.444444	0.333333	0.888889	0.555556
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.833333	0.333333	0.333333	0.333333	0.333333
+Nodes Explored		0.75	0.6875	0.5625	0.5625	1	0.1875
+Total Cost		1	0.875	0.25	0.25	0.25	0.25
+Total Distance		1	0.866667	0.2	0.2	0.2	0.2
+Execution Time		0.333333	0.111111	0.333333	0.333333	0.666667	0.333333
+
+Test #69
+
+Adjacency Matrix, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.285714	1	0.142857	0.142857	0.142857	0.142857
+Nodes Explored		0.25	0.875	0.25	0.25	1	0.125
+Total Cost		0.263158	1	0.0526316	0.0526316	0.0526316	0.0526316
+Total Distance		0.157895	1	0.0526316	0.0526316	0.0526316	0.0526316
+Execution Time		0.3	0.4	0.3	0.3	1	0.4
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.142857	1	0.142857	0.142857	0.142857	0.142857
+Nodes Explored		0.125	0.875	0.3125	0.3125	1	0.625
+Total Cost		0.0526316	1	0.0526316	0.0526316	0.0526316	0.0526316
+Total Distance		0.0526316	1	0.0526316	0.0526316	0.0526316	0.0526316
+Execution Time		0.3	0.2	0.3	0.3	0.8	0.8
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.285714	1	0.142857	0.142857	0.142857	0.142857
+Nodes Explored		0.25	0.875	0.25	0.25	1	0.125
+Total Cost		0.263158	1	0.0526316	0.0526316	0.0526316	0.0526316
+Total Distance		0.157895	1	0.0526316	0.0526316	0.0526316	0.0526316
+Execution Time		0.3	0.3	0.3	0.2	0.9	0.3
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.142857	1	0.142857	0.142857	0.142857	0.142857
+Nodes Explored		0.125	0.875	0.3125	0.3125	1	0.625
+Total Cost		0.0526316	1	0.0526316	0.0526316	0.0526316	0.0526316
+Total Distance		0.0526316	1	0.0526316	0.0526316	0.0526316	0.0526316
+Execution Time		0.2	0.1	0.3	0.2	0.7	0.6
+
+Test #70
+
+Adjacency Matrix, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.5	0.333333	0.333333	0.333333	0.333333
+Nodes Explored		0.75	0.375	0.875	0.875	1	0.25
+Total Cost		1	0.466667	0.2	0.2	0.2	0.2
+Total Distance		1	0.466667	0.2	0.2	0.2	0.2
+Execution Time		0.25	0.1	0.3	0.25	0.5	0.25
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.833333	0.5	0.333333	0.333333	0.666667	0.666667
+Nodes Explored		0.625	0.375	0.875	0.875	1	0.5
+Total Cost		1	0.466667	0.2	0.2	0.733333	0.733333
+Total Distance		0.866667	0.466667	0.2	0.2	0.6	0.6
+Execution Time		0.2	0.1	0.2	0.2	0.4	0.35
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.5	0.333333	0.333333	0.333333	0.333333
+Nodes Explored		0.75	0.375	0.875	0.875	1	0.25
+Total Cost		1	0.466667	0.2	0.2	0.2	0.2
+Total Distance		1	0.466667	0.2	0.2	0.2	0.2
+Execution Time		0.25	0.1	0.25	0.25	1	0.3
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.833333	0.5	0.333333	0.333333	0.666667	0.666667
+Nodes Explored		0.625	0.375	0.875	0.875	1	0.5
+Total Cost		1	0.466667	0.2	0.2	0.733333	0.733333
+Total Distance		0.866667	0.466667	0.2	0.2	0.6	0.6
+Execution Time		0.15	0.05	0.15	0.15	0.3	0.3
+
+Test #71
+
+Adjacency Matrix, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.428571	1	0.142857	0.142857	0.142857	0.142857
+Nodes Explored		0.375	0.875	0.25	0.25	1	0.125
+Total Cost		0.473684	1	0.0526316	0.0526316	0.0526316	0.0526316
+Total Distance		0.368421	1	0.0526316	0.0526316	0.0526316	0.0526316
+Execution Time		0.181818	0.181818	0.136364	0.136364	0.454545	0.181818
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.142857	1	0.142857	0.142857	0.142857	0.142857
+Nodes Explored		0.125	0.875	0.3125	0.3125	1	0.3125
+Total Cost		0.0526316	1	0.0526316	0.0526316	0.0526316	0.0526316
+Total Distance		0.0526316	1	0.0526316	0.0526316	0.0526316	0.0526316
+Execution Time		0.181818	0.0909091	0.136364	0.727273	0.363636	0.227273
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.428571	1	0.142857	0.142857	0.142857	0.142857
+Nodes Explored		0.375	0.875	0.25	0.25	1	0.125
+Total Cost		0.473684	1	0.0526316	0.0526316	0.0526316	0.0526316
+Total Distance		0.368421	1	0.0526316	0.0526316	0.0526316	0.0526316
+Execution Time		0.136364	0.136364	0.136364	1	0.409091	0.136364
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.142857	1	0.142857	0.142857	0.142857	0.142857
+Nodes Explored		0.125	0.875	0.3125	0.3125	1	0.3125
+Total Cost		0.0526316	1	0.0526316	0.0526316	0.0526316	0.0526316
+Total Distance		0.0526316	1	0.0526316	0.0526316	0.0526316	0.0526316
+Execution Time		0.0909091	0.0909091	0.136364	0.136364	0.318182	0.181818
+
+Test #72
+
+Adjacency Matrix, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.2	1	0.2	0.2	0.2	0.2
+Nodes Explored		0.125	0.625	0.25	0.25	1	0.3125
+Total Cost		0.166667	1	0.166667	0.166667	0.166667	0.166667
+Total Distance		0.0769231	1	0.0769231	0.0769231	0.0769231	0.0769231
+Execution Time		0.133333	0.2	0.2	0.2	0.666667	0.4
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.2	0.6	0.2	0.2	0.2	0.2
+Nodes Explored		0.125	0.375	0.25	0.25	1	0.4375
+Total Cost		0.166667	0.666667	0.166667	0.166667	0.166667	0.166667
+Total Distance		0.0769231	0.538462	0.0769231	0.0769231	0.0769231	0.0769231
+Execution Time		0.2	0.133333	0.2	0.2	0.466667	0.4
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.2	1	0.2	0.2	0.2	0.2
+Nodes Explored		0.125	0.625	0.25	0.25	1	0.3125
+Total Cost		0.166667	1	0.166667	0.166667	0.166667	0.166667
+Total Distance		0.0769231	1	0.0769231	0.0769231	0.0769231	0.0769231
+Execution Time		0.133333	0.133333	0.133333	1	0.533333	0.333333
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.2	0.6	0.2	0.2	0.2	0.2
+Nodes Explored		0.125	0.375	0.25	0.25	1	0.4375
+Total Cost		0.166667	0.666667	0.166667	0.166667	0.166667	0.166667
+Total Distance		0.0769231	0.538462	0.0769231	0.0769231	0.0769231	0.0769231
+Execution Time		0.133333	0.0666667	0.133333	0.133333	0.4	0.333333
+
+Test #73
+
+Adjacency Matrix, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.8	0.4	0.4	0.4	0.4
+Nodes Explored		0.6875	0.75	0.8125	0.8125	1	0.625
+Total Cost		0.733333	0.733333	0.333333	0.333333	0.333333	0.333333
+Total Distance		1	0.692308	0.230769	0.230769	0.230769	0.230769
+Execution Time		0.461538	0.230769	0.538462	0.461538	1	0.692308
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	1	0.4	0.4	0.4	0.4
+Nodes Explored		0.6875	0.625	0.875	0.875	1	0.25
+Total Cost		0.733333	1	0.333333	0.333333	0.333333	0.333333
+Total Distance		1	1	0.230769	0.230769	0.230769	0.230769
+Execution Time		0.384615	0.153846	0.384615	0.384615	0.769231	0.461538
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.8	0.4	0.4	0.4	0.4
+Nodes Explored		0.6875	0.75	0.8125	0.8125	1	0.625
+Total Cost		0.733333	0.733333	0.333333	0.333333	0.333333	0.333333
+Total Distance		1	0.692308	0.230769	0.230769	0.230769	0.230769
+Execution Time		0.384615	0.153846	0.384615	0.384615	0.692308	0.538462
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	1	0.4	0.4	0.4	0.4
+Nodes Explored		0.6875	0.625	0.875	0.875	1	0.25
+Total Cost		0.733333	1	0.333333	0.333333	0.333333	0.333333
+Total Distance		1	1	0.230769	0.230769	0.230769	0.230769
+Execution Time		0.230769	0.0769231	0.307692	0.307692	0.538462	0.307692
+
+Test #74
+
+Adjacency Matrix, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.5	1	0.5	0.5	0.5	0.5
+Nodes Explored		0.171429	0.342857	1	1	0.457143	0.428571
+Total Cost		0.466667	1	0.466667	0.466667	0.466667	0.466667
+Total Distance		0.466667	1	0.466667	0.466667	0.466667	0.466667
+Execution Time		0.16	0.12	1	0.4	0.4	0.44
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.666667	0.833333	0.5	0.5	0.666667	0.666667
+Nodes Explored		0.228571	0.285714	1	1	0.457143	0.314286
+Total Cost		0.733333	0.866667	0.466667	0.466667	0.733333	0.733333
+Total Distance		0.6	0.866667	0.466667	0.466667	0.6	0.6
+Execution Time		0.16	0.08	0.28	0.24	0.32	0.32
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.5	1	0.5	0.5	0.5	0.5
+Nodes Explored		0.171429	0.342857	1	1	0.457143	0.428571
+Total Cost		0.466667	1	0.466667	0.466667	0.466667	0.466667
+Total Distance		0.466667	1	0.466667	0.466667	0.466667	0.466667
+Execution Time		0.12	0.12	0.4	0.36	0.32	0.36
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.666667	0.833333	0.5	0.5	0.666667	0.666667
+Nodes Explored		0.228571	0.285714	1	1	0.457143	0.314286
+Total Cost		0.733333	0.866667	0.466667	0.466667	0.733333	0.733333
+Total Distance		0.6	0.866667	0.466667	0.466667	0.6	0.6
+Execution Time		0.12	0.04	0.24	0.2	0.28	0.28
+
+Test #75
+
+Adjacency Matrix, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.333333	0.333333	0.333333	0.333333	0.333333
+Nodes Explored		0.5625	0.1875	0.25	0.25	1	0.375
+Total Cost		1	0.4	0.4	0.4	0.4	0.4
+Total Distance		1	0.166667	0.166667	0.166667	0.166667	0.166667
+Execution Time		0.25	0.0625	0.1875	0.125	0.625	0.375
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.333333	0.333333	0.333333	0.333333	0.333333
+Nodes Explored		0.5625	0.1875	0.25	0.25	1	0.125
+Total Cost		1	0.4	0.4	0.4	0.4	0.4
+Total Distance		1	0.166667	0.166667	0.166667	0.166667	0.166667
+Execution Time		0.25	0.125	0.1875	0.125	0.5	0.25
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.333333	0.333333	0.333333	0.333333	0.333333
+Nodes Explored		0.5625	0.1875	0.25	0.25	1	0.375
+Total Cost		1	0.4	0.4	0.4	0.4	0.4
+Total Distance		1	0.166667	0.166667	0.166667	0.166667	0.166667
+Execution Time		0.25	0.0625	0.1875	0.125	0.5	0.3125
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.333333	0.333333	0.333333	0.333333	0.333333
+Nodes Explored		0.5625	0.1875	0.25	0.25	1	0.125
+Total Cost		1	0.4	0.4	0.4	0.4	0.4
+Total Distance		1	0.166667	0.166667	0.166667	0.166667	0.166667
+Execution Time		0.1875	0.0625	1	0.125	0.4375	0.1875
+
+Test #76
+
+Adjacency Matrix, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.875	0.25	0.25	0.25	0.25	0.25
+Nodes Explored		0.875	0.25	0.5	0.5	1	0.1875
+Total Cost		0.826087	0.130435	0.130435	0.130435	0.130435	0.130435
+Total Distance		0.904762	0.142857	0.142857	0.142857	0.142857	0.142857
+Execution Time		0.6	0.1	0.4	0.4	1	0.4
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.25	0.25	0.25	0.25	0.25
+Nodes Explored		1	0.25	0.5	0.5	1	0.9375
+Total Cost		1	0.130435	0.130435	0.130435	0.130435	0.130435
+Total Distance		1	0.142857	0.142857	0.142857	0.142857	0.142857
+Execution Time		0.5	0.2	0.3	0.3	0.7	0.9
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.875	0.25	0.25	0.25	0.25	0.25
+Nodes Explored		0.875	0.25	0.5	0.5	1	0.1875
+Total Cost		0.826087	0.130435	0.130435	0.130435	0.130435	0.130435
+Total Distance		0.904762	0.142857	0.142857	0.142857	0.142857	0.142857
+Execution Time		0.5	0.1	0.3	0.4	0.8	0.4
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.25	0.25	0.25	0.25	0.25
+Nodes Explored		1	0.25	0.5	0.5	1	0.9375
+Total Cost		1	0.130435	0.130435	0.130435	0.130435	0.130435
+Total Distance		1	0.142857	0.142857	0.142857	0.142857	0.142857
+Execution Time		0.4	0.1	0.3	0.3	0.7	0.8
+
+Test #77
+
+Adjacency Matrix, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.5	0.333333	0.333333	0.333333	0.333333
+Nodes Explored		0.75	0.375	0.5625	0.5625	1	0.375
+Total Cost		1	0.375	0.25	0.25	0.25	0.25
+Total Distance		1	0.466667	0.2	0.2	0.2	0.2
+Execution Time		0.5	0.2	0.5	0.4	1	0.6
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.833333	0.333333	0.333333	0.333333	0.333333
+Nodes Explored		0.75	0.6875	0.5625	0.5625	1	0.1875
+Total Cost		1	0.875	0.25	0.25	0.25	0.25
+Total Distance		1	0.866667	0.2	0.2	0.2	0.2
+Execution Time		0.4	0.2	0.3	0.3	0.8	0.4
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.5	0.333333	0.333333	0.333333	0.333333
+Nodes Explored		0.75	0.375	0.5625	0.5625	1	0.375
+Total Cost		1	0.375	0.25	0.25	0.25	0.25
+Total Distance		1	0.466667	0.2	0.2	0.2	0.2
+Execution Time		0.5	0.1	0.4	0.4	0.8	0.5
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.833333	0.333333	0.333333	0.333333	0.333333
+Nodes Explored		0.75	0.6875	0.5625	0.5625	1	0.1875
+Total Cost		1	0.875	0.25	0.25	0.25	0.25
+Total Distance		1	0.866667	0.2	0.2	0.2	0.2
+Execution Time		0.3	0.2	0.3	0.3	0.7	0.3
+
+Test #78
+
+Adjacency Matrix, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.636364	1	0.272727	0.272727	0.272727	0.272727
+Nodes Explored		0.4375	0.6875	0.5625	0.5625	1	0.1875
+Total Cost		0.5	1	0.125	0.125	0.125	0.125
+Total Distance		0.571429	1	0.142857	0.142857	0.142857	0.142857
+Execution Time		0.4	0.3	0.5	0.4	1	0.4
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.636364	0.272727	0.272727	0.272727	0.454545	0.454545
+Nodes Explored		0.4375	0.1875	0.3125	0.3125	1	0.75
+Total Cost		0.5	0.125	0.125	0.125	0.375	0.375
+Total Distance		0.571429	0.142857	0.142857	0.142857	0.428571	0.428571
+Execution Time		0.4	0.2	0.4	0.3	0.8	0.8
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.636364	1	0.272727	0.272727	0.272727	0.272727
+Nodes Explored		0.4375	0.6875	0.5625	0.5625	1	0.1875
+Total Cost		0.5	1	0.125	0.125	0.125	0.125
+Total Distance		0.571429	1	0.142857	0.142857	0.142857	0.142857
+Execution Time		0.3	0.3	0.4	0.4	0.9	0.4
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.636364	0.272727	0.272727	0.272727	0.454545	0.454545
+Nodes Explored		0.4375	0.1875	0.3125	0.3125	1	0.75
+Total Cost		0.5	0.125	0.125	0.125	0.375	0.375
+Total Distance		0.571429	0.142857	0.142857	0.142857	0.428571	0.428571
+Execution Time		0.3	0.1	0.2	0.2	0.7	0.7
+
+Test #79
+
+Adjacency Matrix, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.333333	0.333333	0.333333	0.333333	0.333333
+Nodes Explored		0.761905	0.238095	1	1	0.761905	0.619048
+Total Cost		1	0.411765	0.411765	0.411765	0.411765	0.411765
+Total Distance		1	0.3	0.3	0.3	0.3	0.3
+Execution Time		0.7	0.2	0.8	0.7	1	1
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.333333	0.333333	0.333333	0.333333	0.333333
+Nodes Explored		0.761905	0.238095	1	1	0.761905	0.714286
+Total Cost		1	0.411765	0.411765	0.411765	0.411765	0.411765
+Total Distance		1	0.3	0.3	0.3	0.3	0.3
+Execution Time		0.5	0.2	0.5	0.5	0.8	0.9
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.333333	0.333333	0.333333	0.333333	0.333333
+Nodes Explored		0.761905	0.238095	1	1	0.761905	0.619048
+Total Cost		1	0.411765	0.411765	0.411765	0.411765	0.411765
+Total Distance		1	0.3	0.3	0.3	0.3	0.3
+Execution Time		0.6	0.1	0.7	0.6	0.8	0.8
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.333333	0.333333	0.333333	0.333333	0.333333
+Nodes Explored		0.761905	0.238095	1	1	0.761905	0.714286
+Total Cost		1	0.411765	0.411765	0.411765	0.411765	0.411765
+Total Distance		1	0.3	0.3	0.3	0.3	0.3
+Execution Time		0.4	0.1	0.4	0.4	0.7	0.8
+
+Test #80
+
+Adjacency Matrix, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.125	0.5	0.125	0.125	0.125	0.125
+Nodes Explored		0.125	1	0.25	0.25	1	0.125
+Total Cost		0.04	0.52	0.04	0.04	0.04	0.04
+Total Distance		0.047619	0.428571	0.047619	0.047619	0.047619	0.047619
+Execution Time		0.2	0.4	0.3	0.3	1	0.3
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.125	1	0.125	0.125	0.125	0.125
+Nodes Explored		0.125	1	0.25	0.25	1	0.875
+Total Cost		0.04	1	0.04	0.04	0.04	0.04
+Total Distance		0.047619	1	0.047619	0.047619	0.047619	0.047619
+Execution Time		0.3	0.2	0.3	0.3	0.7	0.8
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.125	0.5	0.125	0.125	0.125	0.125
+Nodes Explored		0.125	1	0.25	0.25	1	0.125
+Total Cost		0.04	0.52	0.04	0.04	0.04	0.04
+Total Distance		0.047619	0.428571	0.047619	0.047619	0.047619	0.047619
+Execution Time		0.2	0.3	0.2	0.2	0.8	0.3
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.125	1	0.125	0.125	0.125	0.125
+Nodes Explored		0.125	1	0.25	0.25	1	0.875
+Total Cost		0.04	1	0.04	0.04	0.04	0.04
+Total Distance		0.047619	1	0.047619	0.047619	0.047619	0.047619
+Execution Time		0.2	0.2	0.2	0.2	0.6	0.7
+
+Test #81
+
+Adjacency Matrix, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.25	0.25	0.25	0.25	0.25
+Nodes Explored		1	0.25	0.5	0.5	1	0.625
+Total Cost		1	0.333333	0.333333	0.333333	0.333333	0.333333
+Total Distance		1	0.142857	0.142857	0.142857	0.142857	0.142857
+Execution Time		0.583333	0.166667	0.333333	0.333333	0.833333	0.916667
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.25	0.25	0.25	0.375	0.375
+Nodes Explored		1	0.25	0.5	0.5	1	0.9375
+Total Cost		1	0.333333	0.333333	0.333333	0.444444	0.444444
+Total Distance		1	0.142857	0.142857	0.142857	0.333333	0.333333
+Execution Time		0.416667	0.166667	0.25	0.25	0.666667	1
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.25	0.25	0.25	0.25	0.25
+Nodes Explored		1	0.25	0.5	0.5	1	0.625
+Total Cost		1	0.333333	0.333333	0.333333	0.333333	0.333333
+Total Distance		1	0.142857	0.142857	0.142857	0.142857	0.142857
+Execution Time		0.5	0.0833333	0.333333	0.25	0.666667	0.833333
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.25	0.25	0.25	0.375	0.375
+Nodes Explored		1	0.25	0.5	0.5	1	0.9375
+Total Cost		1	0.333333	0.333333	0.333333	0.444444	0.444444
+Total Distance		1	0.142857	0.142857	0.142857	0.333333	0.333333
+Execution Time		0.333333	0.0833333	0.25	0.25	0.583333	0.916667
+
+Test #82
+
+Adjacency Matrix, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.166667	1	0.166667	0.166667	0.166667	0.166667
+Nodes Explored		0.125	0.75	0.3125	0.3125	1	0.3125
+Total Cost		0.125	1	0.125	0.125	0.125	0.125
+Total Distance		0.0666667	1	0.0666667	0.0666667	0.0666667	0.0666667
+Execution Time		0.3	0.4	0.3	0.3	1	0.6
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.333333	1	0.166667	0.166667	0.166667	0.166667
+Nodes Explored		0.25	0.75	0.25	0.25	1	0.8125
+Total Cost		0.25	1	0.125	0.125	0.125	0.125
+Total Distance		0.2	1	0.0666667	0.0666667	0.0666667	0.0666667
+Execution Time		0.6	0.3	0.3	0.3	0.8	0.8
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.166667	1	0.166667	0.166667	0.166667	0.166667
+Nodes Explored		0.125	0.75	0.3125	0.3125	1	0.3125
+Total Cost		0.125	1	0.125	0.125	0.125	0.125
+Total Distance		0.0666667	1	0.0666667	0.0666667	0.0666667	0.0666667
+Execution Time		0.3	0.3	0.3	0.3	0.9	0.5
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.333333	1	0.166667	0.166667	0.166667	0.166667
+Nodes Explored		0.25	0.75	0.25	0.25	1	0.8125
+Total Cost		0.25	1	0.125	0.125	0.125	0.125
+Total Distance		0.2	1	0.0666667	0.0666667	0.0666667	0.0666667
+Execution Time		0.3	0.2	0.2	0.2	0.7	0.7
+
+Test #83
+
+Adjacency Matrix, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.666667	0.5	0.5	0.5	0.5
+Nodes Explored		0.363636	0.242424	1	1	0.484848	0.393939
+Total Cost		0.866667	0.733333	0.466667	0.466667	0.466667	0.466667
+Total Distance		1	0.6	0.466667	0.466667	0.466667	0.466667
+Execution Time		0.4375	0.125	0.6875	0.625	0.625	0.625
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.666667	0.5	0.5	0.5	0.833333	0.833333
+Nodes Explored		0.272727	0.181818	0.909091	0.909091	0.484848	0.30303
+Total Cost		0.733333	0.466667	0.466667	0.466667	1	1
+Total Distance		0.6	0.466667	0.466667	0.466667	0.866667	0.866667
+Execution Time		1	0.125	0.4375	0.375	0.5625	0.5
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.666667	0.5	0.5	0.5	0.5
+Nodes Explored		0.363636	0.242424	1	1	0.484848	0.393939
+Total Cost		0.866667	0.733333	0.466667	0.466667	0.466667	0.466667
+Total Distance		1	0.6	0.466667	0.466667	0.466667	0.466667
+Execution Time		0.3125	0.125	0.5625	0.5625	0.5625	0.5625
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.666667	0.5	0.5	0.5	0.833333	0.833333
+Nodes Explored		0.272727	0.181818	0.909091	0.909091	0.484848	0.30303
+Total Cost		0.733333	0.466667	0.466667	0.466667	1	1
+Total Distance		0.6	0.466667	0.466667	0.466667	0.866667	0.866667
+Execution Time		0.1875	0.0625	0.375	0.375	0.4375	0.4375
+
+Test #84
+
+Adjacency Matrix, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.875	0.25	0.25	0.25	0.25	0.25
+Nodes Explored		1	0.25	1	1	1	0.8125
+Total Cost		1	0.263158	0.263158	0.263158	0.263158	0.263158
+Total Distance		0.904762	0.142857	0.142857	0.142857	0.142857	0.142857
+Execution Time		0.7	0.2	0.7	0.7	1	1
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.25	0.25	0.25	0.25	0.25
+Nodes Explored		1	0.25	1	1	1	0.9375
+Total Cost		1	0.263158	0.263158	0.263158	0.263158	0.263158
+Total Distance		1	0.142857	0.142857	0.142857	0.142857	0.142857
+Execution Time		0.6	0.2	0.5	0.5	0.8	1
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.875	0.25	0.25	0.25	0.25	0.25
+Nodes Explored		1	0.25	1	1	1	0.8125
+Total Cost		1	0.263158	0.263158	0.263158	0.263158	0.263158
+Total Distance		0.904762	0.142857	0.142857	0.142857	0.142857	0.142857
+Execution Time		0.6	0.1	0.6	0.5	0.9	0.9
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.25	0.25	0.25	0.25	0.25
+Nodes Explored		1	0.25	1	1	1	0.9375
+Total Cost		1	0.263158	0.263158	0.263158	0.263158	0.263158
+Total Distance		1	0.142857	0.142857	0.142857	0.142857	0.142857
+Execution Time		0.4	0.1	0.4	0.4	0.7	0.8
+
+Test #85
+
+Adjacency Matrix, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.8	0.4	0.4	0.4	0.4
+Nodes Explored		0.625	0.5	0.8125	0.8125	1	0.5625
+Total Cost		0.75	0.625	0.25	0.25	0.25	0.25
+Total Distance		1	0.692308	0.230769	0.230769	0.230769	0.230769
+Execution Time		0.5	0.2	0.5	0.5	1	0.8
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	1	0.4	0.4	0.4	0.4
+Nodes Explored		0.625	0.6875	0.8125	0.8125	1	0.25
+Total Cost		0.75	1	0.25	0.25	0.25	0.25
+Total Distance		1	1	0.230769	0.230769	0.230769	0.230769
+Execution Time		0.5	0.2	0.4	0.4	0.8	0.5
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.8	0.4	0.4	0.4	0.4
+Nodes Explored		0.625	0.5	0.8125	0.8125	1	0.5625
+Total Cost		0.75	0.625	0.25	0.25	0.25	0.25
+Total Distance		1	0.692308	0.230769	0.230769	0.230769	0.230769
+Execution Time		0.4	0.2	0.5	0.4	0.9	0.7
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	1	0.4	0.4	0.4	0.4
+Nodes Explored		0.625	0.6875	0.8125	0.8125	1	0.25
+Total Cost		0.75	1	0.25	0.25	0.25	0.25
+Total Distance		1	1	0.230769	0.230769	0.230769	0.230769
+Execution Time		0.3	0.2	0.3	0.3	0.6	0.4
+
+Test #86
+
+Adjacency Matrix, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.375	0.375	0.375	0.375	0.375
+Nodes Explored		0.457143	0.171429	1	1	0.457143	0.428571
+Total Cost		1	0.333333	0.333333	0.333333	0.333333	0.333333
+Total Distance		1	0.333333	0.333333	0.333333	0.333333	0.333333
+Execution Time		0.636364	0.181818	0.909091	0.818182	0.909091	1
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.375	0.375	0.375	0.375	0.375
+Nodes Explored		0.457143	0.171429	1	1	0.457143	0.428571
+Total Cost		1	0.333333	0.333333	0.333333	0.333333	0.333333
+Total Distance		1	0.333333	0.333333	0.333333	0.333333	0.333333
+Execution Time		0.545455	0.181818	0.545455	0.545455	0.727273	0.818182
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.375	0.375	0.375	0.375	0.375
+Nodes Explored		0.457143	0.171429	1	1	0.457143	0.428571
+Total Cost		1	0.333333	0.333333	0.333333	0.333333	0.333333
+Total Distance		1	0.333333	0.333333	0.333333	0.333333	0.333333
+Execution Time		0.545455	0.181818	0.909091	0.727273	0.727273	0.909091
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.375	0.375	0.375	0.375	0.375
+Nodes Explored		0.457143	0.171429	1	1	0.457143	0.428571
+Total Cost		1	0.333333	0.333333	0.333333	0.333333	0.333333
+Total Distance		1	0.333333	0.333333	0.333333	0.333333	0.333333
+Execution Time		0.363636	0.0909091	0.545455	0.454545	0.636364	0.727273
+
+Test #87
+
+Adjacency Matrix, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.272727	0.272727	0.272727	0.272727	0.272727
+Nodes Explored		0.6875	0.1875	0.3125	0.3125	1	0.4375
+Total Cost		0.875	0.25	0.25	0.25	0.25	0.25
+Total Distance		1	0.142857	0.142857	0.142857	0.142857	0.142857
+Execution Time		0.5	0.1	0.3	0.3	1	0.7
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	1	0.272727	0.272727	0.272727	0.272727
+Nodes Explored		0.6875	0.6875	0.4375	0.4375	1	0.125
+Total Cost		0.875	1	0.25	0.25	0.25	0.25
+Total Distance		1	1	0.142857	0.142857	0.142857	0.142857
+Execution Time		0.5	0.2	0.3	0.3	0.8	0.4
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.272727	0.272727	0.272727	0.272727	0.272727
+Nodes Explored		0.6875	0.1875	0.3125	0.3125	1	0.4375
+Total Cost		0.875	0.25	0.25	0.25	0.25	0.25
+Total Distance		1	0.142857	0.142857	0.142857	0.142857	0.142857
+Execution Time		0.4	0.1	0.3	0.2	0.8	0.6
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	1	0.272727	0.272727	0.272727	0.272727
+Nodes Explored		0.6875	0.6875	0.4375	0.4375	1	0.125
+Total Cost		0.875	1	0.25	0.25	0.25	0.25
+Total Distance		1	1	0.142857	0.142857	0.142857	0.142857
+Execution Time		0.3	0.1	0.2	0.2	0.7	0.3
+
+Test #88
+
+Adjacency Matrix, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.375	0.375	0.375	0.375	0.375
+Nodes Explored		0.457143	0.171429	1	1	0.457143	0.428571
+Total Cost		1	0.4	0.4	0.4	0.4	0.4
+Total Distance		1	0.333333	0.333333	0.333333	0.333333	0.333333
+Execution Time		0.333333	0.111111	0.555556	0.611111	0.555556	0.611111
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.375	0.375	0.375	0.375	0.375
+Nodes Explored		0.457143	0.171429	1	1	0.457143	0.428571
+Total Cost		1	0.4	0.4	0.4	0.4	0.4
+Total Distance		1	0.333333	0.333333	0.333333	0.333333	0.333333
+Execution Time		0.277778	0.111111	0.333333	0.444444	0.444444	0.611111
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.375	0.375	0.375	0.375	0.375
+Nodes Explored		0.457143	0.171429	1	1	0.457143	0.428571
+Total Cost		1	0.4	0.4	0.4	0.4	0.4
+Total Distance		1	0.333333	0.333333	0.333333	0.333333	0.333333
+Execution Time		0.333333	0.111111	0.5	0.5	1	0.722222
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.375	0.375	0.375	0.375	0.375
+Nodes Explored		0.457143	0.171429	1	1	0.457143	0.428571
+Total Cost		1	0.4	0.4	0.4	0.4	0.4
+Total Distance		1	0.333333	0.333333	0.333333	0.333333	0.333333
+Execution Time		0.222222	0.0555556	0.333333	0.277778	0.388889	0.444444
+
+Test #89
+
+Adjacency Matrix, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.125	0.125	0.125	0.125	0.125
+Nodes Explored		1	0.125	0.125	0.125	1	0.0625
+Total Cost		1	0.047619	0.047619	0.047619	0.047619	0.047619
+Total Distance		1	0.047619	0.047619	0.047619	0.047619	0.047619
+Execution Time		0.7	0.1	0.2	0.2	1	0.3
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.875	0.125	0.125	0.125	0.125	0.125
+Nodes Explored		0.875	0.125	0.125	0.125	1	0.0625
+Total Cost		1	0.047619	0.047619	0.047619	0.047619	0.047619
+Total Distance		0.904762	0.047619	0.047619	0.047619	0.047619	0.047619
+Execution Time		0.6	0.2	0.2	0.2	0.8	0.3
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.125	0.125	0.125	0.125	0.125
+Nodes Explored		1	0.125	0.125	0.125	1	0.0625
+Total Cost		1	0.047619	0.047619	0.047619	0.047619	0.047619
+Total Distance		1	0.047619	0.047619	0.047619	0.047619	0.047619
+Execution Time		0.6	0.1	0.2	0.2	0.9	0.3
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.875	0.125	0.125	0.125	0.125	0.125
+Nodes Explored		0.875	0.125	0.125	0.125	1	0.0625
+Total Cost		1	0.047619	0.047619	0.047619	0.047619	0.047619
+Total Distance		0.904762	0.047619	0.047619	0.047619	0.047619	0.047619
+Execution Time		0.4	0.1	0.2	0.2	0.7	0.3
+
+Test #90
+
+Adjacency Matrix, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.8	0.4	0.4	0.4	0.4
+Nodes Explored		0.625	0.5	0.8125	0.8125	1	0.5625
+Total Cost		0.75	0.625	0.25	0.25	0.25	0.25
+Total Distance		1	0.692308	0.230769	0.230769	0.230769	0.230769
+Execution Time		0.6	0.3	0.6	0.5	1	0.8
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	1	0.4	0.4	0.4	0.4
+Nodes Explored		0.625	0.6875	0.8125	0.8125	1	0.25
+Total Cost		0.75	1	0.25	0.25	0.25	0.25
+Total Distance		1	1	0.230769	0.230769	0.230769	0.230769
+Execution Time		0.5	0.2	0.4	0.4	0.8	0.5
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.8	0.4	0.4	0.4	0.4
+Nodes Explored		0.625	0.5	0.8125	0.8125	1	0.5625
+Total Cost		0.75	0.625	0.25	0.25	0.25	0.25
+Total Distance		1	0.692308	0.230769	0.230769	0.230769	0.230769
+Execution Time		0.4	0.2	0.5	0.4	0.9	0.7
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	1	0.4	0.4	0.4	0.4
+Nodes Explored		0.625	0.6875	0.8125	0.8125	1	0.25
+Total Cost		0.75	1	0.25	0.25	0.25	0.25
+Total Distance		1	1	0.230769	0.230769	0.230769	0.230769
+Execution Time		0.3	0.2	0.4	0.4	0.7	0.4
+
+Test #91
+
+Adjacency Matrix, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.375	1	0.375	0.375	0.375	0.375
+Nodes Explored		0.171429	0.457143	1	1	0.457143	0.428571
+Total Cost		0.333333	0.833333	0.333333	0.333333	0.333333	0.333333
+Total Distance		0.333333	1	0.333333	0.333333	0.333333	0.333333
+Execution Time		0.363636	0.363636	1	0.818182	0.909091	1
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.375	1	0.375	0.375	0.375	0.375
+Nodes Explored		0.171429	0.457143	1	1	0.457143	0.4
+Total Cost		0.333333	1	0.333333	0.333333	0.333333	0.333333
+Total Distance		0.333333	1	0.333333	0.333333	0.333333	0.333333
+Execution Time		0.363636	0.272727	0.636364	0.545455	0.727273	0.818182
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.375	1	0.375	0.375	0.375	0.375
+Nodes Explored		0.171429	0.457143	1	1	0.457143	0.428571
+Total Cost		0.333333	0.833333	0.333333	0.333333	0.333333	0.333333
+Total Distance		0.333333	1	0.333333	0.333333	0.333333	0.333333
+Execution Time		0.272727	0.272727	0.909091	0.727273	0.727273	0.818182
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.375	1	0.375	0.375	0.375	0.375
+Nodes Explored		0.171429	0.457143	1	1	0.457143	0.4
+Total Cost		0.333333	1	0.333333	0.333333	0.333333	0.333333
+Total Distance		0.333333	1	0.333333	0.333333	0.333333	0.333333
+Execution Time		0.181818	0.181818	0.545455	0.454545	0.636364	0.727273
+
+Test #92
+
+Adjacency Matrix, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.866667	0.333333	0.333333	0.333333	0.333333	0.333333
+Nodes Explored		0.619048	0.238095	1	1	0.761905	0.52381
+Total Cost		0.809524	0.238095	0.238095	0.238095	0.238095	0.238095
+Total Distance		0.9	0.3	0.3	0.3	0.3	0.3
+Execution Time		0.6	0.2	0.8	0.7	1	0.9
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.333333	0.333333	0.333333	0.333333	0.333333
+Nodes Explored		0.761905	0.238095	1	1	0.761905	0.714286
+Total Cost		1	0.238095	0.238095	0.238095	0.238095	0.238095
+Total Distance		1	0.3	0.3	0.3	0.3	0.3
+Execution Time		0.6	0.2	0.5	0.5	0.8	0.9
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.866667	0.333333	0.333333	0.333333	0.333333	0.333333
+Nodes Explored		0.619048	0.238095	1	1	0.761905	0.52381
+Total Cost		0.809524	0.238095	0.238095	0.238095	0.238095	0.238095
+Total Distance		0.9	0.3	0.3	0.3	0.3	0.3
+Execution Time		0.5	0.1	0.7	0.6	0.9	0.8
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.333333	0.333333	0.333333	0.333333	0.333333
+Nodes Explored		0.761905	0.238095	1	1	0.761905	0.714286
+Total Cost		1	0.238095	0.238095	0.238095	0.238095	0.238095
+Total Distance		1	0.3	0.3	0.3	0.3	0.3
+Execution Time		0.4	0.1	0.4	0.5	0.7	0.8
+
+Test #93
+
+Adjacency Matrix, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.285714	0.285714	0.285714	0.285714	0.285714
+Nodes Explored		0.875	0.25	1	1	1	0.8125
+Total Cost		1	0.238095	0.238095	0.238095	0.238095	0.238095
+Total Distance		1	0.157895	0.157895	0.157895	0.157895	0.157895
+Execution Time		0.636364	0.181818	0.636364	0.636364	1	1
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.285714	0.285714	0.285714	0.285714	0.285714
+Nodes Explored		0.9375	0.25	1	1	1	0.1875
+Total Cost		0.809524	0.238095	0.238095	0.238095	0.238095	0.238095
+Total Distance		1	0.157895	0.157895	0.157895	0.157895	0.157895
+Execution Time		0.545455	0.181818	0.454545	0.454545	0.727273	0.363636
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.285714	0.285714	0.285714	0.285714	0.285714
+Nodes Explored		0.875	0.25	1	1	1	0.8125
+Total Cost		1	0.238095	0.238095	0.238095	0.238095	0.238095
+Total Distance		1	0.157895	0.157895	0.157895	0.157895	0.157895
+Execution Time		0.545455	0.0909091	0.545455	0.454545	0.818182	0.818182
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.285714	0.285714	0.285714	0.285714	0.285714
+Nodes Explored		0.9375	0.25	1	1	1	0.1875
+Total Cost		0.809524	0.238095	0.238095	0.238095	0.238095	0.238095
+Total Distance		1	0.157895	0.157895	0.157895	0.157895	0.157895
+Execution Time		0.363636	0.0909091	0.363636	0.363636	0.636364	0.363636
+
+Test #94
+
+Adjacency Matrix, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.8	1	0.4	0.4	0.4	0.4
+Nodes Explored		0.5	0.625	0.875	0.875	1	0.625
+Total Cost		0.846154	1	0.384615	0.384615	0.384615	0.384615
+Total Distance		0.692308	1	0.230769	0.230769	0.230769	0.230769
+Execution Time		0.555556	0.333333	0.666667	0.666667	1	0.888889
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.8	1	0.4	0.4	0.4	0.4
+Nodes Explored		0.5	0.625	0.9375	0.9375	1	0.5625
+Total Cost		0.846154	1	0.384615	0.384615	0.384615	0.384615
+Total Distance		0.692308	1	0.230769	0.230769	0.230769	0.230769
+Execution Time		0.444444	0.222222	0.555556	0.444444	0.888889	0.777778
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.8	1	0.4	0.4	0.4	0.4
+Nodes Explored		0.5	0.625	0.875	0.875	1	0.625
+Total Cost		0.846154	1	0.384615	0.384615	0.384615	0.384615
+Total Distance		0.692308	1	0.230769	0.230769	0.230769	0.230769
+Execution Time		0.444444	0.222222	0.555556	0.555556	0.888889	0.777778
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.8	1	0.4	0.4	0.4	0.4
+Nodes Explored		0.5	0.625	0.9375	0.9375	1	0.5625
+Total Cost		0.846154	1	0.384615	0.384615	0.384615	0.384615
+Total Distance		0.692308	1	0.230769	0.230769	0.230769	0.230769
+Execution Time		0.333333	0.111111	0.444444	0.333333	0.777778	0.666667
+
+Test #95
+
+Adjacency Matrix, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.25	0.25	0.25	0.25	0.25
+Nodes Explored		1	0.25	0.5	0.5	1	0.625
+Total Cost		0.9	0.3	0.3	0.3	0.3	0.3
+Total Distance		1	0.142857	0.142857	0.142857	0.142857	0.142857
+Execution Time		0.7	0.1	0.4	0.4	1	0.8
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.75	0.875	0.25	0.25	0.25	0.25
+Nodes Explored		0.8125	0.875	0.75	0.75	1	0.1875
+Total Cost		0.8	1	0.3	0.3	0.3	0.3
+Total Distance		0.714286	0.904762	0.142857	0.142857	0.142857	0.142857
+Execution Time		0.5	0.2	0.4	0.4	0.8	0.4
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.25	0.25	0.25	0.25	0.25
+Nodes Explored		1	0.25	0.5	0.5	1	0.625
+Total Cost		0.9	0.3	0.3	0.3	0.3	0.3
+Total Distance		1	0.142857	0.142857	0.142857	0.142857	0.142857
+Execution Time		0.6	0.1	0.4	0.3	0.9	0.7
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.75	0.875	0.25	0.25	0.25	0.25
+Nodes Explored		0.8125	0.875	0.75	0.75	1	0.1875
+Total Cost		0.8	1	0.3	0.3	0.3	0.3
+Total Distance		0.714286	0.904762	0.142857	0.142857	0.142857	0.142857
+Execution Time		0.4	0.2	0.3	0.3	0.7	0.3
+
+Test #96
+
+Adjacency Matrix, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.166667	0.166667	0.166667	0.166667	0.166667
+Nodes Explored		0.75	0.125	0.125	0.125	1	0.25
+Total Cost		1	0.125	0.125	0.125	0.125	0.125
+Total Distance		1	0.0666667	0.0666667	0.0666667	0.0666667	0.0666667
+Execution Time		0.6	0.1	0.2	0.2	1	0.5
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.833333	0.166667	0.166667	0.166667	0.166667	0.166667
+Nodes Explored		0.625	0.125	0.125	0.125	1	0.0625
+Total Cost		0.75	0.125	0.125	0.125	0.125	0.125
+Total Distance		0.866667	0.0666667	0.0666667	0.0666667	0.0666667	0.0666667
+Execution Time		0.5	0.2	0.2	0.2	0.8	0.3
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.166667	0.166667	0.166667	0.166667	0.166667
+Nodes Explored		0.75	0.125	0.125	0.125	1	0.25
+Total Cost		1	0.125	0.125	0.125	0.125	0.125
+Total Distance		1	0.0666667	0.0666667	0.0666667	0.0666667	0.0666667
+Execution Time		0.5	0.1	0.2	0.2	0.9	0.4
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.833333	0.166667	0.166667	0.166667	0.166667	0.166667
+Nodes Explored		0.625	0.125	0.125	0.125	1	0.0625
+Total Cost		0.75	0.125	0.125	0.125	0.125	0.125
+Total Distance		0.866667	0.0666667	0.0666667	0.0666667	0.0666667	0.0666667
+Execution Time		0.3	0.1	0.2	0.2	0.7	0.3
+
+Test #97
+
+Adjacency Matrix, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	1	0.4	0.4	0.4	0.4
+Nodes Explored		0.416667	0.416667	1	1	0.666667	0.5
+Total Cost		1	1	0.285714	0.285714	0.285714	0.285714
+Total Distance		1	1	0.230769	0.230769	0.230769	0.230769
+Execution Time		0.5	0.3	0.9	0.8	1	1
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.8	1	0.4	0.4	0.4	0.4
+Nodes Explored		0.333333	0.416667	1	1	0.666667	0.458333
+Total Cost		0.714286	1	0.285714	0.285714	0.285714	0.285714
+Total Distance		0.692308	1	0.230769	0.230769	0.230769	0.230769
+Execution Time		0.4	0.2	0.5	0.5	0.8	0.8
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	1	0.4	0.4	0.4	0.4
+Nodes Explored		0.416667	0.416667	1	1	0.666667	0.5
+Total Cost		1	1	0.285714	0.285714	0.285714	0.285714
+Total Distance		1	1	0.230769	0.230769	0.230769	0.230769
+Execution Time		0.4	0.2	0.8	0.7	0.9	0.8
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.8	1	0.4	0.4	0.4	0.4
+Nodes Explored		0.333333	0.416667	1	1	0.666667	0.458333
+Total Cost		0.714286	1	0.285714	0.285714	0.285714	0.285714
+Total Distance		0.692308	1	0.230769	0.230769	0.230769	0.230769
+Execution Time		0.3	0.2	0.5	0.4	0.7	0.7
+
+Test #98
+
+Adjacency Matrix, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.636364	0.272727	0.272727	0.272727	0.272727
+Nodes Explored		0.6875	0.4375	0.625	0.625	1	0.5
+Total Cost		1	0.529412	0.176471	0.176471	0.176471	0.176471
+Total Distance		1	0.571429	0.142857	0.142857	0.142857	0.142857
+Execution Time		0.5	0.2	0.5	0.4	1	0.7
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.636364	0.636364	0.272727	0.272727	0.272727	0.272727
+Nodes Explored		0.4375	0.4375	0.625	0.625	1	0.375
+Total Cost		0.529412	0.529412	0.176471	0.176471	0.176471	0.176471
+Total Distance		0.571429	0.571429	0.142857	0.142857	0.142857	0.142857
+Execution Time		0.4	0.2	0.4	0.4	0.8	0.6
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.636364	0.272727	0.272727	0.272727	0.272727
+Nodes Explored		0.6875	0.4375	0.625	0.625	1	0.5
+Total Cost		1	0.529412	0.176471	0.176471	0.176471	0.176471
+Total Distance		1	0.571429	0.142857	0.142857	0.142857	0.142857
+Execution Time		0.5	0.2	0.4	0.4	0.9	0.6
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.636364	0.636364	0.272727	0.272727	0.272727	0.272727
+Nodes Explored		0.4375	0.4375	0.625	0.625	1	0.375
+Total Cost		0.529412	0.529412	0.176471	0.176471	0.176471	0.176471
+Total Distance		0.571429	0.571429	0.142857	0.142857	0.142857	0.142857
+Execution Time		0.3	0.1	0.4	0.3	0.6	0.5
+
+Test #99
+
+Adjacency Matrix, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.285714	1	0.285714	0.285714	0.285714	0.285714
+Nodes Explored		0.25	0.875	0.9375	0.9375	1	0.25
+Total Cost		0.157895	1	0.157895	0.157895	0.157895	0.157895
+Total Distance		0.157895	1	0.157895	0.157895	0.157895	0.157895
+Execution Time		0.333333	0.333333	0.666667	0.555556	1	0.555556
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.571429	0.285714	0.285714	0.285714	0.714286	0.714286
+Nodes Explored		0.5	0.25	0.5	0.5	1	0.75
+Total Cost		0.578947	0.157895	0.157895	0.157895	0.789474	0.789474
+Total Distance		0.473684	0.157895	0.157895	0.157895	0.684211	0.684211
+Execution Time		0.444444	0.222222	0.333333	0.333333	0.888889	0.888889
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.285714	1	0.285714	0.285714	0.285714	0.285714
+Nodes Explored		0.25	0.875	0.9375	0.9375	1	0.25
+Total Cost		0.157895	1	0.157895	0.157895	0.157895	0.157895
+Total Distance		0.157895	1	0.157895	0.157895	0.157895	0.157895
+Execution Time		0.333333	0.333333	0.666667	0.555556	0.888889	0.444444
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.571429	0.285714	0.285714	0.285714	0.714286	0.714286
+Nodes Explored		0.5	0.25	0.5	0.5	1	0.75
+Total Cost		0.578947	0.157895	0.157895	0.157895	0.789474	0.789474
+Total Distance		0.473684	0.157895	0.157895	0.157895	0.684211	0.684211
+Execution Time		0.333333	0.111111	0.333333	0.333333	0.777778	0.777778
+
+Test #100
+
+Adjacency Matrix, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	1	0.428571	0.428571	0.428571	0.428571
+Nodes Explored		0.4375	0.4375	0.375	0.375	1	0.3125
+Total Cost		0.636364	1	0.272727	0.272727	0.272727	0.272727
+Total Distance		1	1	0.25	0.25	0.25	0.25
+Execution Time		0.444444	0.222222	0.444444	0.333333	1	0.555556
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.428571	0.428571	0.428571	0.428571	0.428571
+Nodes Explored		0.4375	0.1875	0.3125	0.3125	1	0.5
+Total Cost		0.636364	0.272727	0.272727	0.272727	0.272727	0.272727
+Total Distance		1	0.25	0.25	0.25	0.25	0.25
+Execution Time		0.444444	0.222222	0.333333	0.333333	0.888889	0.777778
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	1	0.428571	0.428571	0.428571	0.428571
+Nodes Explored		0.4375	0.4375	0.375	0.375	1	0.3125
+Total Cost		0.636364	1	0.272727	0.272727	0.272727	0.272727
+Total Distance		1	1	0.25	0.25	0.25	0.25
+Execution Time		0.333333	0.222222	0.333333	0.333333	0.888889	0.555556
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		1	0.428571	0.428571	0.428571	0.428571	0.428571
+Nodes Explored		0.4375	0.1875	0.3125	0.3125	1	0.5
+Total Cost		0.636364	0.272727	0.272727	0.272727	0.272727	0.272727
+Total Distance		1	0.25	0.25	0.25	0.25	0.25
+Execution Time		0.333333	0.111111	0.222222	0.222222	0.777778	0.666667

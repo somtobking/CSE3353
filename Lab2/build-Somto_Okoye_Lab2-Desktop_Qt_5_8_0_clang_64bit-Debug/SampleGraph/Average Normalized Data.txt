@@ -1,0 +1,37 @@
+Average Normalized Data Output
+******************************************************
+
+Adjacency List, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.710142	0.678163	0.284291	0.284291	0.336225	0.336225
+Nodes Explored		0.505628	0.478001	0.586507	0.586507	0.912902	0.414831
+Total Cost		0.669049	0.670839	0.227918	0.227918	0.298843	0.298843
+Total Distance		0.671827	0.637727	0.175373	0.175373	0.237867	0.237867
+Execution Time		0.348438	0.149898	0.309313	0.304689	0.629925	0.545051
+******************************************************
+
+Adjacency Matrix, Source -> Destination
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.736201	0.628126	0.284291	0.284291	0.287927	0.287927
+Nodes Explored		0.538712	0.447068	0.571794	0.571794	0.912902	0.381514
+Total Cost		0.690927	0.595931	0.227918	0.227918	0.233632	0.233632
+Total Distance		0.703295	0.575617	0.175373	0.175373	0.179659	0.179659
+Execution Time		0.377685	0.168867	0.38598	0.357825	0.76738	0.548678
+******************************************************
+
+Adjacency List, Destination -> Source
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.710142	0.678163	0.284291	0.284291	0.336225	0.336225
+Nodes Explored		0.505628	0.478001	0.586507	0.586507	0.912902	0.414831
+Total Cost		0.669049	0.670839	0.227918	0.227918	0.298843	0.298843
+Total Distance		0.671827	0.637727	0.175373	0.175373	0.237867	0.237867
+Execution Time		0.240883	0.0921733	0.262615	0.247213	0.52765	0.461981
+******************************************************
+
+Adjacency Matrix, Destination -> Source
+		Iterative DFS	Recursive DFS	Iterative BFS	Recursive BFS	Dijkstra	A*
+Returned Path		0.731655	0.619944	0.284421	0.284421	0.284421	0.284421
+Nodes Explored		0.53794	0.449679	0.576206	0.576206	0.912314	0.381844
+Total Cost		0.688459	0.593723	0.228308	0.228308	0.228308	0.228308
+Total Distance		0.700588	0.573888	0.175524	0.175524	0.175524	0.175524
+Execution Time		0.323041	0.138734	0.349701	0.322609	0.676173	0.438239
