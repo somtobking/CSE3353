@@ -1,0 +1,1 @@
+For Lab 3, i have the functions implemented. to modify the nodes, change the "#define V 8 //Change Max Values" (In tspNaive.h) AND "#define MAXVALUE 8 //Change Max Nodes" in tspDP.cpp to run both algorithms against the same input. 
