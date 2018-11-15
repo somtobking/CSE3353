@@ -3,12 +3,10 @@
 #include "algorithm.h"
 #include "tspdp.h"
 #include "tspnaive.h"
+#include "graph.h"
 
 using namespace std;
 using namespace std::chrono;
-
-#define V 6 //Change Max Values (in tspNaive.h)
-#define MAXVALUE 6  //Change Max Nodes(in tspDP.cpp)
 
 // Algo types
 const int ALGO_COUNT = 3;
@@ -27,21 +25,23 @@ Algorithm *Algorithm::Algo(int choice)
 }
 
 
-Algorithm *Algorithm::Select(int algoId)
-{
-    if (algoId == TSPDP)
-        return new TspDp();
-    else if (algoId == TSPNAIVE)
-        return new TspNaive();
-}
+//Algorithm *Algorithm::Select(int algoId)
+//{
+//    if (algoId == TSPDP)
+//        return new TspDp();
+//    else if (algoId == TSPNAIVE)
+//        return new TspNaive();
+//}
 
 int main()
 {
     vector<Algorithm*> type;
     TspNaive tspNa;
     TspDp tspDP;
+    Graph gra;
 
-    int choice;
+
+    //int choice;
     for(auto choice: ALGO_TYPE)
         tspNa.Select(choice);
         {

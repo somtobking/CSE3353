@@ -5,9 +5,11 @@ CONFIG -= qt
 
 SOURCES += main.cpp \
     tspnaive.cpp \
-    tspdp.cpp
+    tspdp.cpp \
+    graph.cpp
 
 HEADERS += \
     algorithm.h \
     tspnaive.h \
-    tspdp.h
+    tspdp.h \
+    graph.h

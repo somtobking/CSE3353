@@ -23,7 +23,6 @@ using namespace std::chrono;
 class TspNaive: public Algorithm
 {
   public:
-    void readDataFromFile();
     int travllingSalesmanProblem(double graph[][V], int s);
     int execute();
     void printAlgo();

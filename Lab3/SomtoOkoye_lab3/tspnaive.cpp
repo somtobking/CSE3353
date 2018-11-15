@@ -1,6 +1,9 @@
 #include "tspnaive.h"
+#include "algorithm.h"
+#include "graph.h"
 
 using namespace std;
+Graph gra;
 
 int TspNaive::travllingSalesmanProblem(double graph[][V], int s)
 {
@@ -45,51 +48,12 @@ int TspNaive::travllingSalesmanProblem(double graph[][V], int s)
     return min_path;
 }
 
-void TspNaive::readDataFromFile()
-{
-    ifstream inFile;
-    inFile.open("input.txt");
-    string line;
-    float in_matrix[V][V];
-    int i = 0 , j = 0;
-    while(getline(inFile,line))
-    {
-        std::stringstream linestream(line);
-        std::string value;
-
-        while(getline(linestream,value,','))
-        {
-            in_matrix[i][j] = ::atof(value.c_str());
-            ++j;
-        }
-        j = 0;
-        ++i;
-    }
-    double graph[V][V];
-    for(int i = 0; i < V; ++i)
-    {
-        for(int j = 0; j < V; ++j)
-        {
-            graph[i][j] = sqrt((in_matrix[i][1] - in_matrix[j][1]) * (in_matrix[i][1] - in_matrix[j][1]) + (in_matrix[i][2] - in_matrix[j][2]) * (in_matrix[i][2] - in_matrix[j][2]) + (in_matrix[i][3] - in_matrix[j][3]) * (in_matrix[i][3] - in_matrix[j][3]));
-        }
-    }
-    for(int i = 0; i < V; ++i)
-    {
-        for(int j = 0; j < V; ++j)
-        {
-            cout<<graph[i][j]<<"\t";
-        }
-        cout<<endl;
-    }
-    int s = 0;
-    cout << travllingSalesmanProblem(graph, s) << endl;
-
-}
 
 int TspNaive::execute()
 {
-    readDataFromFile();
+
     auto startNaive = high_resolution_clock::now();
+    gra.readDataFromFile();
     auto stopnaive = high_resolution_clock::now();
     auto durationNaive = duration_cast<microseconds>(stopnaive - startNaive);
     cout << "Naive Algorithm Execution Time : " << durationNaive.count()<<" miliseconds" << endl;

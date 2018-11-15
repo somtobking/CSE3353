@@ -50,10 +50,12 @@ OBJECTS_DIR   = ./
 
 SOURCES       = ../SomtoOkoye_lab3/main.cpp \
 		../SomtoOkoye_lab3/tspnaive.cpp \
-		../SomtoOkoye_lab3/tspdp.cpp 
+		../SomtoOkoye_lab3/tspdp.cpp \
+		../SomtoOkoye_lab3/graph.cpp 
 OBJECTS       = main.o \
 		tspnaive.o \
-		tspdp.o
+		tspdp.o \
+		graph.o
 DIST          = /Users/somto/Qt/5.8/clang_64/mkspecs/features/spec_pre.prf \
 		/Users/somto/Qt/5.8/clang_64/mkspecs/qdevice.pri \
 		/Users/somto/Qt/5.8/clang_64/mkspecs/features/device_config.prf \
@@ -226,9 +228,11 @@ DIST          = /Users/somto/Qt/5.8/clang_64/mkspecs/features/spec_pre.prf \
 		/Users/somto/Qt/5.8/clang_64/mkspecs/features/lex.prf \
 		../SomtoOkoye_lab3/SomtoOkoye_lab3.pro algorithm.h \
 		tspnaive.h \
-		tspdp.h ../SomtoOkoye_lab3/main.cpp \
+		tspdp.h \
+		graph.h ../SomtoOkoye_lab3/main.cpp \
 		../SomtoOkoye_lab3/tspnaive.cpp \
-		../SomtoOkoye_lab3/tspdp.cpp
+		../SomtoOkoye_lab3/tspdp.cpp \
+		../SomtoOkoye_lab3/graph.cpp
 QMAKE_TARGET  = SomtoOkoye_lab3
 DESTDIR       = 
 TARGET        = SomtoOkoye_lab3
@@ -631,17 +635,27 @@ compiler_clean:
 main.o: ../SomtoOkoye_lab3/main.cpp ../SomtoOkoye_lab3/algorithm.h \
 		../SomtoOkoye_lab3/tspdp.h \
 		../SomtoOkoye_lab3/factory.h \
-		../SomtoOkoye_lab3/tspnaive.h
+		../SomtoOkoye_lab3/tspnaive.h \
+		../SomtoOkoye_lab3/graph.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o main.o ../SomtoOkoye_lab3/main.cpp
 
 tspnaive.o: ../SomtoOkoye_lab3/tspnaive.cpp ../SomtoOkoye_lab3/tspnaive.h \
-		../SomtoOkoye_lab3/algorithm.h
+		../SomtoOkoye_lab3/algorithm.h \
+		../SomtoOkoye_lab3/graph.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o tspnaive.o ../SomtoOkoye_lab3/tspnaive.cpp
 
 tspdp.o: ../SomtoOkoye_lab3/tspdp.cpp ../SomtoOkoye_lab3/tspdp.h \
 		../SomtoOkoye_lab3/algorithm.h \
-		../SomtoOkoye_lab3/factory.h
+		../SomtoOkoye_lab3/factory.h \
+		../SomtoOkoye_lab3/graph.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o tspdp.o ../SomtoOkoye_lab3/tspdp.cpp
+
+graph.o: ../SomtoOkoye_lab3/graph.cpp ../SomtoOkoye_lab3/tspdp.h \
+		../SomtoOkoye_lab3/algorithm.h \
+		../SomtoOkoye_lab3/factory.h \
+		../SomtoOkoye_lab3/tspnaive.h \
+		../SomtoOkoye_lab3/graph.h
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o graph.o ../SomtoOkoye_lab3/graph.cpp
 
 ####### Install
 

@@ -1,48 +1,29 @@
 #include "tspdp.h"
 
-#define MAXVALUE 4 //Change Max Nodes here
-
-float ary[1000][1000],completed[1000],n,cost=0;
+#include "graph.h"
 
 using namespace std;
+Graph gra;
 
+#define V 4
 
-int TspDp::least(int c)
-{
-    int nc=MAXVALUE;
-    float min=MAXVALUE,kmin;
-
-    for(int i=0;i < n;i++)
-    {
-        if((ary[c][i]!=0)&&(completed[i]==0))
-            if(ary[c][i]+ary[i][c] < min)
-            {
-                min=ary[i][0]+ary[c][i];
-                kmin=ary[c][i];
-                nc=i;
-            }
-    }
-
-    if(min!=MAXVALUE)
-        cost+=kmin;
-
-    return nc;
-}
+int completed[V] = {}, n = V , cost = 0;
+double graph[V][V];
 
 void TspDp::mincost(int city)
 {
-    int i,ncity;
-
+    int ncity;
     completed[city]=1;
-
-    cout<<city+1<<"--->";
+    cout<< city + 1 <<"--->";
     ncity=least(city);
+    //Now we call the sort function
 
-    if(ncity==MAXVALUE)
+    if(ncity == 999)
     {
-        ncity=0;
-        cout<<ncity+1;
-        cost+=ary[city][ncity];
+        ncity = 0;
+        cout << ncity+1;
+        cost += graph[city][ncity];
+        //std::sort(city, city + V);
 
         return;
     }
@@ -50,72 +31,50 @@ void TspDp::mincost(int city)
     mincost(ncity);
 }
 
-vector<vector<float>> TspDp::getData(string filename)
+int TspDp::least(int c)
 {
-    //Reads the file and stores the result
-    ifstream inFile;
-    float x;
+    int i, nc=999;
+    double min=999,kmin;
 
-    vector<vector<float> > data;
-    ifstream infile(filename);
-
-    while (infile)
+    for(i=0; i<n; ++i)
     {
-        string s;
-        if (!getline( infile, s )) break;
+        if((graph[c][i] > 0) && (completed[i] == 0))
+            if(graph[c][i] + graph[i][c] < min)
+            {
+                min = graph[i][0] + graph[c][i];
+                kmin = graph[c][i];
 
-        istringstream ss( s );
-        vector <float> record;
-
-        while (ss)
-        {
-            string s;
-            if (!getline( ss, s, ',' )) break;
-            record.push_back(stof(s));
-        }
-
-        data.push_back(record);
+                nc = i;
+            }
     }
-    if (!infile.eof())
-    {
-        cerr << "No data\n";
-    }
-    return data;
+
+    if(int(min) != 999)
+        cost += kmin;
+
+    return nc;
 }
+
+
 
 int TspDp::execute()
 {
+    auto startNaive = high_resolution_clock::now();
+    gra.readDataFromFile();
+    cout << "Path of Nodes(DP): ";
+    mincost(0); //passing 0 due to the starting vertex of node 1
+    cout << endl;
+    cout << "Shortest Path(DP): " << cost << endl;
 
-    vector<vector<float> > data = getData("input.txt");
-    n = data.size();
 
-    for(int i=0;i<n;i++){
-        for(int j=0;j<data[i].size();j++)
-        {
-            if(i>j)
-                ary[(int)(data[i][0])-1][j] = data[i][j+1];
-            else
-                ary[(int)(data[i][0])-1][j+1] = data[i][j+1];
-        }
-    }
-
-    cout<<"Path of Nodes(DP): ";
-    mincost(0); //passing 0 because starting vertex
-
-    cout<<"\nShortest Path(DP): "<<abs(cost)<<endl;
-
-    auto startDP = high_resolution_clock::now();
-    auto stopDP = high_resolution_clock::now();
-    auto durationDP = duration_cast<microseconds>(stopDP - startDP);
-    cout << "Dynamic Programming Algorithm Execution Time : " << durationDP.count()<<" miliseconds" << endl;
+    auto stopnaive = high_resolution_clock::now();
+    auto durationNaive = duration_cast<microseconds>(stopnaive - startNaive);
+    cout << "Dynamic Programming Algorithm Execution Time : " << durationNaive.count()<<" miliseconds" << endl;
     cout << "*****************************" << endl;
 
     return 0;
 }
 
-
 void TspDp::printAlgo()
 {
     cout << "Travelling Salesman Dynamic Programming" << endl;
 }
-

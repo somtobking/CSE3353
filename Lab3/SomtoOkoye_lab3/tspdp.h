@@ -6,16 +6,16 @@
 #include <algorithm>
 #include <cmath>
 #include <limits>
-#include <vector>
 #include <list>
 #include <string>
 #include <vector>
 #include <fstream>
 #include <sstream>
-#include <fstream>
+#include <array>
+#include <math.h>
+
 
 #include "algorithm.h"
-#include "factory.h"
 
 using namespace std;
 using namespace std::chrono;
@@ -25,7 +25,7 @@ class TspDp: public Algorithm
   public:
     int least(int c);
     void mincost(int city);
-    vector<vector<float> > getData(string filename);
+    //vector<vector<float> > getData(string filename);
     int execute();
     void printAlgo();
 };
