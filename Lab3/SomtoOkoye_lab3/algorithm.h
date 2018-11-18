@@ -12,7 +12,7 @@ using namespace std;
 class Algorithm
 {
   public:
-    // Abstract class, Factory method
+    // Factory Method
     static Algorithm *Algo(int choice);
     static Algorithm *Select(int algoId);
     virtual void printAlgo() = 0;

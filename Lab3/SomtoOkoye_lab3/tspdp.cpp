@@ -1,34 +1,64 @@
+#include <iostream>
+#include <fstream>
+#include <sstream>
+#include <vector>
+#include <limits>
+#include <algorithm>
+#include <array>
+#include <math.h>
 #include "tspdp.h"
 
-#include "graph.h"
-
 using namespace std;
-Graph gra;
+#include <iostream>
+#include <fstream>
+#include <sstream>
+#include <vector>
+#include <limits>
+#include <algorithm>
+#include <array>
+#include <math.h>
+using namespace std;
 
 #define V 4
 
-int completed[V] = {}, n = V , cost = 0;
-double graph[V][V];
+int completed[V] = {}, n = V;
+double graph[V][V] , cost = 0;
 
-void TspDp::mincost(int city)
+void TspDp::takeInput()
 {
-    int ncity;
-    completed[city]=1;
-    cout<< city + 1 <<"--->";
-    ncity=least(city);
-    //Now we call the sort function
-
-    if(ncity == 999)
+    ifstream inFile;
+    inFile.open("input.txt");
+    string line;
+    float in_matrix[V][4];
+    int i = 0 , j = 0;
+    while(getline(inFile,line))
     {
-        ncity = 0;
-        cout << ncity+1;
-        cost += graph[city][ncity];
-        //std::sort(city, city + V);
+        std::stringstream linestream(line);
+        std::string value;
 
-        return;
+        while(getline(linestream,value,','))
+        {
+            in_matrix[i][j] = ::atof(value.c_str());
+            ++j;
+        }
+        j = 0;
+        ++i;
     }
-
-    mincost(ncity);
+    for(int i = 0; i < V; ++i)
+    {
+        for(int j = 0; j < V; ++j)
+        {
+            graph[i][j] = sqrt((in_matrix[i][1] - in_matrix[j][1]) * (in_matrix[i][1] - in_matrix[j][1]) + (in_matrix[i][2] - in_matrix[j][2]) * (in_matrix[i][2] - in_matrix[j][2]) + (in_matrix[i][3] - in_matrix[j][3]) * (in_matrix[i][3] - in_matrix[j][3]));
+        }
+    }
+    for(int i = 0; i < 4; ++i)
+    {
+        for(int j = 0; j < 4; ++j)
+        {
+            cout<<graph[i][j]<<"\t";
+        }
+        cout<<endl;
+    }
 }
 
 int TspDp::least(int c)
@@ -43,7 +73,6 @@ int TspDp::least(int c)
             {
                 min = graph[i][0] + graph[c][i];
                 kmin = graph[c][i];
-
                 nc = i;
             }
     }
@@ -54,22 +83,41 @@ int TspDp::least(int c)
     return nc;
 }
 
+void TspDp::mincost(int city)
+{
+    int i,ncity;
 
+    completed[city]=1;
+
+    cout<< city+1 << "--->";
+    ncity=least(city);
+
+    if(ncity == 999)
+    {
+        ncity = 0;
+        cout << ncity+1;
+        cost += graph[city][ncity];
+
+        return;
+    }
+
+    mincost(ncity);
+}
 
 int TspDp::execute()
 {
     auto startNaive = high_resolution_clock::now();
-    gra.readDataFromFile();
-    cout << "Path of Nodes(DP): ";
-    mincost(0); //passing 0 due to the starting vertex of node 1
-    cout << endl;
-    cout << "Shortest Path(DP): " << cost << endl;
+    takeInput();
+    cout << "Path of Nodes(Naive): ";
+    mincost(0); //passing 0 because starting vertex
 
-
+    cout << "\nShortest Path(DP): "<< cost;
     auto stopnaive = high_resolution_clock::now();
+
     auto durationNaive = duration_cast<microseconds>(stopnaive - startNaive);
-    cout << "Dynamic Programming Algorithm Execution Time : " << durationNaive.count()<<" miliseconds" << endl;
+    cout << "\nDynamic Programming Execution Time : " << durationNaive.count() << " miliseconds" << endl;
     cout << "*****************************" << endl;
+
 
     return 0;
 }
