@@ -7,8 +7,8 @@
 using namespace std;
 using namespace std::chrono;
 
-#define V 6 //Change Max Values (in tspNaive.h)
-#define MAXVALUE 6  //Change Max Nodes(in tspDP.cpp)
+//Change Max Values (in tspNaive.h)
+//Change Max Nodes(in tspDP.cpp)
 
 // Algo types
 const int ALGO_COUNT = 3;

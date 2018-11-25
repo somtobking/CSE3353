@@ -50,12 +50,10 @@ OBJECTS_DIR   = ./
 
 SOURCES       = ../SomtoOkoye_lab3/main.cpp \
 		../SomtoOkoye_lab3/tspnaive.cpp \
-		../SomtoOkoye_lab3/tspdp.cpp \
-		../SomtoOkoye_lab3/graph.cpp 
+		../SomtoOkoye_lab3/tspdp.cpp 
 OBJECTS       = main.o \
 		tspnaive.o \
-		tspdp.o \
-		graph.o
+		tspdp.o
 DIST          = /Users/somto/Qt/5.8/clang_64/mkspecs/features/spec_pre.prf \
 		/Users/somto/Qt/5.8/clang_64/mkspecs/qdevice.pri \
 		/Users/somto/Qt/5.8/clang_64/mkspecs/features/device_config.prf \
@@ -205,7 +203,6 @@ DIST          = /Users/somto/Qt/5.8/clang_64/mkspecs/features/spec_pre.prf \
 		/Users/somto/Qt/5.8/clang_64/mkspecs/features/qt_config.prf \
 		/Users/somto/Qt/5.8/clang_64/mkspecs/macx-clang/qmake.conf \
 		/Users/somto/Qt/5.8/clang_64/mkspecs/features/spec_post.prf \
-		../SomtoOkoye_lab3/.qmake.stash \
 		/Users/somto/Qt/5.8/clang_64/mkspecs/features/exclusive_builds.prf \
 		/Users/somto/Qt/5.8/clang_64/mkspecs/features/mac/sdk.prf \
 		/Users/somto/Qt/5.8/clang_64/mkspecs/features/toolchain.prf \
@@ -228,11 +225,9 @@ DIST          = /Users/somto/Qt/5.8/clang_64/mkspecs/features/spec_pre.prf \
 		/Users/somto/Qt/5.8/clang_64/mkspecs/features/lex.prf \
 		../SomtoOkoye_lab3/SomtoOkoye_lab3.pro algorithm.h \
 		tspnaive.h \
-		tspdp.h \
-		graph.h ../SomtoOkoye_lab3/main.cpp \
+		tspdp.h ../SomtoOkoye_lab3/main.cpp \
 		../SomtoOkoye_lab3/tspnaive.cpp \
-		../SomtoOkoye_lab3/tspdp.cpp \
-		../SomtoOkoye_lab3/graph.cpp
+		../SomtoOkoye_lab3/tspdp.cpp
 QMAKE_TARGET  = SomtoOkoye_lab3
 DESTDIR       = 
 TARGET        = SomtoOkoye_lab3
@@ -393,7 +388,6 @@ Makefile: ../SomtoOkoye_lab3/SomtoOkoye_lab3.pro /Users/somto/Qt/5.8/clang_64/mk
 		/Users/somto/Qt/5.8/clang_64/mkspecs/features/qt_config.prf \
 		/Users/somto/Qt/5.8/clang_64/mkspecs/macx-clang/qmake.conf \
 		/Users/somto/Qt/5.8/clang_64/mkspecs/features/spec_post.prf \
-		.qmake.stash \
 		/Users/somto/Qt/5.8/clang_64/mkspecs/features/exclusive_builds.prf \
 		/Users/somto/Qt/5.8/clang_64/mkspecs/features/mac/sdk.prf \
 		/Users/somto/Qt/5.8/clang_64/mkspecs/features/toolchain.prf \
@@ -565,7 +559,6 @@ Makefile: ../SomtoOkoye_lab3/SomtoOkoye_lab3.pro /Users/somto/Qt/5.8/clang_64/mk
 /Users/somto/Qt/5.8/clang_64/mkspecs/features/qt_config.prf:
 /Users/somto/Qt/5.8/clang_64/mkspecs/macx-clang/qmake.conf:
 /Users/somto/Qt/5.8/clang_64/mkspecs/features/spec_post.prf:
-.qmake.stash:
 /Users/somto/Qt/5.8/clang_64/mkspecs/features/exclusive_builds.prf:
 /Users/somto/Qt/5.8/clang_64/mkspecs/features/mac/sdk.prf:
 /Users/somto/Qt/5.8/clang_64/mkspecs/features/toolchain.prf:
@@ -610,7 +603,6 @@ clean: compiler_clean
 
 distclean: clean 
 	-$(DEL_FILE) $(TARGET) 
-	-$(DEL_FILE) .qmake.stash
 	-$(DEL_FILE) Makefile
 
 
@@ -634,28 +626,16 @@ compiler_clean:
 
 main.o: ../SomtoOkoye_lab3/main.cpp ../SomtoOkoye_lab3/algorithm.h \
 		../SomtoOkoye_lab3/tspdp.h \
-		../SomtoOkoye_lab3/factory.h \
-		../SomtoOkoye_lab3/tspnaive.h \
-		../SomtoOkoye_lab3/graph.h
+		../SomtoOkoye_lab3/tspnaive.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o main.o ../SomtoOkoye_lab3/main.cpp
 
 tspnaive.o: ../SomtoOkoye_lab3/tspnaive.cpp ../SomtoOkoye_lab3/tspnaive.h \
-		../SomtoOkoye_lab3/algorithm.h \
-		../SomtoOkoye_lab3/graph.h
+		../SomtoOkoye_lab3/algorithm.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o tspnaive.o ../SomtoOkoye_lab3/tspnaive.cpp
 
 tspdp.o: ../SomtoOkoye_lab3/tspdp.cpp ../SomtoOkoye_lab3/tspdp.h \
-		../SomtoOkoye_lab3/algorithm.h \
-		../SomtoOkoye_lab3/factory.h \
-		../SomtoOkoye_lab3/graph.h
+		../SomtoOkoye_lab3/algorithm.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o tspdp.o ../SomtoOkoye_lab3/tspdp.cpp
-
-graph.o: ../SomtoOkoye_lab3/graph.cpp ../SomtoOkoye_lab3/tspdp.h \
-		../SomtoOkoye_lab3/algorithm.h \
-		../SomtoOkoye_lab3/factory.h \
-		../SomtoOkoye_lab3/tspnaive.h \
-		../SomtoOkoye_lab3/graph.h
-	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o graph.o ../SomtoOkoye_lab3/graph.cpp
 
 ####### Install
 

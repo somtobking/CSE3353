@@ -19,7 +19,7 @@ using namespace std;
 #include <math.h>
 using namespace std;
 
-#define V 16
+#define V 13
 
 int completed[V] = {}, n = V, cost = 0;
 double graph[V][V];
