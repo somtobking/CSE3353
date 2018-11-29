@@ -104,6 +104,7 @@ void TspDp::mincost(int city)
 void TspDp::execute(Map &m)
 {
     auto startNaive = high_resolution_clock::now();
+
     takeInput();
     cout << "Path of Nodes(DP): ";
     mincost(0); //passing 0 because starting vertex

@@ -43,15 +43,15 @@ void TspTabu::setTabuListSize(int num) {
     listSize = num;
 }
 
-void TspTabu::execute(Map &g) {
+void TspTabu::execute(Map &m) {
     auto startTabu = high_resolution_clock::now();
     path.clear();
     tabu_list.clear();
-    Solution best = Solution(g);
+    Solution best = Solution(m);
     tabu_list.push_back(best);
     int numAttempts = 0;
     while(numAttempts < numOfPerm) {
-        best = getNearestNode(best, g);
+        best = getNearestNode(best, m);
         tabu_list.push_back(best);
 
         if(tabu_list.size() > listSize){
