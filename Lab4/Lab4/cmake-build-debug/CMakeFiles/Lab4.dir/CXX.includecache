@@ -96,12 +96,6 @@ vector
 math.h
 -
 
-/Users/somto/Desktop/SMU/CSE 3353/Lab4/Lab4/solution.cpp
-iostream
--
-solution.h
-/Users/somto/Desktop/SMU/CSE 3353/Lab4/Lab4/solution.h
-
 /Users/somto/Desktop/SMU/CSE 3353/Lab4/Lab4/solution.h
 iostream
 -
@@ -131,6 +125,28 @@ math.h
 -
 map.h
 /Users/somto/Desktop/SMU/CSE 3353/Lab4/Lab4/map.h
+
+/Users/somto/Desktop/SMU/CSE 3353/Lab4/Lab4/tspdp.cpp
+tspdp.h
+/Users/somto/Desktop/SMU/CSE 3353/Lab4/Lab4/tspdp.h
+iostream
+-
+fstream
+-
+sstream
+-
+vector
+-
+limits
+-
+algorithm
+-
+array
+-
+math.h
+-
+tspdp.h
+/Users/somto/Desktop/SMU/CSE 3353/Lab4/Lab4/tspdp.h
 
 /Users/somto/Desktop/SMU/CSE 3353/Lab4/Lab4/tspdp.h
 iostream
@@ -197,6 +213,10 @@ map.h
 /Users/somto/Desktop/SMU/CSE 3353/Lab4/Lab4/map.h
 solution.h
 /Users/somto/Desktop/SMU/CSE 3353/Lab4/Lab4/solution.h
+
+/Users/somto/Desktop/SMU/CSE 3353/Lab4/Lab4/tspnaive.cpp
+tspnaive.h
+/Users/somto/Desktop/SMU/CSE 3353/Lab4/Lab4/tspnaive.h
 
 /Users/somto/Desktop/SMU/CSE 3353/Lab4/Lab4/tspnaive.h
 iostream

@@ -19,7 +19,6 @@
 #include<vector>
 #include <math.h>
 
-#define V 4 //Change Max Values
 
 using namespace std;
 using namespace std::chrono;

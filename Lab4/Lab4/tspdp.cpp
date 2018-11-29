@@ -15,7 +15,7 @@
 
 using namespace std;
 
-#define V 4
+#define V 8
 
 int completed[V] = {}, n = V, cost = 0;
 double graph[V][V];

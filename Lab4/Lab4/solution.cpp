@@ -13,7 +13,6 @@ Solution::Solution(Map &m)
 void Solution::inSoln(Map &m)
 {
 
-    auto startNaive = high_resolution_clock::now();
     for(int i = 2; i <= m.getVertex(); i++)
         path.push_back(i);
     random_shuffle(path.begin(), path.end());

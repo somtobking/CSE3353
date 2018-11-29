@@ -72,8 +72,8 @@ void TspGa::selectParents(TspGa::selectGa type)
         for(int i = 0; i < population.size(); i++){
             newPath.push_back(population[i].getCost()/sumFitness);
         }
-        double r1 = rand();
-        double r2 = rand();
+        double ind1 = rand();
+        double ind2 = rand();
         float fitness = 0;
 
         //each individual gets a piece of the wheel, but more fit ones get larger slices
@@ -81,10 +81,10 @@ void TspGa::selectParents(TspGa::selectGa type)
         for(int i = 0; i < newPath.size(); i++)
         {
             fitness += newPath[i];
-            if(r1 < fitness && parentNum[0] == 0)
+            if(ind1 < fitness && parentNum[0] == 0)
             {
                 parentNum[0] = i;
-            } else if(r2 < fitness && parentNum[1] ==1)
+            } else if(ind2 < fitness && parentNum[1] ==1)
             {
                 parentNum[1] = i;
             }
@@ -136,14 +136,15 @@ void TspGa::crossover(int p1, int p2, Map& m)
     }
 
     //another technique for mutation using the mutation rate value given
-    int mutation = rand();
+    int mutation = rand() % 100 + 1;
     if(mutation < mutation_rate)
     {
         offspring1 = mutate(offspring1,m);
-    } else
-    {
-        offspring2 = mutate(offspring2,m);
     }
+    //else
+//    {
+//        offspring2 = mutate(offspring2,m);
+//    }
     offspring1.setPath(osPath1);
     offspring2.setPath(osPath2);
 
@@ -175,8 +176,8 @@ void TspGa::execute(Map &m)
 //        function for testing multiple selection techniques
 //        options are:  Random , Elitist and Roulette
 
-            //set random selection to default selection technique
-        selectParents(selectGa ::Scaling);
+            //set elitist selection to default selection technique
+        selectParents(selectGa ::Elitist);
         crossover(parentNum[0], parentNum[1], m);
     }
 
