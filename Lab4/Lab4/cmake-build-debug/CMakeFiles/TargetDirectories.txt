@@ -1,0 +1,3 @@
+/Users/somto/Desktop/SMU/CSE 3353/Lab4/Lab4/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/somto/Desktop/SMU/CSE 3353/Lab4/Lab4/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/somto/Desktop/SMU/CSE 3353/Lab4/Lab4/cmake-build-debug/CMakeFiles/Lab4.dir

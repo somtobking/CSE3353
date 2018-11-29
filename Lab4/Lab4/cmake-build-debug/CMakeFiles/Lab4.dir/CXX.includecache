@@ -1,0 +1,262 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/somto/Desktop/SMU/CSE 3353/Lab4/Lab4/algorithm.h
+iostream
+-
+vector
+-
+string
+-
+algorithm
+-
+queue
+-
+map.h
+/Users/somto/Desktop/SMU/CSE 3353/Lab4/Lab4/map.h
+
+/Users/somto/Desktop/SMU/CSE 3353/Lab4/Lab4/algorithmFact.cpp
+algorithmFact.h
+/Users/somto/Desktop/SMU/CSE 3353/Lab4/Lab4/algorithmFact.h
+
+/Users/somto/Desktop/SMU/CSE 3353/Lab4/Lab4/algorithmFact.h
+iostream
+-
+vector
+-
+string
+-
+algorithm
+-
+queue
+-
+algorithm.h
+/Users/somto/Desktop/SMU/CSE 3353/Lab4/Lab4/algorithm.h
+tspdp.h
+/Users/somto/Desktop/SMU/CSE 3353/Lab4/Lab4/tspdp.h
+tspnaive.h
+/Users/somto/Desktop/SMU/CSE 3353/Lab4/Lab4/tspnaive.h
+tsptabu.h
+/Users/somto/Desktop/SMU/CSE 3353/Lab4/Lab4/tsptabu.h
+tspga.h
+/Users/somto/Desktop/SMU/CSE 3353/Lab4/Lab4/tspga.h
+
+/Users/somto/Desktop/SMU/CSE 3353/Lab4/Lab4/main.cpp
+iostream
+-
+vector
+-
+algorithm.h
+/Users/somto/Desktop/SMU/CSE 3353/Lab4/Lab4/algorithm.h
+algorithmFact.h
+/Users/somto/Desktop/SMU/CSE 3353/Lab4/Lab4/algorithmFact.h
+tspdp.h
+/Users/somto/Desktop/SMU/CSE 3353/Lab4/Lab4/tspdp.h
+tspnaive.h
+/Users/somto/Desktop/SMU/CSE 3353/Lab4/Lab4/tspnaive.h
+tsptabu.h
+/Users/somto/Desktop/SMU/CSE 3353/Lab4/Lab4/tsptabu.h
+tspga.h
+/Users/somto/Desktop/SMU/CSE 3353/Lab4/Lab4/tspga.h
+map.h
+/Users/somto/Desktop/SMU/CSE 3353/Lab4/Lab4/map.h
+solution.h
+/Users/somto/Desktop/SMU/CSE 3353/Lab4/Lab4/solution.h
+
+/Users/somto/Desktop/SMU/CSE 3353/Lab4/Lab4/map.h
+iostream
+-
+cstdio
+-
+cstdlib
+-
+algorithm
+-
+cmath
+-
+chrono
+-
+limits
+-
+fstream
+-
+sstream
+-
+array
+-
+string
+-
+vector
+-
+math.h
+-
+
+/Users/somto/Desktop/SMU/CSE 3353/Lab4/Lab4/solution.cpp
+iostream
+-
+solution.h
+/Users/somto/Desktop/SMU/CSE 3353/Lab4/Lab4/solution.h
+
+/Users/somto/Desktop/SMU/CSE 3353/Lab4/Lab4/solution.h
+iostream
+-
+cstdio
+-
+cstdlib
+-
+algorithm
+-
+cmath
+-
+chrono
+-
+limits
+-
+fstream
+-
+sstream
+-
+array
+-
+string
+-
+vector
+-
+math.h
+-
+map.h
+/Users/somto/Desktop/SMU/CSE 3353/Lab4/Lab4/map.h
+
+/Users/somto/Desktop/SMU/CSE 3353/Lab4/Lab4/tspdp.h
+iostream
+-
+cstdio
+-
+algorithm
+-
+cmath
+-
+limits
+-
+vector
+-
+list
+-
+string
+-
+vector
+-
+fstream
+-
+sstream
+-
+fstream
+-
+algorithm.h
+/Users/somto/Desktop/SMU/CSE 3353/Lab4/Lab4/algorithm.h
+
+/Users/somto/Desktop/SMU/CSE 3353/Lab4/Lab4/tspga.cpp
+tspga.h
+/Users/somto/Desktop/SMU/CSE 3353/Lab4/Lab4/tspga.h
+
+/Users/somto/Desktop/SMU/CSE 3353/Lab4/Lab4/tspga.h
+iostream
+-
+cstdio
+-
+algorithm
+-
+cmath
+-
+limits
+-
+vector
+-
+list
+-
+string
+-
+vector
+-
+fstream
+-
+sstream
+-
+fstream
+-
+random
+-
+algorithm.h
+/Users/somto/Desktop/SMU/CSE 3353/Lab4/Lab4/algorithm.h
+map.h
+/Users/somto/Desktop/SMU/CSE 3353/Lab4/Lab4/map.h
+solution.h
+/Users/somto/Desktop/SMU/CSE 3353/Lab4/Lab4/solution.h
+
+/Users/somto/Desktop/SMU/CSE 3353/Lab4/Lab4/tspnaive.h
+iostream
+-
+cstdio
+-
+cstdlib
+-
+algorithm
+-
+cmath
+-
+chrono
+-
+limits
+-
+fstream
+-
+sstream
+-
+array
+-
+math.h
+-
+algorithm.h
+/Users/somto/Desktop/SMU/CSE 3353/Lab4/Lab4/algorithm.h
+
+/Users/somto/Desktop/SMU/CSE 3353/Lab4/Lab4/tsptabu.cpp
+tsptabu.h
+/Users/somto/Desktop/SMU/CSE 3353/Lab4/Lab4/tsptabu.h
+
+/Users/somto/Desktop/SMU/CSE 3353/Lab4/Lab4/tsptabu.h
+iostream
+-
+cstdio
+-
+algorithm
+-
+cmath
+-
+limits
+-
+vector
+-
+list
+-
+string
+-
+vector
+-
+fstream
+-
+sstream
+-
+fstream
+-
+algorithm.h
+/Users/somto/Desktop/SMU/CSE 3353/Lab4/Lab4/algorithm.h
+map.h
+/Users/somto/Desktop/SMU/CSE 3353/Lab4/Lab4/map.h
+solution.h
+/Users/somto/Desktop/SMU/CSE 3353/Lab4/Lab4/solution.h
+
