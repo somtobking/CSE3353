@@ -1,0 +1,80 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/somto/Desktop/SMU/CSE 3353/Lab5/Lab5/algorithm.h
+iostream
+-
+vector
+-
+string
+-
+algorithm
+-
+queue
+-
+map.h
+/Users/somto/Desktop/SMU/CSE 3353/Lab5/Lab5/map.h
+
+/Users/somto/Desktop/SMU/CSE 3353/Lab5/Lab5/map.h
+iostream
+-
+cstdio
+-
+cstdlib
+-
+algorithm
+-
+cmath
+-
+chrono
+-
+limits
+-
+fstream
+-
+sstream
+-
+array
+-
+string
+-
+vector
+-
+math.h
+-
+
+/Users/somto/Desktop/SMU/CSE 3353/Lab5/Lab5/tspnaive.cpp
+tspnaive.h
+/Users/somto/Desktop/SMU/CSE 3353/Lab5/Lab5/tspnaive.h
+
+/Users/somto/Desktop/SMU/CSE 3353/Lab5/Lab5/tspnaive.h
+iostream
+-
+cstdio
+-
+cstdlib
+-
+algorithm
+-
+cmath
+-
+chrono
+-
+limits
+-
+fstream
+-
+sstream
+-
+array
+-
+math.h
+-
+algorithm.h
+/Users/somto/Desktop/SMU/CSE 3353/Lab5/Lab5/algorithm.h
+
