@@ -15,7 +15,7 @@
 
 using namespace std;
 
-#define V 8 //Change Max Values
+#define V 4//Change Max Values
 
 int completed[V] = {}, n = V, cost = 0;
 double graph[V][V];

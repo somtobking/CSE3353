@@ -32,7 +32,7 @@ int main()
     m.readDataFile("input.txt");
 
     //number of algorithms in the project
-    int algo_type = 5;
+    int algo_type = 6;
 
  for(int i=1; i <= algo_type; i++)
  {

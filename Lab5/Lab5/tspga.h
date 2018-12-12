@@ -23,7 +23,7 @@
 #include "map.h"
 #include "solution.h"
 
-#define V 8 //Change Max Values
+#define V 4 //Change Max Values
 
 using namespace std;
 using namespace std::chrono;

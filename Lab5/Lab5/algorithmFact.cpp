@@ -22,9 +22,9 @@ Algorithm* AlgorithmFact::typeOfAlgo(int choice)
     } else if(choice ==5) {
         Algorithm *algo = new TspSa();
         return algo;
-//    }else if(choice ==6) {
-//        Algorithm *algo = new TspPso();
-//        return algo;
+    }else if(choice ==6) {
+        Algorithm *algo = new TspPso();
+        return algo;
     }
     else
         return NULL ;

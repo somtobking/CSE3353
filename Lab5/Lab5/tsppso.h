@@ -24,14 +24,23 @@
 #include "solution.h"
 
 
-#define V 8 //Change Max Values
+#define V 4 //Change Max Values
 
 using namespace std;
 using namespace std::chrono;
 
 
 class TspPso: public Algorithm{
+    int num_part = 100;
+    int num_iterations =1000;
+    int max_velSize = 50;
+    double alpha = 0.8;
+    double beta = 0.9;
+    double randProb();
+    double eval(Solution soln);
+
 public:
+    double position, velocity, p_best, g_best;
     void execute(Map &m) override;
     void printAlgo() override;
 

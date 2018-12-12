@@ -34,7 +34,6 @@ public:
     Solution (Map &m);
     void inSoln(Map &m);
     int computeCost(Map &m);
-    int getVertex();
     int getCost();
     vector<int> getPath();
     void setPath(vector<int> &newPath);

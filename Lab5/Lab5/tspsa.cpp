@@ -30,6 +30,7 @@ void TspSa::execute(Map &m) {
     minTour = best.computeCost(m);
 
     for (int i=0; i< pr_size; i++){
+        path.push_back(i);
         random_shuffle(path.begin(), path.end());
        double tCost = best.computeCost(m);
        if(tCost < minTour){
@@ -53,12 +54,11 @@ void TspSa::execute(Map &m) {
             }
 
             deltaE = eval(tem) - eval(num);
-
             deltaE /= T;
             prob = 1 / (1 + exp(-1*deltaE));
             expP = randProb();
 
-            //move
+            //move to the new solution
             if(expP < prob){
                 tem = num;
                double tCost = best.computeCost(m);

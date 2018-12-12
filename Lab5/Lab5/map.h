@@ -33,6 +33,7 @@ public:
 
 protected:
     int numOfVertex =0;
+
     struct Node{
         int id;
         float coordinates[3];

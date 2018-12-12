@@ -30,11 +30,6 @@ int Solution::computeCost(Map &m)
    return cost;
 }
 
-int Solution::getVertex()
-{
-    return path.size();
-}
-
 //evaluate cost
 int Solution::getCost()
 {
@@ -56,8 +51,8 @@ void Solution::setPath(vector<int> &newPath)
 
 void Solution::swapSoln(int i, int j, Map &m)
 {
-//    i = rand()% path.size();
-//    j = rand()% path.size();
+    i = rand()% path.size();
+    j = rand()% path.size();
     int temp = path[i];
     path[i] = path[j];
     path[j] = temp;

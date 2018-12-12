@@ -48,7 +48,7 @@ void TspTabu::execute(Map &m) {
     int numAttempts = 0;
     while(numAttempts < numOfPerm) {
         best = getNearestNode(best, m);
-        tabu_list.push_back(best);
+        tabu_list.push_back(m);
 
         if(tabu_list.size() > listSize){
             tabu_list.erase(tabu_list.begin());
